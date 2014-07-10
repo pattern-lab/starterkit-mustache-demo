@@ -24,10 +24,12 @@
 		"source":         "https://github.com/pattern-lab/styleguidekit-mustache-default/releases"
 	},
 	"extra": {
-		"assets": {
-			"sourceDir": [
-				{ "*": "*" }
-			]
+		"patternlab": {
+			"assets": {
+				"sourceDir": [
+					{ "*": "*" }
+				]
+			}
 		}
 	}
 }
