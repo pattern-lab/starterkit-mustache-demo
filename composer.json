@@ -32,7 +32,7 @@
 			"dev-master": "dev-dev"
 		},
 		"patternlab": {
-			"assets": {
+			"dist": {
 				"sourceDir": [
 					{ "*": "*" }
 				]
