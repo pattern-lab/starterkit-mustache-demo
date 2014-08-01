@@ -28,9 +28,6 @@
 		"pattern-lab/patternengine-php-mustache": "dev-master"
 	},
 	"extra": {
-		"branch-alias": {
-			"dev-master": "dev-dev"
-		},
 		"patternlab": {
 			"assets": {
 				"sourceDir": [
