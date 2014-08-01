@@ -29,7 +29,7 @@
 	},
 	"extra": {
 		"patternlab": {
-			"assets": {
+			"dist": {
 				"sourceDir": [
 					{ "*": "*" }
 				]
