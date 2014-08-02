@@ -24,9 +24,6 @@
 		"source":         "https://github.com/pattern-lab/starterkit-mustache-demo/releases"
 	},
 	"minimum-stability": "dev",
-	"require": {
-		"pattern-lab/patternengine-php-mustache": "dev-master"
-	},
 	"extra": {
 		"patternlab": {
 			"dist": {
