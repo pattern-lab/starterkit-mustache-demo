@@ -1,6 +1,6 @@
 {
 	"name":             "pattern-lab/starterkit-mustache-demo",
-	"description":      "The Mustache-based demo starter kit for Pattern Lab.",
+	"description":      "The Mustache-based demo StarterKit for Pattern Lab.",
 	"keywords":         ["mustache", "pattern lab", "starterkit", "demo"],
 	"homepage":         "http://patternlab.io",
 	"license":          "MIT",
