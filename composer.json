@@ -27,7 +27,6 @@
 		"pattern-lab/core": "dev-dev",
 		"pattern-lab/patternengine-mustache": "dev-dev"
 	},
-	"minimum-stability": "dev",
 	"extra": {
 		"patternlab": {
 			"dist": {
