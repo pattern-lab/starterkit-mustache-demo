@@ -1,39 +1,39 @@
 {
-	"name":             "pattern-lab/starterkit-mustache-demo",
-	"description":      "The Mustache-based demo StarterKit for Pattern Lab.",
-	"keywords":         ["mustache", "pattern lab", "starterkit", "demo"],
-	"homepage":         "http://patternlab.io",
-	"license":          "MIT",
-	"type":             "patternlab-starterkit",
-	"authors": [
-		{
-			"name":         "Dave Olsen",
-			"email":        "dmolsen@gmail.com",
-			"homepage":     "http://dmolsen.com",
-			"role":         "Lead Developer"
-		},
-		{
-			"name":         "Brad Frost",
-			"homepage":     "http://bradfrostweb.com",
-			"role":         "Creator"
-		}
-	],
-	"support": {
-		"issues":         "https://github.com/pattern-lab/starterkit-mustache-demo/issues",
-		"wiki":           "http://patternlab.io/docs/",
-		"source":         "https://github.com/pattern-lab/starterkit-mustache-demo/releases"
-	},
-	"require": {
-		"pattern-lab/core": "dev-dev",
-		"pattern-lab/patternengine-mustache": "dev-dev"
-	},
-	"extra": {
-		"patternlab": {
-			"dist": {
-				"sourceDir": [
-					{ "*": "*" }
-				]
-			}
-		}
-	}
+  "name":             "pattern-lab/starterkit-mustache-demo",
+  "description":      "The Mustache-based demo StarterKit for Pattern Lab.",
+  "keywords":         ["mustache", "pattern lab", "starterkit", "demo"],
+  "homepage":         "http://patternlab.io",
+  "license":          "MIT",
+  "type":             "patternlab-starterkit",
+  "authors": [
+    {
+      "name":         "Dave Olsen",
+      "email":        "dmolsen@gmail.com",
+      "homepage":     "http://dmolsen.com",
+      "role":         "Lead Developer"
+    },
+    {
+      "name":         "Brad Frost",
+      "homepage":     "http://bradfrostweb.com",
+      "role":         "Creator"
+    }
+  ],
+  "support": {
+    "issues":         "https://github.com/pattern-lab/starterkit-mustache-demo/issues",
+    "wiki":           "http://patternlab.io/docs/",
+    "source":         "https://github.com/pattern-lab/starterkit-mustache-demo/releases"
+  },
+  "require": {
+    "pattern-lab/core": "dev-dev",
+    "pattern-lab/patternengine-mustache": "dev-dev"
+  },
+  "extra": {
+    "patternlab": {
+      "dist": {
+        "sourceDir": [
+          { "*": "*" }
+        ]
+      }
+    }
+  }
 }
