@@ -6,6 +6,7 @@
  * Header
  */
 .header {
+	display: flex;
 	background: $white;
 	padding: 0;
 	border-bottom: 1px solid #dbdbdb;
@@ -16,7 +17,6 @@
  * Logo
  */
 .logo {
-	float: left;
 	max-width: 8rem;
 	margin: 0.4rem;
 
@@ -29,7 +29,6 @@
  * Nav toggle button
  */
 .nav-toggle {
-	float: right;
 	display: block;
 	padding: 0.9rem 1rem 0.7rem;
 	font-size: 1.3rem;

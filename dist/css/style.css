@@ -989,6 +989,7 @@ abbr {
  * Header
  */
 .header {
+  display: flex;
   background: #fff;
   padding: 0;
   border-bottom: 1px solid #dbdbdb; }
@@ -997,7 +998,6 @@ abbr {
  * Logo
  */
 .logo {
-  float: left;
   max-width: 8rem;
   margin: 0.4rem; }
   @media all and (min-width: 46.8em) {
@@ -1008,7 +1008,6 @@ abbr {
  * Nav toggle button
  */
 .nav-toggle {
-  float: right;
   display: block;
   padding: 0.9rem 1rem 0.7rem;
   font-size: 1.3rem;
