@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="432px" height="160px" viewBox="0 0 432 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(1.000000, -66.000000)">
+            <polygon id="Path-1" stroke="#979797" fill="#AAB2AA" points="-2.84217094e-14 68 0 225 430.039062 225 430.039062 201.578003 33.84375 201.578003 33.84375 68"></polygon>
+            <text id="O" font-family="Arial-Black, Arial Black" font-size="180" font-weight="700" letter-spacing="6.42857122" fill="#ABB2AB">
+                <tspan x="288" y="198">O</tspan>
+            </text>
+            <text id="G" font-family="Arial-Black, Arial Black" font-size="180" font-weight="700" letter-spacing="6.42857122" fill="#ABB2AB">
+                <tspan x="158" y="198">G</tspan>
+            </text>
+            <text id="O" font-family="Arial-Black, Arial Black" font-size="180" font-weight="700" letter-spacing="6.42857122" fill="#ABB2AB">
+                <tspan x="25" y="199">O</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
