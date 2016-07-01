@@ -1,11 +1,17 @@
 /*------------------------------------*\
-    $GLOBAL CLASSES
+    #GLOBAL CLASSES
 \*------------------------------------*/
 
-/* Clearfix */
+/**
+ * Clearfix
+ */
 .cf {
     *zoom: 1;
 }
+
+/**
+ * Clearfix pseudo-elements
+ */
 .cf:before, .cf:after {
     content: " "; /* 1 */
     display: table; /* 2 */
@@ -15,13 +21,17 @@
     clear: both;
 }
 
-/* Completely remove from the flow and screen readers. */
+/**
+ * Completely remove from the flow and screen readers.
+ */
 .is-hidden {
     display: none !important;
     visibility: hidden !important;
 }
 
-/* Completely remove from the flow but leave available to screen readers. */
+/**
+ * Completely remove from the flow but leave available to screen readers.
+ */
 .is-vishidden {
     position: absolute !important;
     overflow: hidden;
@@ -32,73 +42,85 @@
     clip: rect(1px, 1px, 1px, 1px);
 }
 
-/* Floats */
-.right {
-	float: right;
-	padding: 0 0 $pad $pad;
-}
-
-.right-search {
-	float: right;
-	padding: 0 0 $pad 0;
-}
-
-.left {
-	float: left;
-	padding: 0 $pad $pad 0;
-}
-
-/* Text-Align */
+/**
+ * Text align right
+ */
 .align-right {
 	text-align: right;
 }
 
+/**
+ * Text align center
+ */
 .align-center {
 	text-align: center;
 }
 
+/**
+ * Text Align left
+ */
 .align-left {
 	text-align: left;
 }
 
-/* Display Classes */
+/**
+ * Hide on small screens
+ */
 .hide-small {
     @media all and (max-width: $bp-med) {
         display: none;
     }
 }
 
+/**
+ * Hide on medium screens
+ */
 .hide-med {
     @media all and (min-width: $bp-med) and (max-width: $bp-large) {
         display: none;
     }
 }
 
+/**
+ * Hide on large screens
+ */
 .hide-large {
     @media all and (min-width: $bp-large) {
         display: none;
     }
 }
 
-//States
+/**
+ * Show valid text color
+ */
 .valid {
 	color: $valid;
 }
 
+/**
+ * Show error text color
+ */
 .error {
 	color: $error;
 }
 
+/**
+ * Show warning text color
+ */
 .warning {
     color: $warning;
 }
 
+/**
+ * Show informational text color
+ */
 .information {
     color: $information;
 }
 
+/**
+ * Display secondary font family
+ */
 .font-secondary {
     font-family: $font-secondary;
 }
-
-

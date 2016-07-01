@@ -55,6 +55,7 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
  * Carousels..............Styles for carousels
  * Comments...............Styles for comments component
  * Footer.................Styles for the footer component
+ * Forms..................Styles for form components
  * Header.................Styles for header component
  * Icons..................Styles for icons
  * Lists..................Styles for types of lists
@@ -65,6 +66,7 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
  * Tabs...................Styles for tabs
  * Text...................Styles for text components
  * Tooltip................Styles for tooltips
+ 
  *
  * LAYOUT.................Styles that affect the site's general layout
  * Layout.................Layout styles
@@ -76,20 +78,44 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
     $ABSTRACTS
 \*------------------------------------*/
 /*------------------------------------*\
-    $MIXINS
+    #MIXINS
 \*------------------------------------*/
-/* CSS Transition
-	Usage: @include transition(width,0.3s,ease-out);
+/** CSS Transition
+ *	Usage: @include transition(width,0.3s,ease-out);
  */
-/* Rem Unit font sizes with relative fallback http:/seesparkbox.com/foundry/scss_rem_mixin_now_with_a_better_fallback  
-	Usage: @include font-size(1, large);
-*/
+/** Rem Unit font sizes with relative fallback http:/seesparkbox.com/foundry/scss_rem_mixin_now_with_a_better_fallback  
+ *	Usage: @include font-size(1, large);
+ */
 /*------------------------------------*\
-    $VARIABLES
+    #VARIABLES
 \*------------------------------------*/
+/**
+ * Colors
+ */
+/**
+ * Typography
+ */
+/**
+ * Layout
+ */
+/**
+ * Defaults
+ */
+/**
+ * Borders
+ */
+/**
+ * Breakpoints
+ */
 /*------------------------------------*\
     $BASE
 \*------------------------------------*/
+/*------------------------------------*\
+    #ANIMATION
+\*------------------------------------*/
+/**
+ * Fade Animation
+ */
 .animate-fade {
   -webkit-transition: opacity 0.3s ease-out;
   -moz-transition: opacity 0.3s ease-out;
@@ -99,6 +125,9 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
   .animate-fade:hover {
     opacity: 0; }
 
+/**
+ * Move Animation
+ */
 .animate-move > .demo-shape {
   -webkit-transition: all 0.8s ease-in-out;
   -moz-transition: all 0.8s ease-in-out;
@@ -107,99 +136,97 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
   transition: all 0.8s ease-in-out; }
 
 /*------------------------------------*\
-    $FORMS
+    #FORMS
 \*------------------------------------*/
+/**
+ * Form ordered list and unordered list base styles
+ */
 form ol, form ul {
   list-style: none;
   margin-left: 0; }
 
+/**
+ * Fieldset base styles
+ */
 fieldset {
   border: 0;
   padding: 0;
   margin: 0; }
 
+/**
+ * Label base styles
+ */
 label {
   display: block;
   padding-bottom: 0.5em; }
 
+/**
+ * Form button, input, select, and text area base styles
+ * 1) Zero out margin and inherit font styles
+ */
 button, input, select, textarea {
   font-family: inherit;
   font-size: 100%;
-  margin: 0 1px 0; }
+  margin: 0; }
 
+/**
+ * Input and text area base styles
+ * 1) Width entire container, gray border, padding
+ */
 input, textarea {
   width: 100%;
   border: 1px solid #808080;
   padding: 0.5em 0.65rem; }
 
+/**
+ * Input areas base styles
+ * 1) Get rid of webkit appearance of these areas
+ */
 input[type=text], input[type=search], input[type=url], input[type=number], textarea {
   -webkit-appearance: none; }
 
+/**
+ * Button/Submit button base styles
+ */
 button, input[type="submit"] {
   padding: 0.5em;
   background: #333;
   border: 1px solid #808080;
   cursor: pointer; }
 
+/**
+ * Checkboxes/Radio button base styles
+ */
 input[type="checkbox"],
 input[type="radio"] {
   width: auto;
   margin-right: 0.3em; }
 
+/**
+ * Search input base styles
+ */
 input[type="search"] {
-  -webkit-appearance: none;
   border-radius: 0; }
 
+/**
+ * Search cancel button and search decoration webkit appearance none
+ */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
 
-.field-container {
-  margin-bottom: 1em; }
-
-.inline-form fieldset, .inline-form .inline-container {
-  position: relative; }
-.inline-form input[type=submit], .inline-form button, .inline-form .btn {
-  font-size: 0.875em;
-  padding: 0.65rem 1.3rem;
-  background: #333;
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 1;
-  width: auto; }
-  .inline-form input[type=submit]:hover, .inline-form input[type=submit]:focus, .inline-form button:hover, .inline-form button:focus, .inline-form .btn:hover, .inline-form .btn:focus {
-    background: #808080;
-    color: #fff; }
-
-/* Validation */
-.has-error {
-  border-color: #f00; }
-
-.is-valid {
-  border-color: #089e00; }
-
 /*------------------------------------*\
-    $SPECIFIC FORMS
+    #GLOBAL CLASSES
 \*------------------------------------*/
-/* Search Form */
-.search-field {
-  padding-right: 3em; }
-
-.inline-form .search-submit {
-  background: none;
-  padding: 0.78em 1em;
-  border: 0;
-  border-left: 1px solid #808080;
-  color: #808080; }
-
-/*------------------------------------*\
-    $GLOBAL CLASSES
-\*------------------------------------*/
-/* Clearfix */
+/**
+ * Clearfix
+ */
 .cf, [role=main], .l-two-col {
   *zoom: 1; }
 
+/**
+ * Clearfix pseudo-elements
+ */
 .cf:before, [role=main]:before, .l-two-col:before, .cf:after, [role=main]:after, .l-two-col:after {
   content: " ";
   /* 1 */
@@ -209,12 +236,16 @@ input[type="search"]::-webkit-search-decoration {
 .cf:after, [role=main]:after, .l-two-col:after {
   clear: both; }
 
-/* Completely remove from the flow and screen readers. */
+/**
+ * Completely remove from the flow and screen readers.
+ */
 .is-hidden {
   display: none !important;
   visibility: hidden !important; }
 
-/* Completely remove from the flow but leave available to screen readers. */
+/**
+ * Completely remove from the flow but leave available to screen readers.
+ */
 .is-vishidden {
   position: absolute !important;
   overflow: hidden;
@@ -224,74 +255,118 @@ input[type="search"]::-webkit-search-decoration {
   border: 0;
   clip: rect(1px, 1px, 1px, 1px); }
 
-/* Floats */
-.right {
-  float: right;
-  padding: 0 0 1em 1em; }
-
-.right-search {
-  float: right;
-  padding: 0 0 1em 0; }
-
-.left {
-  float: left;
-  padding: 0 1em 1em 0; }
-
-/* Text-Align */
+/**
+ * Text align right
+ */
 .align-right {
   text-align: right; }
 
+/**
+ * Text align center
+ */
 .align-center {
   text-align: center; }
 
+/**
+ * Text Align left
+ */
 .align-left {
   text-align: left; }
 
-/* Display Classes */
+/**
+ * Hide on small screens
+ */
 @media all and (max-width: 46.8em) {
   .hide-small {
     display: none; } }
 
+/**
+ * Hide on medium screens
+ */
 @media all and (min-width: 46.8em) and (max-width: 50em) {
   .hide-med {
     display: none; } }
 
+/**
+ * Hide on large screens
+ */
 @media all and (min-width: 50em) {
   .hide-large {
     display: none; } }
 
+/**
+ * Show valid text color
+ */
 .valid {
   color: #089e00; }
 
+/**
+ * Show error text color
+ */
 .error {
   color: #f00; }
 
+/**
+ * Show warning text color
+ */
 .warning {
   color: #fff664; }
 
+/**
+ * Show informational text color
+ */
 .information {
   color: #000db5; }
 
+/**
+ * Display secondary font family
+ */
 .font-secondary {
   font-family: Georgia, Times, "Times New Roman", serif; }
 
-/* Headings */
-/*Further Reading: http:/csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css/ */
-h1, .alpha {
+/*------------------------------------*\
+    #HEADINGS
+\*------------------------------------*/
+/**
+ * Heading 1
+ */
+h1 {
   line-height: 1.2; }
 
-h2, .beta {
+/**
+ * Heading 2
+ */
+h2 {
   line-height: 1.2; }
 
-h3, .gamma {
+/**
+ * Heading 3
+ */
+h3 {
   line-height: 1.2; }
 
-/* Subheadings */
+/**
+ * Heading 4
+ */
+/**
+ * Heading 5
+ */
+/**
+ * Heading 6
+ */
+/**
+ * Subheading
+ */
 .subheading {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: normal; }
 
-/* Links */
+/*------------------------------------*\
+    #LINKS
+\*------------------------------------*/
+/**
+ * Links
+ */
 a {
   color: #333;
   text-decoration: none;
@@ -299,22 +374,42 @@ a {
   a:hover, a:focus {
     color: #808080; }
 
+/*------------------------------------*\
+    #LINKS
+\*------------------------------------*/
+/**
+ * Ordered/Unordered list base styles
+ */
 ol, ul {
   margin: 0;
   padding: 0;
   list-style: none; }
 
-/* Definition Lists */
+/**
+ * Definition list base styles
+ */
 dl {
   overflow: hidden;
   margin: 0 0 1em; }
 
+/**
+ * Terms/Names base styles
+ */
 dt {
   font-weight: bold; }
 
+/**
+ * Definition list description base styles
+ */
 dd {
   margin-left: 0; }
 
+/*------------------------------------*\
+    #BODY
+\*------------------------------------*/
+/**
+ * Body base styles
+ */
 body {
   background: #fff;
   font: 100%/1.5 "HelveticaNeue", "Helvetica", "Arial", sans-serif;
@@ -322,63 +417,101 @@ body {
   color: #333; }
 
 /*------------------------------------*\
-    $MEDIA ELEMENTS
+    #MEDIA ELEMENTS
 \*------------------------------------*/
-/* Flexible Media */
+/**
+ * Make media elements responsive
+ */
 img, video, object {
   max-width: 100%;
   height: auto; }
 
+/**
+ * Iframe base styles
+ */
 iframe {
   margin-bottom: 1em; }
 
+/**
+ * Figure base styles
+ */
 figure {
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+  /**
+   * Figure image base styles
+   */ }
   figure img {
     margin-bottom: 0.5em; }
 
+/**
+ * Figure caption base styles
+ */
 figcaption {
   font-style: italic; }
 
 /*------------------------------------*\
-    $RESET
+    #RESET
 \*------------------------------------*/
-/* Border-Box http:/paulirish.com/2012/box-sizing-border-box-ftw/ */
+/**
+ * Use border box on all elements
+ */
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
+/**
+ * Zero out margin and padding on most elements as base style
+ */
 html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, li, form, legend, label, table, header, footer, nav, section, figure {
   margin: 0;
   padding: 0; }
 
+/**
+ * Display block as base for these elements
+ */
 header, footer, nav, section, article, hgroup, figure {
   display: block; }
 
 /*------------------------------------*\
-    $Table
+    #TABLE
 \*------------------------------------*/
+/**
+ * Table base styles
+ */
 table {
   border-collapse: collapse;
   border-spacing: 0;
   border: 1px solid #808080;
   width: 100%; }
 
+/**
+ * Table header base styles
+ */
 th {
   text-align: left;
   border: 1px solid #808080;
   padding: 0.2em; }
 
+/**
+ * Table cell base styles
+ */
 td {
   border: 1px solid #808080;
   padding: 0.2em; }
 
-/* Text-Related Elements */
+/*------------------------------------*\
+    #TEXT
+\*------------------------------------*/
+/**
+ * Paragraph base styles
+ */
 p {
   margin-bottom: 1em; }
 
-/* Blockquote */
+/**
+ * Blockquote base styles
+ */
 blockquote {
   font-style: italic;
   border-left: 1px solid #808080;
@@ -386,13 +519,18 @@ blockquote {
   padding-left: 1em;
   margin-bottom: 1em; }
 
-/* Horizontal Rule */
+/**
+ * Horizontal rule base styles
+ */
 hr {
   border: 0;
   height: 2px;
   background: #eee;
   margin: 2em 0; }
 
+/**
+ * Abbreviation base styles
+ */
 abbr {
   border-bottom: 1px dotted #808080;
   cursor: help; }
@@ -646,6 +784,61 @@ abbr {
 @media all and (min-width: 46.8em) {
   .copyright {
     float: right; } }
+
+/*------------------------------------*\
+    #FORMS
+\*------------------------------------*/
+/**
+ * Field Container
+ */
+.field-container {
+  margin-bottom: 1em; }
+
+/**
+ * Inline Form
+ */
+.inline-form fieldset, .inline-form .inline-container {
+  position: relative; }
+.inline-form input[type=submit], .inline-form button, .inline-form .btn {
+  font-size: 0.875em;
+  padding: 0.65rem 1.3rem;
+  background: #333;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  width: auto; }
+  .inline-form input[type=submit]:hover, .inline-form input[type=submit]:focus, .inline-form button:hover, .inline-form button:focus, .inline-form .btn:hover, .inline-form .btn:focus {
+    background: #808080;
+    color: #fff; }
+
+/**
+ * Form/Input has error
+ */
+.has-error {
+  border-color: #f00; }
+
+/**
+ * Form/Input is valid
+ */
+.is-valid {
+  border-color: #089e00; }
+
+/**
+ * Search Form
+ */
+.search-field {
+  padding-right: 3em; }
+
+/**
+ * Search submit within inline form
+ */
+.inline-form .search-submit {
+  background: none;
+  padding: 0.78em 1em;
+  border: 0;
+  border-left: 1px solid #808080;
+  color: #808080; }
 
 .header {
   background: #fff;

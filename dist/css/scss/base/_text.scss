@@ -1,9 +1,17 @@
-/* Text-Related Elements */ 
+/*------------------------------------*\
+    #TEXT
+\*------------------------------------*/
+
+/**
+ * Paragraph base styles
+ */
 p {
 	margin-bottom: $space;
 }
 
-/* Blockquote */
+/**
+ * Blockquote base styles
+ */
 blockquote {
     font-style:italic;
     border-left: 1px solid $gray;
@@ -12,7 +20,9 @@ blockquote {
 	margin-bottom: $space;
 }
 
-/* Horizontal Rule */ 
+/**
+ * Horizontal rule base styles
+ */
 hr {
 	border: 0;
     height: 2px;
@@ -20,6 +30,9 @@ hr {
     margin: $space-double 0;
 }
 
+/**
+ * Abbreviation base styles
+ */
 abbr {
     border-bottom: 1px dotted $gray;
     cursor: help;

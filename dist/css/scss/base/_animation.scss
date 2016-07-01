@@ -1,3 +1,10 @@
+/*------------------------------------*\
+    #ANIMATION
+\*------------------------------------*/
+
+/**
+ * Fade Animation
+ */
 .animate-fade {
 	@include transition(opacity, 0.3s, ease-out);
 
@@ -6,6 +13,9 @@
 	}
 }
 
+/**
+ * Move Animation
+ */
 .animate-move {
 	> .demo-shape {
 		@include transition(all, 0.8s, ease-in-out);

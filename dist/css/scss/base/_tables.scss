@@ -1,17 +1,29 @@
 /*------------------------------------*\
-    $Table
+    #TABLE
 \*------------------------------------*/
+
+/**
+ * Table base styles
+ */
 table {
 	border-collapse: collapse; 
 	border-spacing: 0; 
 	border: 1px solid $gray;
 	width: 100%;
 }
+
+/**
+ * Table header base styles
+ */
 th {
 	text-align: left;
 	border: 1px solid $gray;
 	padding: 0.2em;
 }
+
+/**
+ * Table cell base styles
+ */
 td {
 	border: 1px solid $gray;
 	padding: 0.2em;

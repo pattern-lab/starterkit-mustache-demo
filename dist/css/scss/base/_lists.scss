@@ -1,19 +1,34 @@
+/*------------------------------------*\
+    #LINKS
+\*------------------------------------*/
+
+/**
+ * Ordered/Unordered list base styles
+ */
 ol, ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
 
-/* Definition Lists */
+/**
+ * Definition list base styles
+ */
 dl {
 	overflow: hidden;
 	margin: 0 0 $space;
 }
 
+/**
+ * Terms/Names base styles
+ */
 dt {
 	font-weight: bold;
 }
 
+/**
+ * Definition list description base styles
+ */
 dd {
 	margin-left: 0;
 }
