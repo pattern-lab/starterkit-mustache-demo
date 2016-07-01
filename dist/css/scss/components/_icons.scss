@@ -1,5 +1,10 @@
+/*------------------------------------*\
+    #ICONS
+\*------------------------------------*/
 
-/* Icon Font */
+/**
+ * Icon fonts
+ */
 @font-face {
 	font-family: 'icons';
 	src:url('../fonts/icons.eot');
@@ -11,7 +16,9 @@
 	font-style: normal;
 }
 
-/* Use the following CSS code if you want to use data attributes for inserting your icons */
+/**
+ * Use the following CSS code if you want to use data attributes for inserting your icons
+ */
 [data-icon]:before {
 	font-family: 'icons';
 	content: attr(data-icon);
@@ -21,6 +28,9 @@
 	-webkit-font-smoothing: antialiased;
 }
 
+/**
+ * Icons and icon pseudo-elements
+ */
 .icon-twitter:before, .icon-stumbleupon:before, .icon-pinterest:before, .icon-linkedin:before, .icon-google-plus:before, .icon-search:before, .icon-play:before, .icon-menu:before, .icon-arrow-left:before, .icon-arrow-right:before, .icon-bubble:before, .icon-facebook:before, .icon-feed:before, .icon-youtube:before, .icon-tag:before, .icon-tumblr:before, .icon-instagram, .icon-podcast, .icon-apple,.icon-android, .icon-arrow:after, .icon-envelope:before {
 	font-family: 'icons';
 	speak: none;
@@ -31,71 +41,157 @@
 	line-height: 1;
 	-webkit-font-smoothing: antialiased;
 }
+
+/**
+ * Twitter icon
+ */
 .icon-twitter:before {
     content: "\74";
 }
+
+/**
+ * Stumbleupon icon
+ */
 .icon-stumbleupon:before {
     content: "\75";
 }
+
+/**
+ * Pinterest icon
+ */
 .icon-pinterest:before {
     content: "\70";
 }
+
+/**
+ * LinkedIn icon
+ */
 .icon-linkedin:before {
     content: "\69";
 }
+
+/**
+ * Google plus icon
+ */
 .icon-google-plus:before {
     content: "\67";
 }
+
+/**
+ * Icon search
+ */
 .icon-search:before {
     content: "\73";
 }
+
+/**
+ * Play button icon
+ */
 .icon-play:before {
     content: "\61";
 }
+
+/**
+ * Menu icon
+ */
 .icon-menu:before {
     content: "\21";
 }
+
+/**
+ * Arrow left icon
+ */
 .icon-arrow-left:before {
     content: "\23";
 }
+
+/**
+ * Arrow right icon
+ */
 .icon-arrow-right:before {
     content: "\24";
 }
+
+/**
+ * Bubble icon
+ */
 .icon-bubble:before {
     content: "\25";
 }
+
+/**
+ * Facebook icon
+ */
 .icon-facebook:before {
     content: "\66";
 }
+
+/**
+ * Feed icon
+ */
 .icon-feed:before {
     content: "\27";
 }
+
+/**
+ * YouTube icon
+ */
 .icon-youtube:before {
     content: "\79";
 }
+
+/**
+ * Tag icon
+ */
 .icon-tag:before {
     content: "\28";
 }
+
+/**
+ * Tumblr icon
+ */
 .icon-tumblr:before {
     content: "\6d";
 }
+
+/**
+ * Instagram icon
+ */
 .icon-instagram:before {
     content: "\22";
 }
+
+/**
+ * Podcast icon
+ */
 .icon-podcast:before {
     content: "\26";
 }
+
+/**
+ * Android icon
+ */
 .icon-android:before {
     content: "\29";
 }
+
+/**
+ * Twitter icon
+ */
 .icon-apple:before {
     content: "\2a";
 }
+
+/**
+ * Envelope icon
+ */
 .icon-envelope:before {
     content: "\2b";
 }
 
-
+/**
+ * Arrow icon
+ */
 .icon-arrow:after {
 	content: "\61";
 	display: inline-block;
@@ -106,16 +202,25 @@
 	transform: rotate(90deg);
 }
 
+/**
+ * Play icon
+ */
 .icon-play:before {
 	font-size: 0.7rem;
 	padding-left: 0.2em;
 }
 
+/**
+ * Play box icon
+ */
 .icon-play-box {
 	display: block;
 	margin-left: $pad-double;
 }
 
+/**
+ * Play box icon before
+ */
 .icon-play-box:before {
 	padding: $pad-quarter;
 	background: $gray;

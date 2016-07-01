@@ -1,3 +1,10 @@
+/*------------------------------------*\
+    #TOOLTIP
+\*------------------------------------*/
+
+/**
+ * Tooltip container
+ */
 .tooltip-container {
 	display: inline-block;
 	position: relative;
@@ -9,10 +16,16 @@
 	}
 }
 
+/**
+ * Tooltip link
+ */
 .tooltip-link {
 	background: $gray-light;
 }
 
+/**
+ * Tooltip
+ */
 .tooltip {
 	display: none;
 	position: absolute;

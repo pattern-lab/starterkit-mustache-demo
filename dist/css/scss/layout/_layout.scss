@@ -1,19 +1,27 @@
 /*------------------------------------*\
-    $LAYOUT
+    #LAYOUT
 \*------------------------------------*/
 
-/* Layout Container */
+/**
+ * Layout container
+ */
 .lc {
 	max-width: $max-width;	
 	margin: 0 auto;
 	padding: $pad-half;
 }
 
+
+
+
+
 /*------------------------------------*\
-    $TEMPLATES
+    #TEMPLATES
 \*------------------------------------*/
 
-/* Two Column Layout */
+/**
+ * 2 column layout
+ */
 .l-two-col {
 	@extend .cf;
 
@@ -25,6 +33,9 @@
 		}
 	}
 	
+	/**
+	 * Sidebar
+	 */
 	.l-sidebar {
 		@media all and (max-width: $bp-large) {
 			clear: both;
@@ -40,16 +51,20 @@
 
 
 /*------------------------------------*\
-    $GRIDS
+    #GRIDS
 \*------------------------------------*/
 
-/* Grid Container */
+/**
+ * Grid
+ */
 .g {
 	overflow: hidden;
 	margin: 0 (-$pad-half);
 }
 
-/* Grid Item */
+/**
+ * Grid item
+ */
 .gi {
 	padding: $pad-half;
 	
@@ -62,14 +77,18 @@
 	}
 }
 
-/* Grid 1up */
+/**
+ * 1 up grid
+ */
 .g-1up {
 	.gi {
 		width: 100%;
 	}
 }
 
-/* Grid 2up */
+/**
+ * 2 up grid
+ */
 .g-2up {
 	@media all and (min-width: $bp-med) {
 		> .gi {
@@ -83,7 +102,9 @@
 	}
 }
 
-/* Grid Half (Always displayed side by side) */
+/**
+ * Grid side by side
+ */
 .g-half {
 	> .gi {
 		float: left;
@@ -95,7 +116,9 @@
 	}
 }
 
-/* Grid 3up */
+/**
+ * 3 up grid
+ */
 .g-3up {
 	@media all and (min-width: $bp-med) {
 		> .gi {
@@ -123,7 +146,9 @@
 	}
 }
 
-/* Grid 4up */
+/**
+ * 4 up grid
+ */
 .g-4up {
 	@media all and (min-width: $bp-med) {
 		>.gi {
@@ -151,7 +176,9 @@
 	}
 }
 
-/* Grid Quarter (Always displayed side by side) */
+/**
+ * Quarter grid always displayed side by side
+ */
 .g-quarter {
 	> .gi {
 		float: left;
@@ -163,6 +190,9 @@
 	}
 }
 
+/**
+ * Grid max 4 up
+ */
 .g-max4 {
 
 	@media all and (min-width: $bp-small-2) {
@@ -205,7 +235,9 @@
 	}
 }
 
-/* Grid 5up */
+/**
+ * Grid max of 5 up
+ */
 .g-max5 {
 
 	>.gi {
@@ -260,7 +292,9 @@
 	}
 }
 
-/* Grid 2/3 */
+/**
+ * Grid item 2 up to 3 up
+ */
 .gi-2-3 {
 	@media all and (min-width: $bp-med) {
 		float: left;
@@ -268,6 +302,9 @@
 	}
 }
 
+/**
+ * Grid item 1 up to 3 up
+ */
 .gi-1-3 {
 	@media all and (min-width: $bp-med) {
 		float: left;
@@ -275,7 +312,9 @@
 	}
 }
 
-/* Grid 4up block */
+/**
+ * Grid 4 up block
+ */
 .g-opposites {
 	.gi {
 		float: left;

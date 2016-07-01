@@ -538,9 +538,18 @@ abbr {
 /*------------------------------------*\
     $COMPONENTS
 \*------------------------------------*/
+/*------------------------------------*\
+    #ACCORDION
+\*------------------------------------*/
+/**
+ * Accordion
+ */
 .accordion {
   margin-bottom: 1em; }
 
+/**
+ * Accordion handle
+ */
 .acc-handle {
   background: #131313;
   color: #fff;
@@ -561,14 +570,30 @@ abbr {
     .acc-handle.active:after {
       content: "-"; }
 
-.article-header h1 {
-  font-size: 2.5em; }
+/*------------------------------------*\
+    #ARTICLE
+\*------------------------------------*/
+/**
+ * Article Header
+ */
+.article-header {
+  /**
+   * Article heading
+   */ }
+  .article-header h1 {
+    font-size: 2.5em; }
 
+/**
+ * Article byline
+ */
 .byline {
   font-size: 0.875em;
   font-style: italic;
   margin-bottom: 0.5em; }
 
+/**
+ * Social share
+ */
 .social-share {
   overflow: hidden;
   margin-bottom: 1em; }
@@ -583,7 +608,12 @@ abbr {
     .social-share a:hover {
       background: #808080; }
 
-/* Generic Placeholder Brick: REMOVE FOR PRODUCTION */
+/*------------------------------------*\
+    #BLOCKS
+\*------------------------------------*/
+/**
+ * Brick
+ */
 .brick {
   background: #dcdddc;
   padding: 2em;
@@ -591,18 +621,28 @@ abbr {
   font-weight: bold;
   border-bottom: 1px solid #eee; }
 
-/* Block */
+/**
+ * Block
+ */
 .block {
   overflow: hidden; }
   .block p:last-child {
     margin-bottom: 0; }
 
+/**
+ * Headline
+ */
 .headline {
   line-height: 1.2; }
 
-/* Hero Block */
+/**
+ * Block hero
+ */
 .block-hero {
-  margin-bottom: 0.5em; }
+  margin-bottom: 0.5em;
+  /**
+   * Block thumbnail within hero
+   */ }
   .block-hero .b-thumb img {
     display: block; }
   @media all and (min-width: 50em) {
@@ -617,11 +657,22 @@ abbr {
         color: #fff;
         padding: 1.5em; } }
 
-/* Block Thumbnail with Headline */
+/**
+ * Block thumbnail
+ */
 .block-thumb {
   display: table;
   width: 100%;
-  border-collapse: collapse; }
+  border-collapse: collapse;
+  /**
+   * Inner block
+   */
+  /**
+   * B-thumb within block thumbnail
+   */
+  /**
+   * Block text
+   */ }
   .block-thumb .b-inner {
     display: table-row;
     vertical-align: top;
@@ -642,12 +693,16 @@ abbr {
       width: 70%;
       padding: 0 1em; } }
 
-/* Block Headline Summary */
+/**
+ * Block headline summary
+ */
 .block-headline-summary a {
   display: block;
   padding: 0.5em; }
 
-/* Block Inset */
+/**
+ * Block inset
+ */
 .block-inset {
   position: relative; }
   .block-inset .b-thumb {
@@ -656,10 +711,18 @@ abbr {
     .block-inset .b-thumb img {
       display: block; }
 
-/* Hero Block */
+/**
+ * Block inset
+ */
 .block-inset {
   margin-bottom: 0.5em;
-  position: relative; }
+  position: relative;
+  /**
+   * Block headline within block inset
+   */
+  /**
+   * Block text within block inset
+   */ }
   .block-inset .headline {
     font-size: 1.1em; }
   .block-inset .b-text {
@@ -671,7 +734,9 @@ abbr {
     color: #fff;
     padding: 0.5em; }
 
-/* Block Thumb with Summary */
+/**
+ * Block thumb summary
+ */
 .block-thumb-summary .b-thumb {
   float: left;
   width: 50%; }
@@ -680,8 +745,11 @@ abbr {
   padding: 0.5em; }
 
 /*------------------------------------*\
-    $BUTTONS
+    #BUTTONS
 \*------------------------------------*/
+/**
+ * Button
+ */
 .btn {
   display: inline-block;
   background: #333;
@@ -690,7 +758,10 @@ abbr {
   font-weight: bold;
   padding: 1em;
   border: 0;
-  text-align: center; }
+  text-align: center;
+  /**
+   * Disabled button
+   */ }
   .btn:hover, .btn:focus {
     background: #808080;
     color: #fff; }
@@ -698,9 +769,15 @@ abbr {
     background: #eee;
     color: #808080; }
 
+/**
+ * Small button
+ */
 .btn-small {
   padding: 0.5em; }
 
+/**
+ * Large button
+ */
 .btn-large {
   padding: 0.5em;
   text-transform: uppercase;
@@ -708,25 +785,51 @@ abbr {
   font-size: 1.4rem;
   font-weight: normal; }
 
+/**
+ * Text button
+ */
 .text-btn {
   font-style: italic; }
 
-/* Horizontal Carousel */
+/*------------------------------------*\
+    #CAROUSEL
+\*------------------------------------*/
+/**
+ * Horizontal carousel
+ */
 .carousel-horizontal {
   margin-bottom: 1em;
   overflow: hidden;
   position: relative; }
 
+/**
+ * Carousel island container
+ */
 .carousel-island-container {
   overflow: hidden; }
 
+/**
+ * Carousel container
+ */
 .carousel-container {
   position: relative; }
 
+/**
+ * Carousel list
+ */
+/**
+ * Carousel controls
+ */
 .carousel-controls {
   display: table;
   width: 100%;
-  margin: -0.5em 0 1em; }
+  margin: -0.5em 0 1em;
+  /**
+   * Carousel pagination
+   */
+  /**
+   * Carousel next button
+   */ }
   .carousel-controls a, .carousel-controls div {
     display: table-cell;
     padding: 0.5em; }
@@ -735,14 +838,26 @@ abbr {
   .carousel-controls .carousel-next {
     text-align: right; }
 
+/*------------------------------------*\
+    #COMMENTS
+\*------------------------------------*/
+/**
+ * Comments
+ */
 .comments li {
   margin-bottom: 1em; }
 
+/**
+ * Comment container
+ */
 .comment-container {
   overflow: hidden;
   margin-bottom: 1em;
   list-style: none; }
 
+/**
+ * Comment meta
+ */
 .comment-meta {
   float: left;
   width: 6.5em; }
@@ -751,15 +866,24 @@ abbr {
     border: 1px solid #eee;
     margin-bottom: 0.5em; }
 
+/**
+ * Comment name
+ */
 .comment-name {
   font-size: 0.75em; }
 
+/**
+ * Comment text
+ */
 .comment-text {
   margin-left: 9em; }
 
 /*------------------------------------*\
-    $FOOTER
+    #FOOTER
 \*------------------------------------*/
+/**
+ * Footer
+ */
 .footer {
   clear: both;
   overflow: hidden;
@@ -769,6 +893,9 @@ abbr {
   .footer a {
     color: #f9f9f9; }
 
+/**
+ * Footer nav
+ */
 .nav-footer {
   margin: -1em -1em 1em; }
   .nav-footer li {
@@ -781,6 +908,9 @@ abbr {
     display: block;
     padding: 1em; }
 
+/**
+ * Copyright text
+ */
 @media all and (min-width: 46.8em) {
   .copyright {
     float: right; } }
@@ -840,11 +970,32 @@ abbr {
   border-left: 1px solid #808080;
   color: #808080; }
 
+/**
+ * Search form
+ */
+.search-form {
+  overflow: hidden;
+  max-height: 0; }
+  @media all and (min-width: 46.8em) {
+    .search-form {
+      float: right;
+      max-height: none;
+      margin: 0.65em 0.5em 0 0; } }
+
+/*------------------------------------*\
+    #HEADER
+\*------------------------------------*/
+/**
+ * Header
+ */
 .header {
   background: #fff;
   padding: 0;
   border-bottom: 1px solid #dbdbdb; }
 
+/**
+ * Logo
+ */
 .logo {
   float: left;
   max-width: 8rem;
@@ -853,6 +1004,9 @@ abbr {
     .logo {
       max-width: 9rem; } }
 
+/**
+ * Nav toggle button
+ */
 .nav-toggle {
   float: right;
   display: block;
@@ -868,23 +1022,21 @@ abbr {
       padding-left: 0.2rem;
       padding-right: 0.2rem; } }
 
-.search-form {
-  overflow: hidden;
-  max-height: 0; }
-  @media all and (min-width: 46.8em) {
-    .search-form {
-      float: right;
-      max-height: none;
-      margin: 0.65em 0.5em 0 0; } }
-
-/* Icon Font */
+/*------------------------------------*\
+    #ICONS
+\*------------------------------------*/
+/**
+ * Icon fonts
+ */
 @font-face {
   font-family: 'icons';
   src: url("../fonts/icons.eot");
   src: url("../fonts/icons.eot?#iefix") format("embedded-opentype"), url("../fonts/icons.woff") format("woff"), url("../fonts/icons.ttf") format("truetype"), url("../fonts/icons.svg#icons") format("svg");
   font-weight: normal;
   font-style: normal; }
-/* Use the following CSS code if you want to use data attributes for inserting your icons */
+/**
+ * Use the following CSS code if you want to use data attributes for inserting your icons
+ */
 [data-icon]:before {
   font-family: 'icons';
   content: attr(data-icon);
@@ -893,6 +1045,9 @@ abbr {
   line-height: 1;
   -webkit-font-smoothing: antialiased; }
 
+/**
+ * Icons and icon pseudo-elements
+ */
 .icon-twitter:before, .icon-stumbleupon:before, .icon-pinterest:before, .icon-linkedin:before, .icon-google-plus:before, .icon-search:before, .icon-play:before, .icon-menu:before, .icon-arrow-left:before, .icon-arrow-right:before, .icon-bubble:before, .icon-facebook:before, .icon-feed:before, .icon-youtube:before, .icon-tag:before, .icon-tumblr:before, .icon-instagram, .icon-podcast, .icon-apple, .icon-android, .icon-arrow:after, .icon-envelope:before {
   font-family: 'icons';
   speak: none;
@@ -903,69 +1058,135 @@ abbr {
   line-height: 1;
   -webkit-font-smoothing: antialiased; }
 
+/**
+ * Twitter icon
+ */
 .icon-twitter:before {
   content: "\74"; }
 
+/**
+ * Stumbleupon icon
+ */
 .icon-stumbleupon:before {
   content: "\75"; }
 
+/**
+ * Pinterest icon
+ */
 .icon-pinterest:before {
   content: "\70"; }
 
+/**
+ * LinkedIn icon
+ */
 .icon-linkedin:before {
   content: "\69"; }
 
+/**
+ * Google plus icon
+ */
 .icon-google-plus:before {
   content: "\67"; }
 
+/**
+ * Icon search
+ */
 .icon-search:before {
   content: "\73"; }
 
+/**
+ * Play button icon
+ */
 .icon-play:before {
   content: "\61"; }
 
+/**
+ * Menu icon
+ */
 .icon-menu:before {
   content: "\21"; }
 
+/**
+ * Arrow left icon
+ */
 .icon-arrow-left:before {
   content: "\23"; }
 
+/**
+ * Arrow right icon
+ */
 .icon-arrow-right:before {
   content: "\24"; }
 
+/**
+ * Bubble icon
+ */
 .icon-bubble:before {
   content: "\25"; }
 
+/**
+ * Facebook icon
+ */
 .icon-facebook:before {
   content: "\66"; }
 
+/**
+ * Feed icon
+ */
 .icon-feed:before {
   content: "\27"; }
 
+/**
+ * YouTube icon
+ */
 .icon-youtube:before {
   content: "\79"; }
 
+/**
+ * Tag icon
+ */
 .icon-tag:before {
   content: "\28"; }
 
+/**
+ * Tumblr icon
+ */
 .icon-tumblr:before {
   content: "\6d"; }
 
+/**
+ * Instagram icon
+ */
 .icon-instagram:before {
   content: "\22"; }
 
+/**
+ * Podcast icon
+ */
 .icon-podcast:before {
   content: "\26"; }
 
+/**
+ * Android icon
+ */
 .icon-android:before {
   content: "\29"; }
 
+/**
+ * Twitter icon
+ */
 .icon-apple:before {
   content: "\2a"; }
 
+/**
+ * Envelope icon
+ */
 .icon-envelope:before {
   content: "\2b"; }
 
+/**
+ * Arrow icon
+ */
 .icon-arrow:after {
   content: "\61";
   display: inline-block;
@@ -975,14 +1196,23 @@ abbr {
   -o-transform: rotate(90deg);
   transform: rotate(90deg); }
 
+/**
+ * Play icon
+ */
 .icon-play:before {
   font-size: 0.7rem;
   padding-left: 0.2em; }
 
+/**
+ * Play box icon
+ */
 .icon-play-box {
   display: block;
   margin-left: 2em; }
 
+/**
+ * Play box icon before
+ */
 .icon-play-box:before {
   padding: 0.25em;
   background: #808080;
@@ -990,16 +1220,26 @@ abbr {
   margin-left: -1.7rem;
   margin-right: 0.5em; }
 
+/*------------------------------------*\
+    #LISTS
+\*------------------------------------*/
+/**
+ * Inline list
+ */
 .inline-list li {
   display: inline-block; }
 
-/* Social List */
+/**
+ * Social list
+ */
 .social-list li {
   margin: 0 0.4rem 1em 0; }
 .social-list a {
   font-size: 1.6em; }
 
-/* Headline List */
+/**
+ * Headline list
+ */
 .headline-list {
   margin-bottom: 1em; }
   .headline-list.flush {
@@ -1010,11 +1250,15 @@ abbr {
     padding: 0.25em 0;
     border-top: 1px solid #ddd; }
 
-/* Post List */
+/**
+ * Post list
+ */
 .post-list li {
   margin-bottom: 1em; }
 
-/* Bullet List */
+/**
+ * Bullet list
+ */
 .bullet-list {
   list-style: square;
   margin: 0 0 1em 1.2em;
@@ -1022,7 +1266,9 @@ abbr {
   .bullet-list li {
     margin-bottom: 1em; }
 
-/* Text List */
+/**
+ * Text list
+ */
 .text-list {
   margin: 0 0 1em;
   line-height: 1.3; }
@@ -1030,15 +1276,21 @@ abbr {
     margin-bottom: 1em; }
 
 /*------------------------------------*\
-    $MAIN CONTENT AREA
+    #MAIN CONTENT AREA
 \*------------------------------------*/
+/**
+ * Main content area
+ */
 [role=main] {
   padding: 0.5em 0.5em 2em;
   overflow: hidden; }
 
 /*------------------------------------*\
-    $MESSAGING
+    #MESSAGING
 \*------------------------------------*/
+/**
+ * Alert
+ */
 .alert {
   text-align: center;
   padding: 1em;
@@ -1046,14 +1298,20 @@ abbr {
   border: 1px solid #808080;
   background: #f9f9f9; }
 
+/**
+ * Error alert
+ */
 .alert-error {
   color: #f00;
   border-color: #f00;
   background: #ffbebe; }
 
 /*------------------------------------*\
-    $NAVIGATION
+    #NAVIGATION
 \*------------------------------------*/
+/**
+ * Navigation
+ */
 .nav {
   clear: both;
   overflow: hidden;
@@ -1074,6 +1332,9 @@ abbr {
       .nav a {
         border: 0; } }
 
+/**
+ * Pagination
+ */
 .pagination {
   overflow: hidden; }
   .pagination li {
@@ -1084,12 +1345,27 @@ abbr {
   .pagination a {
     padding: 1em; }
 
+/*------------------------------------*\
+    #SECTIONS
+\*------------------------------------*/
+/**
+ * Section
+ */
 .section {
   margin: 0 0 1em; }
 
+/**
+ * Section title
+ */
 .section-title {
   margin-bottom: 0.5em; }
 
+/*------------------------------------*\
+    #TABS
+\*------------------------------------*/
+/**
+ * Tabs
+ */
 .tabs {
   overflow: hidden; }
   .tabs ul {
@@ -1111,17 +1387,32 @@ abbr {
       background: #333;
       color: #fff; }
 
+/*------------------------------------*\
+    #TEXT
+\*------------------------------------*/
+/**
+ * Intro
+ */
 .intro {
   font-size: 1.0625em;
   font-weight: bold; }
 
+/**
+ * Pullquote
+ */
 .pullquote {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 1.4375em; }
 
+/**
+ * Caption
+ */
 .caption {
   font-style: italic; }
 
+/**
+ * Passages of text
+ */
 .text a {
   text-decoration: underline; }
 .text ul {
@@ -1135,15 +1426,27 @@ abbr {
   .text ol ol {
     margin-bottom: 0; }
 
+/*------------------------------------*\
+    #TOOLTIP
+\*------------------------------------*/
+/**
+ * Tooltip container
+ */
 .tooltip-container {
   display: inline-block;
   position: relative; }
   .tooltip-container:hover .tooltip {
     display: block; }
 
+/**
+ * Tooltip link
+ */
 .tooltip-link {
   background: #f9f9f9; }
 
+/**
+ * Tooltip
+ */
 .tooltip {
   display: none;
   position: absolute;
@@ -1170,41 +1473,53 @@ abbr {
     $LAYOUT
 \*------------------------------------*/
 /*------------------------------------*\
-    $LAYOUT
+    #LAYOUT
 \*------------------------------------*/
-/* Layout Container */
+/**
+ * Layout container
+ */
 .lc, .header, [role=main] {
   max-width: 72em;
   margin: 0 auto;
   padding: 0.5em; }
 
 /*------------------------------------*\
-    $TEMPLATES
+    #TEMPLATES
 \*------------------------------------*/
-/* Two Column Layout */
-@media all and (min-width: 50em) {
-  .l-two-col .l-main {
-    float: left;
-    width: 70%;
-    padding-right: 1em; } }
-@media all and (max-width: 50em) {
-  .l-two-col .l-sidebar {
-    clear: both; } }
-@media all and (min-width: 50em) {
-  .l-two-col .l-sidebar {
-    float: left;
-    width: 30%;
-    padding: 0 0 0 1em; } }
+/**
+ * 2 column layout
+ */
+.l-two-col {
+  /**
+   * Sidebar
+   */ }
+  @media all and (min-width: 50em) {
+    .l-two-col .l-main {
+      float: left;
+      width: 70%;
+      padding-right: 1em; } }
+  @media all and (max-width: 50em) {
+    .l-two-col .l-sidebar {
+      clear: both; } }
+  @media all and (min-width: 50em) {
+    .l-two-col .l-sidebar {
+      float: left;
+      width: 30%;
+      padding: 0 0 0 1em; } }
 
 /*------------------------------------*\
-    $GRIDS
+    #GRIDS
 \*------------------------------------*/
-/* Grid Container */
+/**
+ * Grid
+ */
 .g {
   overflow: hidden;
   margin: 0 -0.5em; }
 
-/* Grid Item */
+/**
+ * Grid item
+ */
 .gi {
   padding: 0.5em; }
   .gi img {
@@ -1213,11 +1528,15 @@ abbr {
     .gi {
       float: left; } }
 
-/* Grid 1up */
+/**
+ * 1 up grid
+ */
 .g-1up .gi {
   width: 100%; }
 
-/* Grid 2up */
+/**
+ * 2 up grid
+ */
 @media all and (min-width: 46.8em) {
   .g-2up > .gi {
     float: left;
@@ -1225,14 +1544,18 @@ abbr {
     .g-2up > .gi:nth-of-type(odd) {
       clear: left; } }
 
-/* Grid Half (Always displayed side by side) */
+/**
+ * Grid side by side
+ */
 .g-half > .gi {
   float: left;
   width: 50%; }
   .g-half > .gi:nth-of-type(odd) {
     clear: left; }
 
-/* Grid 3up */
+/**
+ * 3 up grid
+ */
 @media all and (min-width: 46.8em) {
   .g-3up > .gi {
     float: left;
@@ -1247,7 +1570,9 @@ abbr {
     .g-3up > .gi:nth-of-type(3n+1) {
       clear: left; } }
 
-/* Grid 4up */
+/**
+ * 4 up grid
+ */
 @media all and (min-width: 46.8em) {
   .g-4up > .gi {
     float: left;
@@ -1262,13 +1587,18 @@ abbr {
     .g-4up > .gi:nth-of-type(4n+1) {
       clear: left; } }
 
-/* Grid Quarter (Always displayed side by side) */
+/**
+ * Quarter grid always displayed side by side
+ */
 .g-quarter > .gi {
   float: left;
   width: 24%; }
   .g-quarter > .gi:nth-of-type(4n+1) {
     clear: left; }
 
+/**
+ * Grid max 4 up
+ */
 @media all and (min-width: 29.75em) {
   .g-max4 > .gi {
     float: left;
@@ -1290,7 +1620,9 @@ abbr {
     .g-max4 > .gi:nth-of-type(4n+1) {
       clear: left; } }
 
-/* Grid 5up */
+/**
+ * Grid max of 5 up
+ */
 .g-max5 > .gi {
   float: left;
   width: 50%; }
@@ -1318,18 +1650,25 @@ abbr {
     .g-max5 > .gi:nth-of-type(5n+1) {
       clear: left; } }
 
-/* Grid 2/3 */
+/**
+ * Grid item 2 up to 3 up
+ */
 @media all and (min-width: 46.8em) {
   .gi-2-3 {
     float: left;
     width: 66.666666%; } }
 
+/**
+ * Grid item 1 up to 3 up
+ */
 @media all and (min-width: 46.8em) {
   .gi-1-3 {
     float: left;
     width: 33.333333%; } }
 
-/* Grid 4up block */
+/**
+ * Grid 4 up block
+ */
 .g-opposites .gi {
   float: left; }
   .g-opposites .gi:last-child {

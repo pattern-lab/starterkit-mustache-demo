@@ -1,10 +1,19 @@
+/*------------------------------------*\
+    #LISTS
+\*------------------------------------*/
+
+/**
+ * Inline list
+ */
 .inline-list {
 	li {
 		display: inline-block;
 	}
 }
 
-/* Social List */
+/**
+ * Social list
+ */
 .social-list {
 	li {
 		margin: 0 0.4rem $space 0;
@@ -16,7 +25,9 @@
 }
 
 
-/* Headline List */
+/**
+ * Headline list
+ */
 .headline-list {
 	margin-bottom: $space;
 
@@ -34,14 +45,18 @@
 	}
 }
 
-/* Post List */
+/**
+ * Post list
+ */
 .post-list {
 	li {
 		margin-bottom: $space;
 	}
 }
 
-/* Bullet List */
+/**
+ * Bullet list
+ */
 .bullet-list {
 	list-style: square;
 	margin: 0 0 1em 1.2em;
@@ -52,7 +67,9 @@
 	}
 }
 
-/* Text List */
+/**
+ * Text list
+ */
 .text-list {
 	margin: 0 0 1em;
 	line-height: 1.3;

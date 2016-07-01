@@ -1,21 +1,33 @@
-//Intro text
+/*------------------------------------*\
+    #TEXT
+\*------------------------------------*/
+
+/**
+ * Intro
+ */
 .intro {
 	font-size: $font-size-med-2;
 	font-weight: bold;
 }
 
-//Pullquote
+/**
+ * Pullquote
+ */
 .pullquote {
 	font-family: $font-secondary;
 	font-size: $font-size-large;
 }
 
-//Caption 
+/**
+ * Caption
+ */
 .caption {
 	font-style: italic;
 }
 
-//Passages of text
+/**
+ * Passages of text
+ */
 .text {
 	a {
 		text-decoration: underline;

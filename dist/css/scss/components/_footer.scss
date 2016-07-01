@@ -1,6 +1,10 @@
 /*------------------------------------*\
-    $FOOTER
+    #FOOTER
 \*------------------------------------*/
+
+/**
+ * Footer
+ */
 .footer {
 	clear: both;
 	overflow: hidden;
@@ -13,7 +17,9 @@
 	}
 }
 
-//Footer Nav
+/**
+ * Footer nav
+ */
 .nav-footer {
 	margin: (-$pad) (-$pad) $space;
 
@@ -32,6 +38,9 @@
 	}
 }
 
+/**
+ * Copyright text
+ */
 .copyright {
 	@media all and (min-width: $bp-med) {
 		float: right;

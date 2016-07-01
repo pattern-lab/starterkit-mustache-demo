@@ -65,3 +65,17 @@
 	border-left: 1px solid $gray;
 	color: $gray;
 }
+
+/**
+ * Search form
+ */
+.search-form {
+	overflow: hidden;
+	max-height: 0;
+
+	@media all and (min-width: $bp-med) {
+		float: right;
+		max-height: none;
+		margin: 0.65em 0.5em 0 0;
+	}
+}
