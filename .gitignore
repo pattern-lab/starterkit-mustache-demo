@@ -1,1 +1,3 @@
 .DS_Store
+dist/css/.sass-cache
+dist/css/style.css.map
