@@ -1,6 +1,10 @@
 /*------------------------------------*\
-    $BUTTONS
+    #BUTTONS
 \*------------------------------------*/
+
+/**
+ * Button
+ */
 .btn {
 	display: inline-block;
 	background: $gray-dark;
@@ -15,17 +19,26 @@
 		background: $gray;
 		color: $white;
 	}
-
+	
+	/**
+	 * Disabled button
+	 */
 	&.disabled {
 		background: $gray-light-2;
 		color: $gray;
 	}
 }
 
+/**
+ * Small button
+ */
 .btn-small {
 	padding: $pad-half;
 }
 
+/**
+ * Large button
+ */
 .btn-large {
 	padding: $pad-half;
 	text-transform: uppercase;
@@ -34,7 +47,9 @@
 	font-weight: normal;
 }
 
-
+/**
+ * Text button
+ */
 .text-btn {
 	font-style: italic;
 }

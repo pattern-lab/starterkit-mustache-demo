@@ -1,4 +1,10 @@
-/* Generic Placeholder Brick: REMOVE FOR PRODUCTION */
+/*------------------------------------*\
+    #BLOCKS
+\*------------------------------------*/
+
+/**
+ * Brick
+ */
 .brick {
 	background: #dcdddc;
 	padding: $pad-double;
@@ -7,7 +13,9 @@
 	border-bottom: 1px solid $gray-light-2;
 }
 
-/* Block */
+/**
+ * Block
+ */
 .block {
 	overflow: hidden;
 
@@ -16,14 +24,22 @@
 	}
 }
 
+/**
+ * Headline
+ */
 .headline {
 	line-height: 1.2;
 }
 
-/* Hero Block */
+/**
+ * Block hero
+ */
 .block-hero {
 	margin-bottom: $space-half;
-
+	
+	/**
+	 * Block thumbnail within hero
+	 */
 	.b-thumb {
 		img {
 			display: block;
@@ -45,18 +61,26 @@
 	}
 }
 
-/* Block Thumbnail with Headline */
+/**
+ * Block thumbnail
+ */
 .block-thumb {
 	display: table;
 	width: 100%;
 	border-collapse: collapse;
-
+	
+	/**
+	 * Inner block
+	 */
 	.b-inner {
 		display: table-row;
 		vertical-align: top;
   		overflow: hidden;
 	}
-
+	
+	/**
+	 * B-thumb within block thumbnail
+	 */
 	.b-thumb {
 		@media all and (min-width: $bp-small-2) {
 			display: table-cell;
@@ -71,7 +95,10 @@
 	 		}
  		}
 	}
-
+	
+	/**
+	 * Block text
+	 */
 	.b-text {
 		@media all and (min-width: $bp-small-2) {
 			display: table-cell;
@@ -81,8 +108,9 @@
 	}
 }
 
-
-/* Block Headline Summary */
+/**
+ * Block headline summary
+ */
 .block-headline-summary {
 	a {
 		display: block;
@@ -90,7 +118,9 @@
 	}
 }
 
-/* Block Inset */
+/**
+ * Block inset
+ */
 .block-inset {
 	position: relative;
 
@@ -104,15 +134,23 @@
 	}
 }
 
-/* Hero Block */
+/**
+ * Block inset
+ */
 .block-inset {
 	margin-bottom: $space-half;
 	position: relative;
-
+	
+	/**
+	 * Block headline within block inset
+	 */
 	.headline {
 		font-size: 1.1em;
 	}
-
+	
+	/**
+	 * Block text within block inset
+	 */
 	.b-text {
 		position: absolute;
 		bottom: 0;
@@ -124,7 +162,9 @@
 	}
 }
 
-/* Block Thumb with Summary */
+/**
+ * Block thumb summary
+ */
 .block-thumb-summary {
 	.b-thumb {
 		float: left;

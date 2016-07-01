@@ -1,7 +1,17 @@
+/*------------------------------------*\
+    #ACCORDION
+\*------------------------------------*/
+
+/**
+ * Accordion
+ */
 .accordion {
 	margin-bottom: $space;
 }
 
+/**
+ * Accordion handle
+ */
 .acc-handle {
 	background: $gray-dark-2;
 	color: $white;

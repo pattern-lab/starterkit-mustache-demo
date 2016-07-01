@@ -1,8 +1,10 @@
 /*------------------------------------*\
-    $MESSAGING
+    #MESSAGING
 \*------------------------------------*/
 
-// Alerts
+/**
+ * Alert
+ */
 .alert {
 	text-align: center;
 	padding: $pad;
@@ -11,6 +13,9 @@
 	background: $gray-light;
 }
 
+/**
+ * Error alert
+ */
 .alert-error {
 	color: $error;
 	border-color: $error;

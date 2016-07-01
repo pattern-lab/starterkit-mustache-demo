@@ -1,0 +1,81 @@
+/*------------------------------------*\
+    #FORMS
+\*------------------------------------*/
+
+/**
+ * Field Container
+ */
+.field-container {
+	margin-bottom: $space;
+}
+
+/**
+ * Inline Form
+ */
+.inline-form {
+	fieldset, .inline-container {
+		position: relative;
+	}
+	
+	input[type=submit], button, .btn {
+		font-size: $font-size-small-2;
+		padding: 0.65rem 1.3rem;
+		background: $gray-dark;
+		position: absolute;
+		top: 0;
+		right: 0;
+		z-index: 1;
+		width: auto;
+
+		&:hover, &:focus {
+			background: $gray;
+			color: $white;
+		}
+	}
+}
+
+/**
+ * Form/Input has error
+ */
+.has-error {
+	border-color: $error;
+}
+
+/**
+ * Form/Input is valid
+ */
+.is-valid {
+	border-color: $valid;
+}
+
+/**
+ * Search Form
+ */
+.search-field {
+	padding-right: 3em;
+}
+
+/**
+ * Search submit within inline form
+ */
+.inline-form .search-submit {
+	background: none;
+	padding: 0.78em 1em;
+	border: 0;
+	border-left: 1px solid $gray;
+	color: $gray;
+}
+
+/**
+ * Search form
+ */
+.search-form {
+	overflow: hidden;
+	max-height: 0;
+
+	@media all and (min-width: $bp-med) {
+		float: right;
+		max-height: none;
+		margin: 0.65em 0.5em 0 0;
+	}
+}

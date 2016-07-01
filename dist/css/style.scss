@@ -56,6 +56,7 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
  * Carousels..............Styles for carousels
  * Comments...............Styles for comments component
  * Footer.................Styles for the footer component
+ * Forms..................Styles for form components
  * Header.................Styles for header component
  * Icons..................Styles for icons
  * Lists..................Styles for types of lists
@@ -66,6 +67,7 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
  * Tabs...................Styles for tabs
  * Text...................Styles for text components
  * Tooltip................Styles for tooltips
+ 
  *
  * LAYOUT.................Styles that affect the site's general layout
  * Layout.................Layout styles
@@ -113,6 +115,7 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
 @import "scss/components/carousels";
 @import "scss/components/comments";
 @import "scss/components/footer";
+@import "scss/components/forms";
 @import "scss/components/header";
 @import "scss/components/icons";
 @import "scss/components/lists";

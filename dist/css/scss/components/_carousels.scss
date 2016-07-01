@@ -1,22 +1,40 @@
-/* Horizontal Carousel */
+/*------------------------------------*\
+    #CAROUSEL
+\*------------------------------------*/
+
+/**
+ * Horizontal carousel
+ */
 .carousel-horizontal {
 	margin-bottom: $space;
 	overflow: hidden;
 	position: relative;
 }
 
+/**
+ * Carousel island container
+ */
 .carousel-island-container {
 	overflow: hidden;
 }
 
+/**
+ * Carousel container
+ */
 .carousel-container {
 	position: relative;
 }
 
+/**
+ * Carousel list
+ */
 .carousel-list {
 
 }
 
+/**
+ * Carousel controls
+ */
 .carousel-controls {
 	display: table;
 	width: 100%;
@@ -26,11 +44,17 @@
 		display: table-cell;
 		padding: $pad-half;
 	}
-
+	
+	/**
+	 * Carousel pagination
+	 */
 	.carousel-pagination {
 		text-align: center;
 	}
-
+	
+	/**
+	 * Carousel next button
+	 */
 	.carousel-next {
 		text-align: right;
 	}
