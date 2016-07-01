@@ -2,6 +2,9 @@
   "title" : "Pattern Lab",
   "htmlClass": "pl",
   "bodyClass": "body",
+  "btnText" : "Button",
+  "quoteText" : "A block quotation (also known as a long quotation or extract) is a quotation in a written document, that is set off from the main text as a paragraph, or block of text, and typically distinguished visually using indentation and a different typeface or smaller size quotation.",
+  "quoteSource" : "<a href='https://en.wikipedia.org/wiki/Block_quotation'>Wikiepedia</a>",
   "img": {
     "landscape-4x3": {
       "src": "../../images/fpo_4x3.png",
@@ -11,10 +14,6 @@
       "src": "../../images/fpo_16x9.png",
       "alt": "16x9 Image"
     },
-    "square": {
-      "src": "../../images/fpo_square.png",
-      "alt": "Square Thumbnail"
-    },
     "avatar" : {
       "src" : "../../images/fpo_avatar.png",
       "alt" : "Person Name"
@@ -23,6 +22,18 @@
       "src": "http://placeimg.com/400/300/tech",
       "alt": "Rectangle"
     }
+  },
+  "imgSquare" : {
+	  "src": "../../images/fpo_square.png",
+      "alt": "Square Image"
+  },
+  "imgHero" : {
+	  "src": "https://placehold.it/1280x500",
+      "alt": "Square Image"
+  },
+  "imgLandscape" : {
+	  "src": "https://placehold.it/800x600",
+      "alt": "Landscape Image"
   },
   "headline" : {
     "short" : "Lorem ipsum dolor sit (37 characters)",
