@@ -1,40 +1,24 @@
-<div class="page" id="page">
-	{{> organisms-header }}
-	<div role="main">
-		{{# emergency }}
-			{{> molecules-alert:error }}
-		{{/ emergency }}
-		{{# hero }}
-			{{> molecules-block-hero }}
-		{{/ hero}}
+{{> organisms-header }}
+<main role="main">
+	{{# alert }}
+		{{> molecules-alert:error }}
+	{{/ alert }}
 
-		<div class="g g-3up">
-			{{# touts}}
-				<div class="gi">
-					{{> molecules-block-tout }}
-				</div>
-			{{/ touts}}
-		</div><!--end 3up-->
+	{{# hero }}
+		{{> molecules-block-hero }}
+	{{/ hero}}
 
-		<hr />
+	{{> organisms-tout-list }}
 
-		<div class="l-two-col">
-			<div class="l-main">
-				<section class="section latest-posts">
-					<h2 class="section-title">Latest Posts</h2>
-					<ul class="post-list">
-						{{# latest-posts }}
-							<li>{{> molecules-media-block }}</li>
-						{{/ latest-posts }}
-					</ul>
-					<a href="#" class="text-btn">View more posts</a>
-				</section>
-			</div><!--end .l-main-->
+	<div class="l-two-col">
+		<div class="l-main">
+			{{> organisms-section-media-list }}
+		</div><!--end .l-main-->
 
-			<div class="l-sidebar">
+		<div class="l-sidebar">
 
-			</div><!--end .l-sidebar-->
-		</div><!--end .l-two-col-->
-	</div><!--End role=main-->
-	{{> organisms-footer }}
-</div>
+		</div><!--end .l-sidebar-->
+	</div><!--end .l-two-col-->
+
+</main>
+{{> organisms-footer }}

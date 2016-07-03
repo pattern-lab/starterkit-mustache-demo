@@ -1,17 +1,21 @@
 {
-  "title" : "Pattern Lab",
-  "htmlClass": "pl",
-  "bodyClass": "body",
-  "btnText" : "Button",
-  "quoteText" : "A block quotation (also known as a long quotation or extract) is a quotation in a written document, that is set off from the main text as a paragraph, or block of text, and typically distinguished visually using indentation and a different typeface or smaller size quotation.",
-  "quoteSource" : "<a href='https://en.wikipedia.org/wiki/Block_quotation'>Wikiepedia</a>",
+	"company" : {
+		"name" : "Company Name",
+		"url" : "http://companyname.com"
+	},
+	"title" : "Pattern Lab",
+	"htmlClass": "pl",
+	"bodyClass": "body",
+	"btnText" : "Button",
+	"quoteText" : "A block quotation (also known as a long quotation or extract) is a quotation in a written document, that is set off from the main text as a paragraph, or block of text, and typically distinguished visually using indentation and a different typeface or smaller size quotation.",
+	"quoteSource" : "<a href='https://en.wikipedia.org/wiki/Block_quotation'>Wikiepedia</a>",
   "img": {
     "landscape-4x3": {
       "src": "../../images/fpo_4x3.png",
       "alt": "4x3 Image"
     },
     "landscape-16x9": {
-      "src": "../../images/fpo_16x9.png",
+      "src": "../../images/fpo_hero.png",
       "alt": "16x9 Image"
     },
     "avatar" : {
@@ -28,11 +32,11 @@
       "alt": "Square Image"
   },
   "imgHero" : {
-	  "src": "https://placehold.it/1280x500",
-      "alt": "Square Image"
+	  "src": "../../images/fpo_hero.png",
+      "alt": "Hero Image"
   },
   "imgLandscape" : {
-	  "src": "https://placehold.it/800x600",
+	  "src": "../../images/fpo_landscape.png",
       "alt": "Landscape Image"
   },
   "headline" : {
@@ -44,61 +48,66 @@
     "medium" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "long" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
+  "primaryNav" : [
+	  {
+		  "label": "Blog",
+		  "url": "link.pages-blog-index"
+	  },
+	  {
+		  "label": "About",
+		  "url": "link.pages-about"
+	  },
+	  {
+		  "label": "Contact",
+		  "url": "link.pages-contact"
+	  },
+	  {
+		  "label": "Login",
+		  "url": "link.pages-login"
+	  }
+  ],
   "description" : "So, setting about it as methodically as men might smoke out a wasps' nest, the Martians spread this strange stifling vapour over the Londonward country. The horns of the crescent slowly moved apart, until at last they formed a line from Hanwell to Coombe and Malden. All night through their destructive tubes advanced.",
   "url" : "#",
-  "name" : {
-    "first": "Lacy",
-    "firsti": "L",
-    "middle": "Tommie",
-    "middlei": "T",
-    "last": "Way",
-    "lasti": "W"
+  "field" : {
+	  "id" : "field-id",
+	  "label" : "label",
+	  "type" : "text",
+	  "placeholder" : "Placeholder",
+	  "value" : "",
+	  "fieldNote" : ""
   },
-  "year" : {
-    "long": "2013",
-    "short": "13"
-  },
-  "month" : {
-    "long": "February",
-    "short": "Feb",
-    "digit": "02"
-  },
-  "dayofweek" : {
-    "long": "Monday",
-    "short": "Mon"
-  },
-  "day" : {
-    "long": "10",
-    "short": "10",
-    "ordinal": "th"
-  },
-  "hour" : {
-    "long": "01",
-    "short": "1",
-    "military": "13",
-    "ampm": "pm"
-  },
-  "minute" : {
-    "long": "20",
-    "short": "20"
-  },
-  "seconds" : "31",
-  "author" : {
-    "first-name": "Author",
-    "last-name": "Name"
-  },
+  "fields" : [
+  	{
+		"field" : {
+	  	  "id": "username",
+	  	  "label": "Username",
+	  	  "type": "text",
+	  	  "placeholder": "Username or email address",
+	  	  "value": "",
+		  "fieldNote": "Enter your username or email address"
+	    }
+	},
+	{
+		"field": {
+	  	  "id": "password",
+	  	  "label": "Password",
+	  	  "type": "password",
+	  	  "placeholder": "Password",
+	  	  "value": "",
+		  "fieldNote": "Minimum of 6 characters"
+	    }
+	}
+  ],
   "hero": true,
-  "emergency" : false,
-  "touts" : [
+  "alert": true,
+  "toutList": [
     { },
     { },
     { }
   ],
-  "latest-posts" : [
-    { },
-    { },
-    { },
-    { },
-    { }
-  ]
+	"mediaList": [
+	  { },
+	  { },
+	  { }
+	]
 }

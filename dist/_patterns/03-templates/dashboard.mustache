@@ -1,0 +1,19 @@
+{{> organisms-header }}
+<main role="main">
+	{{# alert }}
+		{{> molecules-alert:error }}
+	{{/ alert }}
+
+	<h1>Dashboard</h1>
+
+	<div class="l-two-col">
+		<div class="l-main">
+			{{> organisms-section-media-list }}
+		</div><!--end .l-main-->
+
+		<div class="l-sidebar">
+			Sidebar
+		</div><!--end .l-sidebar-->
+	</div><!--end .l-two-col-->
+</main>
+{{> organisms-footer }}

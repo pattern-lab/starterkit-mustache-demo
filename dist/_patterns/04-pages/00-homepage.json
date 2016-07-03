@@ -2,60 +2,42 @@
 	"title" : "Home Page",
 	"bodyClass": "home",
 	"emergency" : false,
-	"hero" : [
-		{
-			"img": {
-				"landscape-16x9": {
-					"src": "../../images/sample/landscape-16x9-mountains.jpg",
-					"alt": "Mountains"	
-				}
-			},
-			"headline" : {
-				"medium" : "Top 10 mountain ranges for hiking"
-			}
-		}
-	],
-	"touts" : [
-		{
-			"img": {
-				"landscape-4x3": {
-					"src": "../../images/sample/tout-4x3-climber.jpg",
-					"alt": "Climber"	
-				}
-			},
-			"headline" : {
-				"short" : "Extreme climbing tips"
-			}
-		},
-		{
-			"img": {
-				"landscape-4x3": {
-					"src": "../../images/sample/tout-4x3-stream.jpg",
-					"alt": "Stream hiking"	
-				}
-			},
-			"headline" : {
-				"short" : "Stream hiking"
-			}
-		},
-		{
-			"img": {
-				"landscape-4x3": {
-					"src": "../../images/sample/tout-4x3-climbers.jpg",
-					"alt": "Explore hiking trails"	
-				}
-			},
-			"headline" : {
-				"short" : "Explore hiking trails"
-			}
-		}
-	],
+    "imgHero" : {
+  	  "src": "../../images/fpo_hero.png",
+      "alt": "Hero Image"
+    },
+	"toutList" : [
+      {
+		"url": "#",
+		"heading": "Heading",
+		"imgLandscape" : {
+	  	  "src": "../../images/fpo_landscape.png",
+	        "alt": "Landscape Image"
+	    }
+	  },
+      {
+		"url": "#",
+		"heading": "Heading",
+		"imgLandscape" : {
+	  	  "src": "../../images/fpo_landscape.png",
+	        "alt": "Landscape Image"
+	    }
+	  },
+      {
+		"url": "#",
+  		"heading": "Heading",
+		"imgLandscape" : {
+	  	  "src": "../../images/fpo_landscape.png",
+	        "alt": "Landscape Image"
+	    }
+	  }
+    ],
 	"latest-posts" : [
 		{
 			"img": {
 				"square": {
 					"src": "../../images/sample/thumb-square-river.jpg",
-					"alt": "Post Thumbnail"	
+					"alt": "Post Thumbnail"
 				}
 			},
 			"headline" : {
@@ -69,7 +51,7 @@
 			"img": {
 				"square": {
 					"src": "../../images/sample/thumb-square-ivy.jpg",
-					"alt": "Ivy"	
+					"alt": "Ivy"
 				}
 			},
 			"headline" : {
@@ -83,7 +65,7 @@
 			"img": {
 				"square": {
 					"src": "../../images/sample/thumb-square-yosemite.jpg",
-					"alt": "Yosemite"	
+					"alt": "Yosemite"
 				}
 			},
 			"headline" : {
@@ -97,7 +79,7 @@
 			"img": {
 				"square": {
 					"src": "../../images/sample/thumb-square-fire.jpg",
-					"alt": "Fire"	
+					"alt": "Fire"
 				}
 			},
 			"headline" : {
@@ -111,7 +93,7 @@
 			"img": {
 				"square": {
 					"src": "../../images/sample/thumb-square-gear.jpg",
-					"alt": "Camping Gear"	
+					"alt": "Camping Gear"
 				}
 			},
 			"headline" : {
