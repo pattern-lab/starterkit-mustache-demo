@@ -12,12 +12,3 @@
 		opacity: 0;
 	}
 }
-
-/**
- * Move Animation
- */
-.animate-move {
-	> .demo-shape {
-		@include transition(all, 0.8s, ease-in-out);
-	}
-}

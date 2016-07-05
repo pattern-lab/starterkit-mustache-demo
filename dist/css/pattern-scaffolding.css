@@ -3,9 +3,10 @@
  * styles for grids, animations, color swatches, etc.
  * These styles will not be your production CSS.
  */
+
 #sg-patterns {
   -webkit-box-sizing: border-box !important;
-          box-sizing: border-box !important;
+  box-sizing: border-box !important;
   max-width: 100%;
   padding: 0 0.5em;
 }

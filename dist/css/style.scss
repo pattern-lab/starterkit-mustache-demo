@@ -1,14 +1,14 @@
-/*                                                                                                                                         
-                                                ,,            ,,                          ,,                                             
- .M"""bgd mm                                    db          `7MM        mm         mm   `7MM                                    OO OO OO 
-,MI    "Y MM                                                  MM        MM         MM     MM                                    88 88 88 
-`MMb.   mmMMmm ,pW"Wq.`7MMpdMAo.     `7Mb,od8 `7MM  .P"Ybmmm  MMpMMMb.mmMMmm     mmMMmm   MMpMMMb.  .gP"Ya `7Mb,od8 .gP"Ya      || || || 
-  `YMMNq. MM  6W'   `Wb MM   `Wb       MM' "'   MM :MI  I8    MM    MM  MM         MM     MM    MM ,M'   Yb  MM' "',M'   Yb     || || || 
-.     `MM MM  8M     M8 MM    M8       MM       MM  WmmmP"    MM    MM  MM         MM     MM    MM 8M""""""  MM    8M""""""     `' `' `' 
-Mb     dM MM  YA.   ,A9 MM   ,AP       MM       MM 8M         MM    MM  MM         MM     MM    MM YM.    ,  MM    YM.    ,     ,, ,, ,, 
-P"Ybmmd"  `Mbmo`Ybmd9'  MMbmmd'      .JMML.   .JMML.YMMMMMb .JMML  JMML.`Mbmo      `Mbmo.JMML  JMML.`Mbmmd'.JMML.   `Mbmmd'     db db db 
-                        MM                         6'     dP                                                                             
-                      .JMML.                       Ybmmmd'                                                                               
+/*
+                                                ,,            ,,                          ,,
+ .M"""bgd mm                                    db          `7MM        mm         mm   `7MM                                    OO OO OO
+,MI    "Y MM                                                  MM        MM         MM     MM                                    88 88 88
+`MMb.   mmMMmm ,pW"Wq.`7MMpdMAo.     `7Mb,od8 `7MM  .P"Ybmmm  MMpMMMb.mmMMmm     mmMMmm   MMpMMMb.  .gP"Ya `7Mb,od8 .gP"Ya      || || ||
+  `YMMNq. MM  6W'   `Wb MM   `Wb       MM' "'   MM :MI  I8    MM    MM  MM         MM     MM    MM ,M'   Yb  MM' "',M'   Yb     || || ||
+.     `MM MM  8M     M8 MM    M8       MM       MM  WmmmP"    MM    MM  MM         MM     MM    MM 8M""""""  MM    8M""""""     `' `' `'
+Mb     dM MM  YA.   ,A9 MM   ,AP       MM       MM 8M         MM    MM  MM         MM     MM    MM YM.    ,  MM    YM.    ,     ,, ,, ,,
+P"Ybmmd"  `Mbmo`Ybmd9'  MMbmmd'      .JMML.   .JMML.YMMMMMb .JMML  JMML.`Mbmo      `Mbmo.JMML  JMML.`Mbmmd'.JMML.   `Mbmmd'     db db db
+                        MM                         6'     dP
+                      .JMML.                       Ybmmmd'
 
 Pattern Lab doesn't have any CSS requirements, which means you can write your styles however you want. Hooray!
 You can use Sass, Less, vanilla CSS, or some other crazy thing I haven't heard of yet.
@@ -27,11 +27,11 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
 */
 
 /*------------------------------------*\
-    $TABLE OF CONTENTS 
+    $TABLE OF CONTENTS
     based generally on Harry Roberts excellent CSS Guidelines https://github.com/csswizardry/CSS-Guidelines
 \*------------------------------------*/
 /**
- * ABSTRACTS..............Declarations of Sass variables and mixins 
+ * ABSTRACTS..............Declarations of Sass variables and mixins
  * Mixins.................Mixin styles that are included in the site
  * Variables..............Variables for styles that are used in the site
  *
@@ -67,13 +67,13 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
  * Tabs...................Styles for tabs
  * Text...................Styles for text components
  * Tooltip................Styles for tooltips
- 
+
  *
  * LAYOUT.................Styles that affect the site's general layout
  * Layout.................Layout styles
  *
  * UTILITIES..............Styles that require a utility class
- * 
+ *
  */
 
 /*------------------------------------*\
@@ -89,6 +89,7 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
 /*------------------------------------*\
     $BASE
 \*------------------------------------*/
+@import "scss/base/body";
 @import "scss/base/animation";
 @import "scss/base/forms";
 @import "scss/base/global-classes";
@@ -117,10 +118,11 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
 @import "scss/components/footer";
 @import "scss/components/forms";
 @import "scss/components/header";
+@import "scss/components/logo";
 @import "scss/components/icons";
 @import "scss/components/lists";
-@import "scss/components/main";
 @import "scss/components/messaging";
+@import "scss/components/primary-nav";
 @import "scss/components/nav";
 @import "scss/components/sections";
 @import "scss/components/tabs";
@@ -135,7 +137,3 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
     $LAYOUT
 \*------------------------------------*/
 @import "scss/layout/layout";
-
-
-
-

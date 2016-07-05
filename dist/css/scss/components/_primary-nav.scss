@@ -1,0 +1,36 @@
+/*------------------------------------*\
+    #PRIMARY NAVIGATION
+\*------------------------------------*/
+
+/**
+ * Navigation tag
+ */
+.c-primary-nav {
+	clear: both;
+	overflow: hidden;
+	max-height: 0;
+
+	&.active {
+		max-height: 40em;
+	}
+
+	@media all and (min-width: $bp-med) {
+		max-height: none;
+	}
+}
+
+/**
+ * Nav List
+ */
+.c-primary-nav__list {
+	display: flex;
+}
+
+/**
+ * Nav Links
+ */
+.c-primary-nav__link {
+	font-weight: bold;
+	display: block;
+	padding: 1rem;
+}

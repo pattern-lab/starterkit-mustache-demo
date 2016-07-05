@@ -1,13 +1,10 @@
 /*------------------------------------*\
-    #BODY
+    #MAIN
 \*------------------------------------*/
 
 /**
- * Body base styles
+ * Main content area
  */
-body {
-	background: $white;
-	font: 100%/1.5 $font;
-	-webkit-text-size-adjust: 100%;
-	color: $gray-dark;
+[role=main] {
+	flex: 1;
 }

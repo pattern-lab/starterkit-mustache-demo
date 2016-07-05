@@ -6,11 +6,12 @@
  * Links
  */
 a {
-	color: $gray-dark;
+	color: $color-gray-50;
 	text-decoration: none;
 	outline: 0;
-	
+	transition: all 0.2s ease;
+
 	&:hover, &:focus {
-		color: $gray;
+		color: $color-gray-73;
 	}
 }

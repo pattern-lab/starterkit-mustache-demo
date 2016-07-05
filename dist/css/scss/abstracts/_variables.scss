@@ -2,43 +2,136 @@
     #VARIABLES
 \*------------------------------------*/
 
+
+
+
+
+/*------------------------------------*\
+    #COLORS
+\*------------------------------------*/
+
+/*
+ * 1) Color variables involve a two-tier system to keep colors in sync. The
+ *    first tier defines the brand and neutral colors, and the second tier
+ *    defines the application of those colors.
+ */
+
+/*
+ * Brand Colors
+ * 1) Brand color variables use English names to define colors to make palettes easier to
+ *    identify. Names are generated using this tool: http://chir.ag/projects/name-that-color/
+ * 2) Brand color variables should typically not be used directly in Sass partials. Instead, use
+ *    second-tier application colors.
+ *
+ */
+
+/*
+ * Neutral Colors
+ * 1) Neutral color variables use a numbered system to define variables for better maintainability.
+ *    "$color-gray-10" means "10% gray", which is a gray closer to white than to black. For more info
+ *    read https://medium.com/eightshapes-llc/color-in-design-systems-a1c80f65fa3#.brevrq67p
+ */
+$color-white: #fff;
+$color-gray-02: #f7f9f9;
+$color-gray-15: #d9d9d9;
+$color-gray-35: #a5a5a5;
+$color-gray-50: #808080;
+$color-gray-73: #444444;
+$color-gray-87: #222222;
+$color-black: #000;
+
+
+
+/*
+ * Application Colors
+ * 1) Application colors are the second-tier variable set that put the brand/neutral/utility
+ *    palettes into action.
+ */
+
+ /*
+  * Text Colors
+  * 1) These are non-linked text colors, such as body copy.
+  */
+$color-text: $color-black;
+$color-text-subtle: $color-gray-50;
+
+/*
+ * Heading Colors
+ * 1) These are non-linked heading colors, such as h2, h3, etc.
+ */
+$color-heading: $color-black;
+$color-heading-accent: $color-gray-87;
+
+/*
+ * Text Link Colors
+ * 1) These are for linked text, such as a link found within an article,
+ *    navigation link, footer link, etc.
+ */
+$color-text-link: $color-gray-87;
+$color-text-link-hover: $color-gray-73;
+$color-text-link-visited: $color-black;
+$color-text-link-active: $color-gray-87;
+
+$color-text-link-light: $color-white;
+$color-text-link-light-hover: $color-white;
+$color-text-link-light-visited: $color-white;
+
+/*
+ * Border Colors
+ * 1) Border colors are used as decoration or dividers, such as as a seperator
+ *    for navigation items, block borders, etc.
+ */
+$color-border: $color-gray-50;
+
+
 /**
  * Colors
  */
-$gray : #808080;
-$gray-light : #f9f9f9;
-$gray-light-2 : #eee;
-$gray-light-3 : #ddd;
-$gray-med : #666;
-$gray-dark : #333;
-$gray-dark-2 : #131313;
-$white : #fff;
-$black : #000;
-$dim : rgba(0,0,0,0.5);
-$error : #f00;
-$valid : #089e00;
-$warning : #fff664;
-$information : #000db5;
+$gray: #808080;
+$gray-light: #f9f9f9;
+$gray-light-2: #eee;
+$gray-light-3: #ddd;
+$gray-med: #666;
+$gray-dark: #333;
+$gray-dark-2: #131313;
+$white: #fff;
+$black: #000;
+$dim: rgba(0,0,0,0.5);
+$error: #f00;
+$valid: #089e00;
+$warning: #fff664;
+$information: #000db5;
 
-/**
- * Typography
- */
+
+
+
+
+
+/*------------------------------------*\
+    #TYPOGRAPHY
+\*------------------------------------*/
+
 $font : "HelveticaNeue", "Helvetica", "Arial", sans-serif;
 $font-secondary : Georgia, Times, "Times New Roman", serif;
 
-$font-size-small : 0.75em;
-$font-size-small-2 : 0.875em;
-$font-size-med : 1em;
-$font-size-med-2: 1.0625em;
-$font-size-large : 1.4375em;
+$font-size-small : 0.75rem;
+$font-size-small-2 : 0.875rem;
+$font-size-med : 1rem;
+$font-size-med-2: 1.0625rem;
+$font-size-large : 1.4375rem;
 
-/**
- * Layout
- */
+
+
+
+
+
+/*------------------------------------*\
+    #LAYOUT
+\*------------------------------------*/
 $max-width: 72em;
 
 /**
- * Defaults
+ * Spacing Defaults
  */
 $space : 1em;
 $space-and-half : $space*1.5;
@@ -51,12 +144,23 @@ $pad-double : $pad*2;
 $pad-half : $pad/2;
 $pad-quarter :$pad/4;
 
+
+
+
+
+/*------------------------------------*\
+    #Borders
+\*------------------------------------*/
 /**
  * Borders
  */
 $border-med: 3px;
 $border-thick: 7px;
 
+
+/*------------------------------------*\
+    #BREAKPOINTS
+\*------------------------------------*/
 
 /**
  * Breakpoints
