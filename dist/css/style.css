@@ -704,7 +704,7 @@ abbr {
       left: 1rem;
       width: 50%;
       border-radius: 6px; } }
-  .block-hero:hover .c-block-hero__headline, .block-hero:focus .c-block-hero__headline {
+  .c-block-hero:hover .c-block-hero__headline, .c-block-hero:focus .c-block-hero__headline {
     background: #444444; }
 
 /*------------------------------------*\
@@ -754,7 +754,7 @@ abbr {
   padding: 0.5em;
   font-size: 1.1rem;
   transition: all 0.2s ease; }
-  .block-tout:hover .c-block-tout__headline, .block-tout:focus .c-block-tout__headline {
+  .c-block-tout:hover .c-block-tout__headline, .c-block-tout:focus .c-block-tout__headline {
     padding-bottom: 2rem; }
 
 /*------------------------------------*\
