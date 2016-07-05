@@ -2,7 +2,7 @@
 	"textarea" : true,
 	"form" : true,
 	"textButton" : true,
-	"btnText" : "View All Posts",
+	"btnText" : "Send",
 	"latestPosts" : {
 		"sectionTitle" : "Latest Posts",
 		"mediaList": [
