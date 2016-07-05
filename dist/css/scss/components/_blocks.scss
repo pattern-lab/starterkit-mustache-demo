@@ -117,7 +117,7 @@
     font-size: 1.1rem;
     transition: all $anim-speed-quick $anim-ease;
 
-    .block-tout:hover &, .block-tout:focus & {
+    .c-block-tout:hover &, .c-block-tout:focus & {
         padding-bottom: 2rem;
     }
 }
