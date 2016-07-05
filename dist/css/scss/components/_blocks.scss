@@ -47,7 +47,7 @@
         border-radius: $border-radius;
     }
 
-    .block-hero:hover &, .block-hero:focus & {
+    .c-block-hero:hover &, .c-block-hero:focus & {
         background: $color-gray-73;
     }
  }
@@ -117,7 +117,7 @@
     font-size: 1.1rem;
     transition: all $anim-speed-quick $anim-ease;
 
-    .block-tout:hover &, .block-tout:focus & {
+    .c-block-tout:hover &, .c-block-tout:focus & {
         padding-bottom: 2rem;
     }
 }
