@@ -1,0 +1,75 @@
+{
+	"sectionTitle": "Latest posts",
+	"latestPosts" : {
+		"sectionTitle" : "Latest Posts",
+		"mediaList": [
+			{
+				"styleModifier" : "small",
+				"headline" : {
+					"short" : "Where to Find Hiking Equipment"
+				},
+				"excerpt" : {
+					"medium" : "A list of locations where quality hiking equipment is sold"
+				}
+				
+			},
+			{
+				"styleModifier" : "small",
+				"headline" : {
+					"short" : "What to Do During a Sasquatch Attack"
+				},
+				"excerpt" : {
+					"medium" : "In case you are attacked by a Sasquatch, try this..."
+				}
+				
+			},
+			{
+				"styleModifier" : "small",
+				"headline" : {
+					"short" : "Top 10 Worst People to Hike With"
+				},
+				"excerpt" : {
+					"medium" : "If you are planning a hike, don't go with these people"
+				}
+				
+			}
+		],
+		"textButton" : true,
+		"btnText" : "View All Posts"
+	},
+	"featuredPeople" : {
+		"sectionTitle" : "Featured Hikers",
+		"mediaList": [
+			{
+				"styleModifier" : "small",
+				"headline" : {
+					"short" : "Danny DeVito"
+				},
+				"excerpt" : {
+					"medium" : "Neptune Township, NJ"
+				}
+				
+			},
+			{
+				"styleModifier" : "small",
+				"headline" : {
+					"short" : "Sally Jessy Raphael"
+				},
+				"excerpt" : {
+					"medium" : "Easton, PA"
+				}
+				
+			},
+			{
+				"styleModifier" : "small",
+				"headline" : {
+					"short" : "Charlie Chaplin"
+				},
+				"excerpt" : {
+					"medium" : "London, UK"
+				}
+				
+			}
+		]
+	}
+}

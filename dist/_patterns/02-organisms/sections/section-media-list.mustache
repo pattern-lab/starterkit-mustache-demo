@@ -2,6 +2,10 @@
 	<h2 class="c-section__title">{{ sectionTitle }}</h2>
 
 	{{> organisms-media-list }}
-
-	<a href="#" class="btn">Button</a>
+	{{# button }}
+	{{> atoms-button }}
+	{{/ button }}
+	{{# textButton }}
+	{{> atoms-text-button }}
+	{{/ textButton }}
 </section><!--end section-->

@@ -1,4 +1,80 @@
 {
 	"textarea" : true,
-	"form" : true
+	"form" : true,
+	"textButton" : true,
+	"btnText" : "View All Posts",
+	"latestPosts" : {
+		"sectionTitle" : "Latest Posts",
+		"mediaList": [
+			{
+				"styleModifier" : "small",
+				"headline" : {
+					"short" : "Hardest Hikes in the World"
+				},
+				"excerpt" : {
+					"medium" : "A detailed outlook at the most difficult hikes on earth"
+				}
+				
+			},
+			{
+				"styleModifier" : "small",
+				"headline" : {
+					"short" : "How to Survive in the Woods"
+				},
+				"excerpt" : {
+					"medium" : "Tips and suggestions on survival in the forest"
+				}
+				
+			},
+			{
+				"styleModifier" : "small",
+				"headline" : {
+					"short" : "Top 10 Locations to Hike in the U.S."
+				},
+				"excerpt" : {
+					"medium" : "A list of the top 10 locations to hike in the United States"
+				}
+				
+			}
+		],
+		"textButton" : true,
+		"btnText" : "View All Posts"
+	},
+	"featuredPeople" : {
+		"sectionTitle" : "Featured Hikers",
+		"mediaList": [
+			{
+				"styleModifier" : "small",
+				"headline" : {
+					"short" : "Jimmy Stewart"
+				},
+				"excerpt" : {
+					"medium" : "Indiana, PA"
+				}
+				
+			},
+			{
+				"styleModifier" : "small",
+				"headline" : {
+					"short" : "John Kimble"
+				},
+				"excerpt" : {
+					"medium" : "Los Angeles, CA"
+				}
+				
+			},
+			{
+				"styleModifier" : "small",
+				"headline" : {
+					"short" : "Salvadore Dali XIV"
+				},
+				"excerpt" : {
+					"medium" : "Sheboygan, WI"
+				}
+				
+			}
+		],
+		"textButton" : true,
+		"btnText" : "View All Hikers"
+	}
 }

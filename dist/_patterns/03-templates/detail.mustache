@@ -15,7 +15,12 @@
 		</div><!--end .l-main-->
 
 		<div class="l-sidebar">
+			{{# latestPosts }}
 			{{> organisms-section-media-list }}
+			{{/ latestPosts}}
+			{{# featuredPeople }}
+			{{> organisms-section-media-list }}
+			{{/ featuredPeople}}
 		</div><!--end .l-sidebar-->
 	</div><!--end l--two-col-->
 </main>

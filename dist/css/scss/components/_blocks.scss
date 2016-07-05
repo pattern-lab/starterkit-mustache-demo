@@ -69,7 +69,7 @@
 	display: flex;
 
 	&--small {
-
+		font-size: $font-size-small-2;
 	}
 }
 
@@ -82,10 +82,34 @@
 	max-width: 20em;
 	margin-right: 0.5rem;
 	border-radius: $border-radius;
+	
+	.c-block-media--small & {
+		max-width: 3.5em;
+	}
 }
 
+.c-block-media__img {
+	.c-block-media--small & {
+		border-radius: $border-radius;
+	}
+}
 
+.c-block-media__headline {
+	.c-block-media--small & {
+		font-size: $font-size-med;
+	}
+}
 
+.c-block-media__body {
+	flex: 1;
+}
+
+.c-block-media__excerpt {
+	.c-block-media--small & {
+		margin-bottom: 0;
+		line-height: 1.2;
+	}
+}
 
 
 /*------------------------------------*\
