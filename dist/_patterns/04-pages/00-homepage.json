@@ -11,16 +11,20 @@
     },
 	"toutList" : [
       {
-		"url": "#",
-		"heading": "Heading",
+		"url": "link.pages-blog-detail",
+		"headline": {
+			"short" : "Best winter hikes around the world"
+		},
 		"imgLandscape" : {
 	  	  "src": "../../images/sample/tout-winter-hiker.jpg",
 	        "alt": "Hiker with back pack walking in snow"
 	    }
 	  },
       {
-		"url": "#",
-		"heading": "Heading",
+		"url": "link.pages-login",
+		"headline": {
+			"short" : "Sign in to view your dashboard"
+		},
 		"imgLandscape" : {
 	  	  "src": "../../images/sample/tout-leaves.jpg",
 	        "alt": "Green Leaves"
@@ -28,10 +32,12 @@
 	  },
       {
 		"url": "#",
-  		"heading": "Heading",
+		"headline": {
+			"short" : "Learn about our mission"
+		},
 		"imgLandscape" : {
-	  	  "src": "../../images/fpo_16x9.png",
-	        "alt": "Landscape Image"
+	  	  "src": "../../images/sample/tout-mountains.jpg",
+	        "alt": "Mountain"
 	    }
 	  }
     ],

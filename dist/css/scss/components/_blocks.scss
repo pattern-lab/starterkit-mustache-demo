@@ -1,23 +1,38 @@
 /*------------------------------------*\
     #BLOCKS
 \*------------------------------------*/
-
 /**
- * Hero
+ * 1) Blocks are collections of text and/or images/media working together as a unit.
  */
-.block-hero {
+
+
+
+
+
+/*------------------------------------*\
+	#MEDIA BLOCK
+\*------------------------------------*/
+.c-block-hero {
     display: block;
     position: relative;
 }
 
-.block-hero__img {
+/**
+ * Hero Image
+ * 1) This is the primary hero image that runs full-bleed across the layout
+ */
+.c-block-hero__img {
     display: block;
     width: 100%;
     max-height: 50vh;
     object-fit: cover;
 }
 
-.block-hero__headline {
+/**
+ * Hero Headline
+ * 1) This sits overtop of the hero image when space permits
+ */
+.c-block-hero__headline {
     background: $dim;
     color: $color-white;
     padding: 1rem;
@@ -37,73 +52,50 @@
     }
  }
 
+
+
+
+
+/*------------------------------------*\
+	#MEDIA BLOCK
+\*------------------------------------*/
+
 /**
- * Block thumbnail
+ * 1) Media block contains an image (or some other media) on the left
+ * and text on the right.
+ * 2) For more info, read http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/
  */
-.block-thumb {
-	display: table;
-	width: 100%;
-	border-collapse: collapse;
+.c-block-media {
+	display: flex;
 
-	/**
-	 * Inner block
-	 */
-	.b-inner {
-		display: table-row;
-		vertical-align: top;
-  		overflow: hidden;
-	}
+	&--small {
 
-	/**
-	 * B-thumb within block thumbnail
-	 */
-	.b-thumb {
-		@media all and (min-width: $bp-small-2) {
-			display: table-cell;
-			vertical-align: top;
-	  		width: 30%;
-	  		max-width: 10em;
-
-	 		img {
-	 			display: block;
-				  width: 100%;
-				  height: auto;
-	 		}
- 		}
-	}
-
-	/**
-	 * Block text
-	 */
-	.b-text {
-		@media all and (min-width: $bp-small-2) {
-			display: table-cell;
-			width: 70%;
-			padding: 0 $pad;
-		}
 	}
 }
 
 /**
- * Block Tout
+ * Media Container
+ * 1) This is the container that holds the block image (or media)
  */
-.block-tout {
-	position: relative;
-
-	.b-thumb {
-		position: relative;
-		z-index: 0;
-
-		img {
-			display: block;
-		}
-	}
+.c-block-media__media {
+	width: 50%;
+	max-width: 20em;
+	margin-right: 0.5rem;
+	border-radius: $border-radius;
 }
 
+
+
+
+
+/*------------------------------------*\
+	#TOUT BLOCK
+\*------------------------------------*/
+
 /**
- * Block Tout
+ * 1) The tout block contains an image and headline overlayed over the image.
  */
-.block-tout {
+.c-block-tout {
     display: block;
 	margin-bottom: $space-half;
 	position: relative;
@@ -112,9 +104,9 @@
 }
 
 /**
- * Block headline within block inset
+ *  Tout headline
  */
-.block-tout__headline {
+.c-block-tout__headline {
     position: absolute;
     bottom: 0;
     left: 0;

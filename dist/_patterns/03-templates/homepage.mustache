@@ -11,12 +11,15 @@
 
 	<div class="l l--two-col">
 		<div class="l-main">
+			{{# latestPosts }}
 			{{> organisms-section-media-list }}
+			{{/ latestPosts }}
 		</div><!--end .l-main-->
 
 		<div class="l-sidebar">
-
+			{{> organisms-section-media-list }}
 		</div><!--end .l-sidebar-->
+		
 	</div><!--end l--two-col-->
 </main>
 {{> organisms-footer }}

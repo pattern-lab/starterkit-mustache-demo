@@ -96,6 +96,7 @@
   ],
   "hero": true,
   "alert": true,
+  "latestPosts" : true,
   "toutList": [
     { },
     { },
@@ -103,7 +104,10 @@
   ],
 	"mediaList": [
 	  { },
-	  { },
-	  { }
+	  {
+	  },
+	  {
+
+	  }
 	]
 }
