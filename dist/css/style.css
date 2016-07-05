@@ -1,14 +1,14 @@
-/*                                                                                                                                         
-                                                ,,            ,,                          ,,                                             
- .M"""bgd mm                                    db          `7MM        mm         mm   `7MM                                    OO OO OO 
-,MI    "Y MM                                                  MM        MM         MM     MM                                    88 88 88 
-`MMb.   mmMMmm ,pW"Wq.`7MMpdMAo.     `7Mb,od8 `7MM  .P"Ybmmm  MMpMMMb.mmMMmm     mmMMmm   MMpMMMb.  .gP"Ya `7Mb,od8 .gP"Ya      || || || 
-  `YMMNq. MM  6W'   `Wb MM   `Wb       MM' "'   MM :MI  I8    MM    MM  MM         MM     MM    MM ,M'   Yb  MM' "',M'   Yb     || || || 
-.     `MM MM  8M     M8 MM    M8       MM       MM  WmmmP"    MM    MM  MM         MM     MM    MM 8M""""""  MM    8M""""""     `' `' `' 
-Mb     dM MM  YA.   ,A9 MM   ,AP       MM       MM 8M         MM    MM  MM         MM     MM    MM YM.    ,  MM    YM.    ,     ,, ,, ,, 
-P"Ybmmd"  `Mbmo`Ybmd9'  MMbmmd'      .JMML.   .JMML.YMMMMMb .JMML  JMML.`Mbmo      `Mbmo.JMML  JMML.`Mbmmd'.JMML.   `Mbmmd'     db db db 
-                        MM                         6'     dP                                                                             
-                      .JMML.                       Ybmmmd'                                                                               
+/*
+                                                ,,            ,,                          ,,
+ .M"""bgd mm                                    db          `7MM        mm         mm   `7MM                                    OO OO OO
+,MI    "Y MM                                                  MM        MM         MM     MM                                    88 88 88
+`MMb.   mmMMmm ,pW"Wq.`7MMpdMAo.     `7Mb,od8 `7MM  .P"Ybmmm  MMpMMMb.mmMMmm     mmMMmm   MMpMMMb.  .gP"Ya `7Mb,od8 .gP"Ya      || || ||
+  `YMMNq. MM  6W'   `Wb MM   `Wb       MM' "'   MM :MI  I8    MM    MM  MM         MM     MM    MM ,M'   Yb  MM' "',M'   Yb     || || ||
+.     `MM MM  8M     M8 MM    M8       MM       MM  WmmmP"    MM    MM  MM         MM     MM    MM 8M""""""  MM    8M""""""     `' `' `'
+Mb     dM MM  YA.   ,A9 MM   ,AP       MM       MM 8M         MM    MM  MM         MM     MM    MM YM.    ,  MM    YM.    ,     ,, ,, ,,
+P"Ybmmd"  `Mbmo`Ybmd9'  MMbmmd'      .JMML.   .JMML.YMMMMMb .JMML  JMML.`Mbmo      `Mbmo.JMML  JMML.`Mbmmd'.JMML.   `Mbmmd'     db db db
+                        MM                         6'     dP
+                      .JMML.                       Ybmmmd'
 
 Pattern Lab doesn't have any CSS requirements, which means you can write your styles however you want. Hooray!
 You can use Sass, Less, vanilla CSS, or some other crazy thing I haven't heard of yet.
@@ -26,11 +26,11 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
 
 */
 /*------------------------------------*\
-    $TABLE OF CONTENTS 
+    $TABLE OF CONTENTS
     based generally on Harry Roberts excellent CSS Guidelines https://github.com/csswizardry/CSS-Guidelines
 \*------------------------------------*/
 /**
- * ABSTRACTS..............Declarations of Sass variables and mixins 
+ * ABSTRACTS..............Declarations of Sass variables and mixins
  * Mixins.................Mixin styles that are included in the site
  * Variables..............Variables for styles that are used in the site
  *
@@ -66,13 +66,13 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
  * Tabs...................Styles for tabs
  * Text...................Styles for text components
  * Tooltip................Styles for tooltips
- 
+
  *
  * LAYOUT.................Styles that affect the site's general layout
  * Layout.................Layout styles
  *
  * UTILITIES..............Styles that require a utility class
- * 
+ *
  */
 /*------------------------------------*\
     $ABSTRACTS
@@ -89,27 +89,105 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
 /*------------------------------------*\
     #VARIABLES
 \*------------------------------------*/
+/*------------------------------------*\
+    #COLORS
+\*------------------------------------*/
+/*
+ * 1) Color variables involve a two-tier system to keep colors in sync. The
+ *    first tier defines the brand and neutral colors, and the second tier
+ *    defines the application of those colors.
+ */
+/*
+ * Brand Colors
+ * 1) Brand color variables use English names to define colors to make palettes easier to
+ *    identify. Names are generated using this tool: http://chir.ag/projects/name-that-color/
+ * 2) Brand color variables should typically not be used directly in Sass partials. Instead, use
+ *    second-tier application colors.
+ *
+ */
+/*
+ * Neutral Colors
+ * 1) Neutral color variables use a numbered system to define variables for better maintainability.
+ *    "$color-gray-10" means "10% gray", which is a gray closer to white than to black. For more info
+ *    read https://medium.com/eightshapes-llc/color-in-design-systems-a1c80f65fa3#.brevrq67p
+ */
+/*
+ * Application Colors
+ * 1) Application colors are the second-tier variable set that put the brand/neutral/utility
+ *    palettes into action.
+ */
+/*
+ * Text Colors
+ * 1) These are non-linked text colors, such as body copy.
+ */
+/*
+ * Heading Colors
+ * 1) These are non-linked heading colors, such as h2, h3, etc.
+ */
+/*
+ * Text Link Colors
+ * 1) These are for linked text, such as a link found within an article,
+ *    navigation link, footer link, etc.
+ */
+/*
+ * Border Colors
+ * 1) Border colors are used as decoration or dividers, such as as a seperator
+ *    for navigation items, block borders, etc.
+ */
 /**
  * Colors
  */
+/*------------------------------------*\
+    #TYPOGRAPHY
+\*------------------------------------*/
+/*------------------------------------*\
+    #LAYOUT
+\*------------------------------------*/
 /**
- * Typography
+ * Spacing Defaults
+ */
+/*------------------------------------*\
+    #BORDERS
+\*------------------------------------*/
+/**
+ * Border Width
  */
 /**
- * Layout
+ * Border Radius
+ */
+/*------------------------------------*\
+    #ANIMATION
+\*------------------------------------*/
+/**
+ * Animation Duration
  */
 /**
- * Defaults
+ * Animation Easing
  */
-/**
- * Borders
- */
+/*------------------------------------*\
+    #BREAKPOINTS
+\*------------------------------------*/
 /**
  * Breakpoints
  */
 /*------------------------------------*\
     $BASE
 \*------------------------------------*/
+/*------------------------------------*\
+    #BODY
+\*------------------------------------*/
+/**
+ * Body base styles
+ */
+body {
+  background: #fff;
+  color: #808080;
+  font: 100%/1.5 "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column; }
+
 /*------------------------------------*\
     #ANIMATION
 \*------------------------------------*/
@@ -125,26 +203,9 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
   .animate-fade:hover {
     opacity: 0; }
 
-/**
- * Move Animation
- */
-.animate-move > .demo-shape {
-  -webkit-transition: all 0.8s ease-in-out;
-  -moz-transition: all 0.8s ease-in-out;
-  -ms-transition: all 0.8s ease-in-out;
-  -o-transition: all 0.8s ease-in-out;
-  transition: all 0.8s ease-in-out; }
-
 /*------------------------------------*\
     #FORMS
 \*------------------------------------*/
-/**
- * Form ordered list and unordered list base styles
- */
-form ol, form ul {
-  list-style: none;
-  margin-left: 0; }
-
 /**
  * Fieldset base styles
  */
@@ -158,7 +219,8 @@ fieldset {
  */
 label {
   display: block;
-  padding-bottom: 0.5em; }
+  padding-bottom: 0.2rem;
+  font-weight: bold; }
 
 /**
  * Form button, input, select, and text area base styles
@@ -175,8 +237,9 @@ button, input, select, textarea {
  */
 input, textarea {
   width: 100%;
-  border: 1px solid #808080;
-  padding: 0.5em 0.65rem; }
+  border: 1px solid #a5a5a5;
+  border-radius: 6px;
+  padding: 0.5rem; }
 
 /**
  * Input areas base styles
@@ -203,12 +266,6 @@ input[type="radio"] {
   margin-right: 0.3em; }
 
 /**
- * Search input base styles
- */
-input[type="search"] {
-  border-radius: 0; }
-
-/**
  * Search cancel button and search decoration webkit appearance none
  */
 input[type="search"]::-webkit-search-cancel-button,
@@ -221,19 +278,19 @@ input[type="search"]::-webkit-search-decoration {
 /**
  * Clearfix
  */
-.cf, [role=main], .l-two-col {
+.cf {
   *zoom: 1; }
 
 /**
  * Clearfix pseudo-elements
  */
-.cf:before, [role=main]:before, .l-two-col:before, .cf:after, [role=main]:after, .l-two-col:after {
+.cf:before, .cf:after {
   content: " ";
   /* 1 */
   display: table;
   /* 2 */ }
 
-.cf:after, [role=main]:after, .l-two-col:after {
+.cf:after {
   clear: both; }
 
 /**
@@ -331,6 +388,7 @@ input[type="search"]::-webkit-search-decoration {
  * Heading 1
  */
 h1 {
+  font-size: 3rem;
   line-height: 1.2; }
 
 /**
@@ -368,11 +426,12 @@ h3 {
  * Links
  */
 a {
-  color: #333;
+  color: #808080;
   text-decoration: none;
-  outline: 0; }
+  outline: 0;
+  transition: all 0.2s ease; }
   a:hover, a:focus {
-    color: #808080; }
+    color: #444444; }
 
 /*------------------------------------*\
     #LINKS
@@ -405,16 +464,13 @@ dd {
   margin-left: 0; }
 
 /*------------------------------------*\
-    #BODY
+    #MAIN
 \*------------------------------------*/
 /**
- * Body base styles
+ * Main content area
  */
-body {
-  background: #fff;
-  font: 100%/1.5 "HelveticaNeue", "Helvetica", "Arial", sans-serif;
-  -webkit-text-size-adjust: 100%;
-  color: #333; }
+[role=main] {
+  flex: 1; }
 
 /*------------------------------------*\
     #MEDIA ELEMENTS
@@ -587,7 +643,7 @@ abbr {
  * Article byline
  */
 .byline {
-  font-size: 0.875em;
+  font-size: 0.875rem;
   font-style: italic;
   margin-bottom: 0.5em; }
 
@@ -612,50 +668,33 @@ abbr {
     #BLOCKS
 \*------------------------------------*/
 /**
- * Brick
- */
-.brick {
-  background: #dcdddc;
-  padding: 2em;
-  text-align: center;
-  font-weight: bold;
-  border-bottom: 1px solid #eee; }
-
-/**
- * Block
- */
-.block {
-  overflow: hidden; }
-  .block p:last-child {
-    margin-bottom: 0; }
-
-/**
- * Headline
- */
-.headline {
-  line-height: 1.2; }
-
-/**
- * Block hero
+ * Hero
  */
 .block-hero {
-  margin-bottom: 0.5em;
-  /**
-   * Block thumbnail within hero
-   */ }
-  .block-hero .b-thumb img {
-    display: block; }
+  display: block;
+  position: relative; }
+
+.block-hero__img {
+  display: block;
+  width: 100%;
+  max-height: 50vh;
+  object-fit: cover; }
+
+.block-hero__headline {
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 1rem;
+  font-size: 2.6rem;
+  transition: all 0.2s ease; }
   @media all and (min-width: 50em) {
-    .block-hero {
-      position: relative; }
-      .block-hero .b-text {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        background: rgba(0, 0, 0, 0.5);
-        color: #fff;
-        padding: 1.5em; } }
+    .block-hero__headline {
+      position: absolute;
+      top: 3rem;
+      left: 1rem;
+      width: 50%;
+      border-radius: 6px; } }
+  .block-hero:hover .block-hero__headline, .block-hero:focus .block-hero__headline {
+    background: #444444; }
 
 /**
  * Block thumbnail
@@ -694,55 +733,41 @@ abbr {
       padding: 0 1em; } }
 
 /**
- * Block headline summary
+ * Block Tout
  */
-.block-headline-summary a {
-  display: block;
-  padding: 0.5em; }
-
-/**
- * Block inset
- */
-.block-inset {
+.block-tout {
   position: relative; }
-  .block-inset .b-thumb {
+  .block-tout .b-thumb {
     position: relative;
     z-index: 0; }
-    .block-inset .b-thumb img {
+    .block-tout .b-thumb img {
       display: block; }
 
 /**
- * Block inset
+ * Block Tout
  */
-.block-inset {
+.block-tout {
+  display: block;
   margin-bottom: 0.5em;
   position: relative;
-  /**
-   * Block headline within block inset
-   */
-  /**
-   * Block text within block inset
-   */ }
-  .block-inset .headline {
-    font-size: 1.1em; }
-  .block-inset .b-text {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    color: #fff;
-    padding: 0.5em; }
+  overflow: hidden;
+  border-radius: 6px; }
 
 /**
- * Block thumb summary
+ * Block headline within block inset
  */
-.block-thumb-summary .b-thumb {
-  float: left;
-  width: 50%; }
-.block-thumb-summary .b-text {
-  margin-left: 50%;
-  padding: 0.5em; }
+.block-tout__headline {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 0.5em;
+  font-size: 1.1rem;
+  transition: all 0.2s ease; }
+  .block-tout:hover .block-tout__headline, .block-tout:focus .block-tout__headline {
+    padding-bottom: 2rem; }
 
 /*------------------------------------*\
     #BUTTONS
@@ -756,9 +781,11 @@ abbr {
   color: #fff;
   line-height: 1;
   font-weight: bold;
-  padding: 1em;
+  padding: 1rem 2rem;
   border: 0;
+  border-radius: 6px;
   text-align: center;
+  transition: background 0.2s ease;
   /**
    * Disabled button
    */ }
@@ -839,59 +866,18 @@ abbr {
     text-align: right; }
 
 /*------------------------------------*\
-    #COMMENTS
-\*------------------------------------*/
-/**
- * Comments
- */
-.comments li {
-  margin-bottom: 1em; }
-
-/**
- * Comment container
- */
-.comment-container {
-  overflow: hidden;
-  margin-bottom: 1em;
-  list-style: none; }
-
-/**
- * Comment meta
- */
-.comment-meta {
-  float: left;
-  width: 6.5em; }
-  .comment-meta img {
-    display: block;
-    border: 1px solid #eee;
-    margin-bottom: 0.5em; }
-
-/**
- * Comment name
- */
-.comment-name {
-  font-size: 0.75em; }
-
-/**
- * Comment text
- */
-.comment-text {
-  margin-left: 9em; }
-
-/*------------------------------------*\
     #FOOTER
 \*------------------------------------*/
 /**
  * Footer
  */
-.footer {
+.c-footer {
   clear: both;
   overflow: hidden;
-  background: #131313;
+  background: #222222;
   color: #fff;
-  line-height: 1.2; }
-  .footer a {
-    color: #f9f9f9; }
+  line-height: 1.2;
+  padding: 1rem; }
 
 /**
  * Footer nav
@@ -911,10 +897,6 @@ abbr {
 /**
  * Copyright text
  */
-@media all and (min-width: 46.8em) {
-  .copyright {
-    float: right; } }
-
 /*------------------------------------*\
     #FORMS
 \*------------------------------------*/
@@ -930,7 +912,7 @@ abbr {
 .inline-form fieldset, .inline-form .inline-container {
   position: relative; }
 .inline-form input[type=submit], .inline-form button, .inline-form .btn {
-  font-size: 0.875em;
+  font-size: 0.875rem;
   padding: 0.65rem 1.3rem;
   background: #333;
   position: absolute;
@@ -983,26 +965,36 @@ abbr {
       margin: 0.65em 0.5em 0 0; } }
 
 /*------------------------------------*\
+    #FIELDS
+\*------------------------------------*/
+.c-field {
+  margin-bottom: 1rem; }
+
+.c-field__note {
+  font-size: 0.75rem; }
+  .c-field__note a {
+    text-decoration: underline; }
+
+/*------------------------------------*\
     #HEADER
 \*------------------------------------*/
 /**
  * Header
  */
-.header {
+.c-header {
   display: flex;
-  background: #fff;
-  padding: 0;
-  border-bottom: 1px solid #dbdbdb; }
+  align-items: center;
+  box-shadow: 0px 3px 5px -2px rgba(0, 0, 0, 0.2); }
 
 /**
- * Logo
+ * Header Controls
+ * 1) This container holds the primary nav and search menu
  */
-.logo {
-  max-width: 8rem;
-  margin: 0.4rem; }
-  @media all and (min-width: 46.8em) {
-    .logo {
-      max-width: 9rem; } }
+.c-header__controls {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  padding-right: 1rem; }
 
 /**
  * Nav toggle button
@@ -1020,6 +1012,20 @@ abbr {
     .nav-toggle {
       padding-left: 0.2rem;
       padding-right: 0.2rem; } }
+
+/*------------------------------------*\
+    #LOGO
+\*------------------------------------*/
+.c-logo {
+  display: block; }
+  .c-box__header .c-logo {
+    max-width: 12em;
+    margin: 0 auto; }
+
+.c-logo-link {
+  display: inline-block;
+  padding: 1rem;
+  max-width: 8rem; }
 
 /*------------------------------------*\
     #ICONS
@@ -1275,16 +1281,6 @@ abbr {
     margin-bottom: 1em; }
 
 /*------------------------------------*\
-    #MAIN CONTENT AREA
-\*------------------------------------*/
-/**
- * Main content area
- */
-[role=main] {
-  padding: 0.5em 0.5em 2em;
-  overflow: hidden; }
-
-/*------------------------------------*\
     #MESSAGING
 \*------------------------------------*/
 /**
@@ -1292,44 +1288,49 @@ abbr {
  */
 .alert {
   text-align: center;
-  padding: 1em;
-  margin-bottom: 0.5em;
-  border: 1px solid #808080;
-  background: #f9f9f9; }
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid #d9d9d9;
+  background: #f7f9f9; }
 
 /**
  * Error alert
  */
-.alert-error {
+.alert--error {
   color: #f00;
   border-color: #f00;
   background: #ffbebe; }
 
 /*------------------------------------*\
-    #NAVIGATION
+    #PRIMARY NAVIGATION
 \*------------------------------------*/
 /**
- * Navigation
+ * Navigation tag
  */
-.nav {
+.c-primary-nav {
   clear: both;
   overflow: hidden;
   max-height: 0; }
-  .nav a {
-    display: block;
-    padding: 1em;
-    border-top: 1px solid #eee; }
-  .nav.active {
+  .c-primary-nav.active {
     max-height: 40em; }
   @media all and (min-width: 46.8em) {
-    .nav {
+    .c-primary-nav {
       max-height: none;
-      float: right;
-      clear: none; }
-      .nav li {
-        float: left; }
-      .nav a {
-        border: 0; } }
+      margin-right: 1rem; } }
+
+/**
+ * Nav List
+ */
+.c-primary-nav__list {
+  display: flex; }
+
+/**
+ * Nav Links
+ */
+.c-primary-nav__link {
+  font-weight: bold;
+  display: block;
+  padding: 1rem; }
 
 /**
  * Pagination
@@ -1350,14 +1351,15 @@ abbr {
 /**
  * Section
  */
-.section {
+.c-section {
   margin: 0 0 1em; }
 
 /**
  * Section title
  */
-.section-title {
-  margin-bottom: 0.5em; }
+.c-section__title {
+  color: #222222;
+  margin-bottom: 1rem; }
 
 /*------------------------------------*\
     #TABS
@@ -1393,7 +1395,7 @@ abbr {
  * Intro
  */
 .intro {
-  font-size: 1.0625em;
+  font-size: 1.0625rem;
   font-weight: bold; }
 
 /**
@@ -1401,7 +1403,7 @@ abbr {
  */
 .pullquote {
   font-family: Georgia, Times, "Times New Roman", serif;
-  font-size: 1.4375em; }
+  font-size: 1.4375rem; }
 
 /**
  * Caption
@@ -1469,6 +1471,26 @@ abbr {
       width: 30em; } }
 
 /*------------------------------------*\
+    #BOX
+\*------------------------------------*/
+/**
+ * 1) This component is a modal-like
+ */
+.c-box {
+  border: 1px solid #808080;
+  border-radius: 6px;
+  padding: 2rem;
+  margin: 2rem;
+  align-self: center;
+  justify-content: center;
+  max-width: 32em;
+  margin: 2rem auto; }
+
+.c-box__header {
+  text-align: center;
+  margin-bottom: 2rem; }
+
+/*------------------------------------*\
     $LAYOUT
 \*------------------------------------*/
 /*------------------------------------*\
@@ -1477,10 +1499,10 @@ abbr {
 /**
  * Layout container
  */
-.lc, .header, [role=main] {
-  max-width: 72em;
+.l {
+  max-width: 80em;
   margin: 0 auto;
-  padding: 0.5em; }
+  padding: 1rem; }
 
 /*------------------------------------*\
     #TEMPLATES
@@ -1488,20 +1510,20 @@ abbr {
 /**
  * 2 column layout
  */
-.l-two-col {
+.l--two-col {
   /**
    * Sidebar
    */ }
   @media all and (min-width: 50em) {
-    .l-two-col .l-main {
+    .l--two-col .l-main {
       float: left;
       width: 70%;
       padding-right: 1em; } }
   @media all and (max-width: 50em) {
-    .l-two-col .l-sidebar {
+    .l--two-col .l-sidebar {
       clear: both; } }
   @media all and (min-width: 50em) {
-    .l-two-col .l-sidebar {
+    .l--two-col .l-sidebar {
       float: left;
       width: 30%;
       padding: 0 0 0 1em; } }
@@ -1526,12 +1548,6 @@ abbr {
   @media all and (min-width: 46.8em) {
     .gi {
       float: left; } }
-
-/**
- * 1 up grid
- */
-.g-1up .gi {
-  width: 100%; }
 
 /**
  * 2 up grid
@@ -1648,30 +1664,5 @@ abbr {
       clear: none; }
     .g-max5 > .gi:nth-of-type(5n+1) {
       clear: left; } }
-
-/**
- * Grid item 2 up to 3 up
- */
-@media all and (min-width: 46.8em) {
-  .gi-2-3 {
-    float: left;
-    width: 66.666666%; } }
-
-/**
- * Grid item 1 up to 3 up
- */
-@media all and (min-width: 46.8em) {
-  .gi-1-3 {
-    float: left;
-    width: 33.333333%; } }
-
-/**
- * Grid 4 up block
- */
-.g-opposites .gi {
-  float: left; }
-  .g-opposites .gi:last-child {
-    float: right;
-    text-align: right; }
 
 /*# sourceMappingURL=style.css.map */
