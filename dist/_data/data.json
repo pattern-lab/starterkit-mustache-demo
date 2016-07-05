@@ -21,10 +21,6 @@
     "avatar" : {
       "src" : "../../images/fpo_avatar.png",
       "alt" : "Person Name"
-    },
-    "rectangle": {
-      "src": "http://placeimg.com/400/300/tech",
-      "alt": "Rectangle"
     }
   },
   "imgSquare" : {
@@ -36,12 +32,12 @@
       "alt": "Hero Image"
   },
   "imgLandscape" : {
-	  "src": "../../images/fpo_landscape.png",
+	  "src": "",
       "alt": "Landscape Image"
   },
   "headline" : {
     "short" : "Lorem ipsum dolor sit (37 characters)",
-    "medium" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. (72 characters)"
+    "medium" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit iopa. (76 characters)"
   },
   "excerpt" : {
     "short" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
@@ -49,13 +45,13 @@
     "long" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   "primaryNav" : [
+      {
+		  "label": "About",
+		  "url": "link.pages-about"
+	  },
 	  {
 		  "label": "Blog",
 		  "url": "link.pages-blog-index"
-	  },
-	  {
-		  "label": "About",
-		  "url": "link.pages-about"
 	  },
 	  {
 		  "label": "Contact",
@@ -94,7 +90,7 @@
 	  	  "type": "password",
 	  	  "placeholder": "Password",
 	  	  "value": "",
-		  "fieldNote": "Minimum of 6 characters"
+		  "fieldNote": "Minimum of 6 characters. <a href='#'>Forgot password?</a>"
 	    }
 	}
   ],

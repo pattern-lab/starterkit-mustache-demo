@@ -7,7 +7,10 @@
  */
 body {
 	background: $white;
-	color: $gray-dark;
+	color: $color-gray-50;
 	font: 100%/1.5 $font;
 	-webkit-text-size-adjust: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
 }

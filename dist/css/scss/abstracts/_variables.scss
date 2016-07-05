@@ -91,7 +91,6 @@ $gray: #808080;
 $gray-light: #f9f9f9;
 $gray-light-2: #eee;
 $gray-light-3: #ddd;
-$gray-med: #666;
 $gray-dark: #333;
 $gray-dark-2: #131313;
 $white: #fff;
@@ -128,7 +127,7 @@ $font-size-large : 1.4375rem;
 /*------------------------------------*\
     #LAYOUT
 \*------------------------------------*/
-$max-width: 72em;
+$l-max-width: 80em;
 
 /**
  * Spacing Defaults
@@ -149,13 +148,39 @@ $pad-quarter :$pad/4;
 
 
 /*------------------------------------*\
-    #Borders
+    #BORDERS
 \*------------------------------------*/
+
 /**
- * Borders
+ * Border Width
  */
 $border-med: 3px;
 $border-thick: 7px;
+
+/**
+ * Border Radius
+ */
+$border-radius: 6px;
+
+
+
+
+
+/*------------------------------------*\
+    #ANIMATION
+\*------------------------------------*/
+
+/**
+ * Animation Duration
+ */
+$anim-speed-quick: 0.2s;
+
+/**
+ * Animation Easing
+ */
+$anim-ease: ease;
+
+
 
 
 /*------------------------------------*\

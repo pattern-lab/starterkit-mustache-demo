@@ -5,10 +5,10 @@
 /**
  * Layout container
  */
-.lc {
-	max-width: $max-width;
+.l {
+	max-width: $l-max-width;
 	margin: 0 auto;
-	padding: $pad-half;
+	padding: 1rem;
 }
 
 
@@ -22,7 +22,7 @@
 /**
  * 2 column layout
  */
-.l-two-col {
+.l--two-col {
 
 	.l-main {
 		@media all and (min-width: $bp-large) {
@@ -73,15 +73,6 @@
 
 	@media all and (min-width: $bp-med) {
 		float: left;
-	}
-}
-
-/**
- * 1 up grid
- */
-.g-1up {
-	.gi {
-		width: 100%;
 	}
 }
 
@@ -287,40 +278,6 @@
 			&:nth-of-type(5n+1) {
 				clear: left;
 			}
-		}
-	}
-}
-
-/**
- * Grid item 2 up to 3 up
- */
-.gi-2-3 {
-	@media all and (min-width: $bp-med) {
-		float: left;
-		width: 66.666666%;
-	}
-}
-
-/**
- * Grid item 1 up to 3 up
- */
-.gi-1-3 {
-	@media all and (min-width: $bp-med) {
-		float: left;
-		width: 33.333333%;
-	}
-}
-
-/**
- * Grid 4 up block
- */
-.g-opposites {
-	.gi {
-		float: left;
-
-		&:last-child {
-			float: right;
-			text-align: right;
 		}
 	}
 }

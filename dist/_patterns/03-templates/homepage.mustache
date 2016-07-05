@@ -1,16 +1,15 @@
 {{> organisms-header }}
 <main role="main">
-	{{# alert }}
-		{{> molecules-alert:error }}
-	{{/ alert }}
 
 	{{# hero }}
 		{{> molecules-block-hero }}
 	{{/ hero}}
 
-	{{> organisms-tout-list }}
+	<div class="l">
+		{{> organisms-tout-list }}
+	</div>
 
-	<div class="l-two-col">
+	<div class="l l--two-col">
 		<div class="l-main">
 			{{> organisms-section-media-list }}
 		</div><!--end .l-main-->
@@ -18,7 +17,6 @@
 		<div class="l-sidebar">
 
 		</div><!--end .l-sidebar-->
-	</div><!--end .l-two-col-->
-
+	</div><!--end l--two-col-->
 </main>
 {{> organisms-footer }}

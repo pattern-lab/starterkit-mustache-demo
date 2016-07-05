@@ -3,14 +3,6 @@
 \*------------------------------------*/
 
 /**
- * Form ordered list and unordered list base styles
- */
-form ol, form ul {
-	list-style: none;
-	margin-left: 0;
-}
-
-/**
  * Fieldset base styles
  */
 fieldset {
@@ -24,7 +16,8 @@ fieldset {
  */
 label {
 	display: block;
-	padding-bottom: $space-half;
+	padding-bottom: 0.2rem;
+	font-weight: bold;
 }
 
 /**
@@ -43,8 +36,9 @@ button, input, select, textarea {
  */
 input, textarea {
 	width: 100%;
-	border: 1px solid $gray;
-	padding: $pad-half 0.65rem;
+	border: 1px solid $color-gray-35;
+	border-radius: $border-radius;
+	padding: 0.5rem;
 }
 
 /**
@@ -72,13 +66,6 @@ input[type="checkbox"],
 input[type="radio"] {
     width: auto;
     margin-right: 0.3em;
-}
-
-/**
- * Search input base styles
- */
-input[type="search"] {
-    border-radius: 0;
 }
 
 /**

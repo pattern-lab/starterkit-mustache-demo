@@ -11,15 +11,17 @@
 	color: $white;
 	line-height: 1;
 	font-weight: bold;
-	padding: $pad;
+	padding: 1rem 2rem;
 	border: 0;
+	border-radius: $border-radius;
 	text-align: center;
-	
+	transition: background 0.2s ease;
+
 	&:hover, &:focus {
 		background: $gray;
 		color: $white;
 	}
-	
+
 	/**
 	 * Disabled button
 	 */

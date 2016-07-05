@@ -3,63 +3,39 @@
 \*------------------------------------*/
 
 /**
- * Brick
- */
-.brick {
-	background: #dcdddc;
-	padding: $pad-double;
-	text-align: center;
-	font-weight: bold;
-	border-bottom: 1px solid $gray-light-2;
-}
-
-/**
- * Block
- */
-.block {
-	overflow: hidden;
-
-	p:last-child {
-		margin-bottom: 0;
-	}
-}
-
-/**
- * Headline
- */
-.headline {
-	line-height: 1.2;
-}
-
-/**
- * Block hero
+ * Hero
  */
 .block-hero {
-	margin-bottom: $space-half;
-	
-	/**
-	 * Block thumbnail within hero
-	 */
-	.b-thumb {
-		img {
-			display: block;
-		}
-	}
-
-	@media all and (min-width: $bp-large) {
-		position: relative;
-
-		.b-text {
-			position: absolute;
-			bottom: 0;
-			left: 0;
-			width: 100%;
-			background: $dim;
-			color: $white;
-			padding: $pad-and-half;
-		}
-	}
+    display: block;
+    position: relative;
 }
+
+.block-hero__img {
+    display: block;
+    width: 100%;
+    max-height: 50vh;
+    object-fit: cover;
+}
+
+.block-hero__headline {
+    background: $dim;
+    color: $color-white;
+    padding: 1rem;
+    font-size: 2.6rem;
+    transition: all $anim-speed-quick $anim-ease;
+
+    @media all and (min-width: $bp-large) {
+        position: absolute;
+        top: 3rem;
+        left: 1rem;
+        width: 50%;
+        border-radius: $border-radius;
+    }
+
+    .block-hero:hover &, .block-hero:focus & {
+        background: $color-gray-73;
+    }
+ }
 
 /**
  * Block thumbnail
@@ -68,7 +44,7 @@
 	display: table;
 	width: 100%;
 	border-collapse: collapse;
-	
+
 	/**
 	 * Inner block
 	 */
@@ -77,14 +53,14 @@
 		vertical-align: top;
   		overflow: hidden;
 	}
-	
+
 	/**
 	 * B-thumb within block thumbnail
 	 */
 	.b-thumb {
 		@media all and (min-width: $bp-small-2) {
 			display: table-cell;
-			vertical-align: top;	
+			vertical-align: top;
 	  		width: 30%;
 	  		max-width: 10em;
 
@@ -95,7 +71,7 @@
 	 		}
  		}
 	}
-	
+
 	/**
 	 * Block text
 	 */
@@ -109,19 +85,9 @@
 }
 
 /**
- * Block headline summary
+ * Block Tout
  */
-.block-headline-summary {
-	a {
-		display: block;
-		padding: $pad-half;
-	}
-}
-
-/**
- * Block inset
- */
-.block-inset {
+.block-tout {
 	position: relative;
 
 	.b-thumb {
@@ -135,44 +101,31 @@
 }
 
 /**
- * Block inset
+ * Block Tout
  */
-.block-inset {
+.block-tout {
+    display: block;
 	margin-bottom: $space-half;
 	position: relative;
-	
-	/**
-	 * Block headline within block inset
-	 */
-	.headline {
-		font-size: 1.1em;
-	}
-	
-	/**
-	 * Block text within block inset
-	 */
-	.b-text {
-		position: absolute;
-		bottom: 0;
-		left: 0;
-		width: 100%;
-		background: $dim;
-		color: $white;
-		padding: $pad-half;
-	}
+    overflow: hidden;
+    border-radius: $border-radius;
 }
 
 /**
- * Block thumb summary
+ * Block headline within block inset
  */
-.block-thumb-summary {
-	.b-thumb {
-		float: left;
-		width: 50%;
-	}
+.block-tout__headline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: $dim;
+    color: $white;
+    padding: $pad-half;
+    font-size: 1.1rem;
+    transition: all $anim-speed-quick $anim-ease;
 
-	.b-text {
-		margin-left: 50%;
-		padding: $pad-half;
-	}
+    .block-tout:hover &, .block-tout:focus & {
+        padding-bottom: 2rem;
+    }
 }

@@ -5,13 +5,14 @@
 /**
  * Section
  */
-.section {
+.c-section {
 	margin: 0 0 $space;
 }
 
 /**
  * Section title
  */
-.section-title {
-	margin-bottom: $space-half;
+.c-section__title {
+	color: $color-gray-87;
+	margin-bottom: 1rem;
 }

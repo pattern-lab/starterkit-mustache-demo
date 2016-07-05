@@ -5,16 +5,13 @@
 /**
  * Footer
  */
-.footer {
+.c-footer {
 	clear: both;
 	overflow: hidden;
-	background: $gray-dark-2;
-	color: $white;
+	background: $color-gray-87;
+	color: $color-white;
 	line-height: 1.2;
-
-	a {
-		color: $gray-light;
-	}
+	padding: 1rem;
 }
 
 /**
@@ -42,7 +39,5 @@
  * Copyright text
  */
 .copyright {
-	@media all and (min-width: $bp-med) {
-		float: right;
-	}
+
 }

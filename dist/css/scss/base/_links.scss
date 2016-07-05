@@ -9,7 +9,7 @@ a {
 	color: $color-gray-50;
 	text-decoration: none;
 	outline: 0;
-	transition: all 0.2s ease;
+	transition: all $anim-speed-quick $anim-ease;
 
 	&:hover, &:focus {
 		color: $color-gray-73;

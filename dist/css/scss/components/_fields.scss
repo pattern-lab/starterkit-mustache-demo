@@ -1,0 +1,15 @@
+/*------------------------------------*\
+    #FIELDS
+\*------------------------------------*/
+
+.c-field {
+	margin-bottom: 1rem;
+}
+
+.c-field__note {
+	font-size: $font-size-small;
+
+	a {
+		text-decoration: underline;
+	}
+}
