@@ -67,6 +67,13 @@
  */
 .c-block-media {
 	display: flex;
+	transition: all $anim-speed-quick $anim-ease;
+	
+	&:hover, &:focus {	
+		.c-block-media__headline, .c-block-media__excerpt {
+			color: $color-black;
+		}
+	}
 
 	&--small {
 		font-size: $font-size-small-2;
@@ -95,6 +102,10 @@
 }
 
 .c-block-media__headline {
+	margin-bottom: 0.2em;
+	color: $color-gray-65;
+	transition: all $anim-speed-quick $anim-ease;
+	
 	.c-block-media--small & {
 		font-size: $font-size-med;
 	}
@@ -105,6 +116,9 @@
 }
 
 .c-block-media__excerpt {
+	color: $color-gray-35;
+	transition: all $anim-speed-quick $anim-ease;
+	
 	.c-block-media--small & {
 		margin-bottom: 0;
 		line-height: 1.2;

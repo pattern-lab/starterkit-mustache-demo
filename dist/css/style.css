@@ -716,7 +716,10 @@ abbr {
  * 2) For more info, read http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/
  */
 .c-block-media {
-  display: flex; }
+  display: flex;
+  transition: all 0.2s ease; }
+  .c-block-media:hover .c-block-media__headline, .c-block-media:hover .c-block-media__excerpt, .c-block-media:focus .c-block-media__headline, .c-block-media:focus .c-block-media__excerpt {
+    color: #000; }
   .c-block-media--small {
     font-size: 0.875rem; }
 
@@ -735,15 +738,22 @@ abbr {
 .c-block-media--small .c-block-media__img {
   border-radius: 6px; }
 
-.c-block-media--small .c-block-media__headline {
-  font-size: 1rem; }
+.c-block-media__headline {
+  margin-bottom: 0.2em;
+  color: #595959;
+  transition: all 0.2s ease; }
+  .c-block-media--small .c-block-media__headline {
+    font-size: 1rem; }
 
 .c-block-media__body {
   flex: 1; }
 
-.c-block-media--small .c-block-media__excerpt {
-  margin-bottom: 0;
-  line-height: 1.2; }
+.c-block-media__excerpt {
+  color: #a5a5a5;
+  transition: all 0.2s ease; }
+  .c-block-media--small .c-block-media__excerpt {
+    margin-bottom: 0;
+    line-height: 1.2; }
 
 /*------------------------------------*\
 	#TOUT BLOCK
@@ -1294,7 +1304,7 @@ abbr {
  * Media List
  */
 .c-media-list__item {
-  margin-bottom: 0.2em; }
+  margin-bottom: 1.5em; }
 
 /*------------------------------------*\
     #MESSAGING
@@ -1369,6 +1379,16 @@ abbr {
  */
 .c-section {
   margin: 0 0 1em; }
+  @media all and (min-width: 39.8em) {
+    .l-sidebar .c-section {
+      margin-right: 2em;
+      width: 50%; }
+      .l-sidebar .c-section:last-child {
+        margin-right: 0; } }
+  @media all and (min-width: 50em) {
+    .l-sidebar .c-section {
+      width: 100%;
+      margin-right: 0; } }
 
 /**
  * Section title
@@ -1527,22 +1547,26 @@ abbr {
  * 2 column layout
  */
 .l--two-col {
+  display: flex;
+  flex-direction: column;
   /**
    * Sidebar
    */ }
   @media all and (min-width: 50em) {
     .l--two-col .l-main {
-      float: left;
       width: 70%;
       padding-right: 1em; } }
-  @media all and (max-width: 50em) {
+  @media all and (min-width: 39.8em) {
     .l--two-col .l-sidebar {
-      clear: both; } }
+      display: flex; } }
   @media all and (min-width: 50em) {
     .l--two-col .l-sidebar {
-      float: left;
+      flex-direction: column;
       width: 30%;
       padding: 0 0 0 1em; } }
+  @media all and (min-width: 50em) {
+    .l--two-col {
+      flex-direction: row; } }
 
 /*------------------------------------*\
     #GRIDS

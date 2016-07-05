@@ -23,10 +23,11 @@
  * 2 column layout
  */
 .l--two-col {
+	display: flex;
+	flex-direction: column;
 
 	.l-main {
 		@media all and (min-width: $bp-large) {
-			float: left;
 			width: 70%;
 			padding-right: $pad;
 		}
@@ -36,15 +37,21 @@
 	 * Sidebar
 	 */
 	.l-sidebar {
-		@media all and (max-width: $bp-large) {
-			clear: both;
+		
+		@media all and (min-width:$bp-small-3) {
+			display: flex;
 		}
 
+
 		@media all and (min-width: $bp-large) {
-			float: left;
+			flex-direction: column;
 			width: 30%;
 			padding: 0 0 0 $pad;
 		}
+	}
+	
+	@media all and (min-width: $bp-large) {
+		flex-direction: row;
 	}
 }
 

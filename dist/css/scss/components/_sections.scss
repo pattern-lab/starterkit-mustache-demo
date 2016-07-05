@@ -7,6 +7,22 @@
  */
 .c-section {
 	margin: 0 0 $space;
+	
+	.l-sidebar & {	
+		@media all and (min-width: $bp-small-3) {
+			margin-right: 2em;
+			width: 50%;
+			
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+		
+		@media all and (min-width: $bp-large) {
+			width: 100%;
+			margin-right: 0;
+		}
+	}
 }
 
 /**

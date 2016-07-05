@@ -5,6 +5,10 @@
 		"mediaList": [
 			{
 				"styleModifier" : "small",
+				"imgSquare" : {
+					"src": "../../../images/sample/blog-mtns.jpg",
+					"alt": "mountain range"
+				},
 				"headline" : {
 					"short" : "Where to Find Hiking Equipment"
 				},
@@ -15,6 +19,10 @@
 			},
 			{
 				"styleModifier" : "small",
+				"imgSquare" : {
+					"src": "../../../images/sample/blog-trees2.jpg",
+					"alt": "forest of trees"
+				},
 				"headline" : {
 					"short" : "What to Do During a Sasquatch Attack"
 				},
@@ -25,6 +33,10 @@
 			},
 			{
 				"styleModifier" : "small",
+				"imgSquare" : {
+					"src": "../../../images/sample/blog-hiker.jpg",
+					"alt": "hiker with backpack"
+				},
 				"headline" : {
 					"short" : "Top 10 Worst People to Hike With"
 				},
@@ -42,6 +54,10 @@
 		"mediaList": [
 			{
 				"styleModifier" : "small",
+				"imgSquare" : {
+					"src": "../../../images/sample/avatar4.jpg",
+					"alt": "avatar"
+				},
 				"headline" : {
 					"short" : "Danny DeVito"
 				},
@@ -52,6 +68,10 @@
 			},
 			{
 				"styleModifier" : "small",
+				"imgSquare" : {
+					"src": "../../../images/sample/avatar6.jpg",
+					"alt": "avatar"
+				},
 				"headline" : {
 					"short" : "Sally Jessy Raphael"
 				},
@@ -62,6 +82,10 @@
 			},
 			{
 				"styleModifier" : "small",
+				"imgSquare" : {
+					"src": "../../../images/sample/avatar5.jpg",
+					"alt": "avatar"
+				},
 				"headline" : {
 					"short" : "Charlie Chaplin"
 				},
@@ -70,6 +94,8 @@
 				}
 				
 			}
-		]
+		],
+		"textButton" : true,
+		"btnText" : "View All Hikers"
 	}
 }
