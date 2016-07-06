@@ -595,83 +595,13 @@ abbr {
     $COMPONENTS
 \*------------------------------------*/
 /*------------------------------------*\
-    #ACCORDION
-\*------------------------------------*/
-/**
- * Accordion
- */
-.accordion {
-  margin-bottom: 1em; }
-
-/**
- * Accordion handle
- */
-.acc-handle {
-  background: #131313;
-  color: #fff;
-  font-family: Georgia, Times, "Times New Roman", serif;
-  font-weight: bold;
-  display: block;
-  position: relative;
-  padding: 0.5em;
-  border-bottom: 1px solid #ddd; }
-  .acc-handle:after {
-    content: "+";
-    float: right; }
-  .acc-handle:hover {
-    color: #fff;
-    background: #333; }
-  .acc-handle.active {
-    background: #333; }
-    .acc-handle.active:after {
-      content: "-"; }
-
-/*------------------------------------*\
-    #ARTICLE
-\*------------------------------------*/
-/**
- * Article Header
- */
-.article-header {
-  /**
-   * Article heading
-   */ }
-  .article-header h1 {
-    font-size: 2.5em; }
-
-/**
- * Article byline
- */
-.byline {
-  font-size: 0.875rem;
-  font-style: italic;
-  margin-bottom: 0.5em; }
-
-/**
- * Social share
- */
-.social-share {
-  overflow: hidden;
-  margin-bottom: 1em; }
-  .social-share li {
-    float: left;
-    margin-right: 0.5em; }
-  .social-share a {
-    background: #333;
-    color: #fff;
-    display: block;
-    padding: 0.5em; }
-    .social-share a:hover {
-      background: #808080; }
-
-/*------------------------------------*\
     #BLOCKS
 \*------------------------------------*/
 /**
  * 1) Blocks are collections of text and/or images/media working together as a unit.
  */
 /*------------------------------------*\
-	#MEDIA BLOCK
+	#HERO BLOCK
 \*------------------------------------*/
 .c-block-hero {
   display: block;
@@ -779,7 +709,7 @@ abbr {
   background: rgba(0, 0, 0, 0.5);
   color: #fff;
   padding: 0.5em;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   transition: all 0.2s ease; }
   .c-block-tout:hover .c-block-tout__headline, .c-block-tout:focus .c-block-tout__headline {
     padding-bottom: 2rem; }
