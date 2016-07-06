@@ -98,7 +98,19 @@
   ],
   "hero": true,
   "alert": true,
-  "latestPosts" : true,
+  "latestPosts" : {
+		"mediaList": [
+			{
+				"styleModifier" : "small"	
+			},
+			{
+				"styleModifier" : "small"	
+			},
+			{
+				"styleModifier" : "small"	
+			}
+		]
+	},
   "featuredPeople" : {
 		"mediaList": [
 			{
