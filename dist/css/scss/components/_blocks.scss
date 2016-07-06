@@ -10,7 +10,7 @@
 
 
 /*------------------------------------*\
-	#MEDIA BLOCK
+	#HERO BLOCK
 \*------------------------------------*/
 .c-block-hero {
     display: block;
@@ -68,8 +68,8 @@
 .c-block-media {
 	display: flex;
 	transition: all $anim-speed-quick $anim-ease;
-	
-	&:hover, &:focus {	
+
+	&:hover, &:focus {
 		.c-block-media__headline, .c-block-media__excerpt {
 			color: $color-black;
 		}
@@ -89,7 +89,7 @@
 	max-width: 20em;
 	margin-right: 0.5rem;
 	border-radius: $border-radius;
-	
+
 	.c-block-media--small & {
 		max-width: 3.5em;
 	}
@@ -105,7 +105,7 @@
 	margin-bottom: 0.2em;
 	color: $color-gray-65;
 	transition: all $anim-speed-quick $anim-ease;
-	
+
 	.c-block-media--small & {
 		font-size: $font-size-med;
 	}
@@ -118,7 +118,7 @@
 .c-block-media__excerpt {
 	color: $color-gray-35;
 	transition: all $anim-speed-quick $anim-ease;
-	
+
 	.c-block-media--small & {
 		margin-bottom: 0;
 		line-height: 1.2;
@@ -152,7 +152,7 @@
     background: $dim;
     color: $white;
     padding: $pad-half;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     transition: all $anim-speed-quick $anim-ease;
 
     .c-block-tout:hover &, .c-block-tout:focus & {
