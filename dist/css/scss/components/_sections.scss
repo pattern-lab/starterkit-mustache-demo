@@ -29,6 +29,18 @@
  * Section title
  */
 .c-section__title {
+	position: relative;
 	color: $color-gray-87;
 	margin-bottom: 1rem;
+
+	&:after {
+	    content: "";
+	    display: block;
+	    position: absolute;
+	    width: 2rem;
+	    height: 0.3rem;
+	    top: 30px;
+	    left: 1px;
+	    background: $color-gray-15;
+	}
 }
