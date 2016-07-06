@@ -764,12 +764,27 @@ abbr {
  * Text button
  */
 .text-btn {
+  position: relative;
   background: none;
   border: none;
   font-style: normal;
-  font-weight: bold; }
+  font-weight: bold;
+  font-size: 1.2rem; }
+  .text-btn:after {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    background: url("../../../images/icon-arrowhead.svg") no-repeat;
+    top: 7px;
+    right: -26px;
+    transition: all 0.2s ease; }
   .text-btn:hover, .text-btn:focus {
     color: #444444; }
+    .text-btn:hover:after, .text-btn:focus:after {
+      right: -28px; }
+  .c-block-media--small .text-btn {
+    font-size: 1rem; }
 
 /*------------------------------------*\
     #CAROUSEL

@@ -53,12 +53,33 @@
  * Text button
  */
 .text-btn {
+	position: relative;
 	background: none;
     border: none;
     font-style: normal;
     font-weight: bold;
+    font-size: 1.2rem;
     
-    &:hover, &:focus {
+    &:after {
+	    position: absolute;
+		content: "";
+		height: 20px;
+		width: 20px;
+		background: url("../../../images/icon-arrowhead.svg") no-repeat;
+	    top: 7px;
+		right: -26px;
+		transition: all 0.2s ease;
+	}
+	
+	&:hover, &:focus {
 	    color: $color-gray-73;
+	    
+	    &:after {
+		    right: -28px;
+	    }
     }
+    
+    .c-block-media--small & {
+	    font-size: 1rem;
+	}
 }
