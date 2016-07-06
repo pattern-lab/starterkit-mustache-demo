@@ -1,14 +1,16 @@
 {{> organisms-header }}
 <main role="main">
-	<h1>Blog Index</h1>
 
-	<div class="l-two-col">
+	<div class="l l--two-col">
 		<div class="l-main">
+			<h1 class="page-title">{{ pageTitle }}</h1>
 			{{> organisms-section-media-list }}
 		</div><!--end .l-main-->
 
 		<div class="l-sidebar">
-			Sidebar
+			{{# featuredPeople }}
+			{{> organisms-section-media-list }}
+			{{/ featuredPeople }}
 		</div><!--end .l-sidebar-->
 	</div><!--end .l-two-col-->
 </main>

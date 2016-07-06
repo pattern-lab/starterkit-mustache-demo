@@ -4,6 +4,7 @@
 		"url" : "http://companyname.com"
 	},
 	"title" : "Pattern Lab",
+	"pageTitle": "Page Title",
 	"htmlClass": "pl",
 	"bodyClass": "body",
 	"btnText" : "Button",
