@@ -658,12 +658,16 @@ abbr {
  * 1) This is the container that holds the block image (or media)
  */
 .c-block-media__media {
-  width: 50%;
+  width: 20%;
   max-width: 11em;
-  margin-right: 1.5rem; }
+  margin-right: 1rem; }
   .c-block-media--small .c-block-media__media {
     max-width: 3.5em;
     margin-right: 0.5rem; }
+  @media all and (min-width: 46.8em) {
+    .c-block-media__media {
+      width: 50%;
+      margin-right: 1.5rem; } }
 
 .c-block-media__img {
   border-radius: 6px; }
@@ -923,14 +927,20 @@ abbr {
 /**
  * Search form
  */
-.search-form {
-  overflow: hidden;
-  max-height: 0; }
-  @media all and (min-width: 46.8em) {
-    .search-form {
-      float: right;
-      max-height: none;
-      margin: 0.65em 0.5em 0 0; } }
+.c-search-form {
+  display: none; }
+  .c-search-form--is-active {
+    display: block;
+    position: absolute;
+    top: 67px;
+    right: 2px;
+    width: 100%;
+    padding: 1em;
+    box-shadow: 0px 3px 5px -2px rgba(0, 0, 0, 0.2);
+    background: white; }
+  @media all and (min-width: 29.75em) {
+    .c-search-form {
+      display: block; } }
 
 /*------------------------------------*\
     #FIELDS
@@ -981,6 +991,12 @@ abbr {
       padding-left: 0.2rem;
       padding-right: 0.2rem; } }
 
+.nav-toggle-search {
+  display: block; }
+  @media all and (min-width: 29.75em) {
+    .nav-toggle-search {
+      display: none; } }
+
 /*------------------------------------*\
     #LOGO
 \*------------------------------------*/
@@ -993,7 +1009,7 @@ abbr {
 .c-logo-link {
   display: inline-block;
   padding: 1rem;
-  max-width: 8rem; }
+  width: 8rem; }
 
 /*------------------------------------*\
     #ICONS
@@ -1282,21 +1298,31 @@ abbr {
  * Navigation tag
  */
 .c-primary-nav {
-  clear: both;
-  overflow: hidden;
-  max-height: 0; }
-  .c-primary-nav.active {
-    max-height: 40em; }
+  display: none; }
+  .c-primary-nav--is-active {
+    display: block;
+    position: absolute;
+    padding: 1em 2em;
+    top: 67px;
+    right: 0;
+    box-shadow: -3px 3px 5px -2px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    background: #fff; }
   @media all and (min-width: 46.8em) {
     .c-primary-nav {
-      max-height: none;
+      display: block;
       margin-right: 1rem; } }
 
 /**
  * Nav List
  */
 .c-primary-nav__list {
-  display: flex; }
+  display: none; }
+  @media all and (min-width: 48em) {
+    .c-primary-nav__list {
+      display: flex; } }
+  .c-primary-nav--is-active .c-primary-nav__list {
+    display: block; }
 
 /**
  * Nav Links
@@ -1410,6 +1436,22 @@ abbr {
   margin: 0 0 1em 1.5em; }
   .text ol ol {
     margin-bottom: 0; }
+
+/**
+ * Page title
+ */
+.page-title {
+  padding: 1rem 1rem 0.5rem;
+  position: relative; }
+  .page-title:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 3rem;
+    height: 0.5rem;
+    bottom: 0;
+    left: 16px;
+    background: #d9d9d9; }
 
 /*------------------------------------*\
     #TOOLTIP

@@ -6,16 +6,21 @@
  * Navigation tag
  */
 .c-primary-nav {
-	clear: both;
-	overflow: hidden;
-	max-height: 0;
+	display: none;
 
-	&.active {
-		max-height: 40em;
+	&--is-active {
+		display: block;
+		position: absolute;
+		padding: 1em 2em;
+		top: 67px;
+		right: 0;
+		box-shadow: -3px 3px 5px -2px rgba(0, 0, 0, 0.2);
+		z-index: 1;
+		background: $color-white;
 	}
 
 	@media all and (min-width: $bp-med) {
-		max-height: none;
+		display: block;
 		margin-right: 1rem;
 	}
 }
@@ -24,7 +29,15 @@
  * Nav List
  */
 .c-primary-nav__list {
-	display: flex;
+	display: none;
+	
+	@media all and (min-width: $bp-med-2) {
+		display: flex;
+	}
+	
+	.c-primary-nav--is-active & {
+		display: block;
+	}
 }
 
 /**

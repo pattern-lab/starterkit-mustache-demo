@@ -69,13 +69,21 @@
 /**
  * Search form
  */
-.search-form {
-	overflow: hidden;
-	max-height: 0;
+.c-search-form {
+	display: none;
+	
+	&--is-active {
+		display: block;
+	    position: absolute;
+		top: 67px;
+		right: 2px;
+		width: 100%;
+		padding: 1em;
+		box-shadow: 0px 3px 5px -2px rgba(0,0,0,0.2);
+		background: white;
+	}
 
-	@media all and (min-width: $bp-med) {
-		float: right;
-		max-height: none;
-		margin: 0.65em 0.5em 0 0;
+	@media all and (min-width: $bp-small-2) {
+		display: block;
 	}
 }

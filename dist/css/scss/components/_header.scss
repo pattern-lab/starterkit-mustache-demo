@@ -41,3 +41,11 @@
 		padding-right: 0.2rem;
 	}
 }
+
+.nav-toggle-search {
+	display: block;
+	
+	@media all and (min-width: $bp-small-2) {
+		display: none;
+	}
+}
