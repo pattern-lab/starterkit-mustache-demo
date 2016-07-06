@@ -659,13 +659,13 @@ abbr {
  */
 .c-block-media__media {
   width: 50%;
-  max-width: 20em;
-  margin-right: 0.5rem;
-  border-radius: 6px; }
+  max-width: 11em;
+  margin-right: 1.5rem; }
   .c-block-media--small .c-block-media__media {
-    max-width: 3.5em; }
+    max-width: 3.5em;
+    margin-right: 0.5rem; }
 
-.c-block-media--small .c-block-media__img {
+.c-block-media__img {
   border-radius: 6px; }
 
 .c-block-media__headline {
@@ -676,6 +676,9 @@ abbr {
     font-size: 1rem; }
 
 .c-block-media__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   flex: 1; }
 
 .c-block-media__excerpt {

@@ -32,7 +32,7 @@
       "alt": "Hero Image"
   },
   "imgLandscape" : {
-	  "src": "",
+	  "src": "../../images/fpo_16x9.png",
       "alt": "Landscape Image"
   },
   "headline" : {
@@ -98,7 +98,20 @@
   "hero": true,
   "alert": true,
   "latestPosts" : true,
-  "featuredPeople" : true,
+  "featuredPeople" : {
+		"mediaList": [
+			{
+				"styleModifier" : "small"	
+			},
+			{
+				"styleModifier" : "small"	
+			},
+			{
+				"styleModifier" : "small"	
+			}
+		]
+	},
+
   "toutList": [
     { },
     { },

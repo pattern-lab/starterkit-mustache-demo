@@ -47,44 +47,98 @@
 		}
 	],
 	"latestPosts" : {
-		"sectionTitle": "Latest from the blog",
+		"sectionTitle": "Latest From the Blog",
 		"mediaList": [
 			{
+				"imgSquare" : {
+					"src": "../../../images/sample/blog-mtns3.jpg",
+					"alt": "red mountains"
+				},
 				"headline" : {
-					"short" : "Where to Poop In The Woods"
+					"short" : "Hardest Hikes in the World"
+				},
+				"excerpt" : {
+					"medium" : "The world delivers a multitude of daunting hikes. How difficult? We have listed some of the most strenuous hikes in the world."
 				}
+				
 			},
 			{
+				"imgSquare" : {
+					"src": "../../../images/sample/blog-trees.jpg",
+					"alt": "road with trees"
+				},
 				"headline" : {
-					"short" : "Where to Poop In The Woods"
+					"short" : "How to Survive in the Woods"
+				},
+				"excerpt" : {
+					"medium" : "Picture yourself alone in the wilderness with only a backpack full of your belongings for 2 weeks. Here are some tips and suggestions on how to survive the hazards that Mother Nature has to offer."
 				}
+				
 			},
 			{
+				"imgSquare" : {
+					"src": "../../../images/sample/blog-mtns2.jpg",
+					"alt": "mountain and lake"
+				},
 				"headline" : {
-					"short" : "Where to Poop In The Woods"
+					"short" : "Top 10 Best Locations to Hike in the U.S."
+				},
+				"excerpt" : {
+					"medium" : "You do not have to travel far to explore what nature has to offer. The U.S. contains some of the best sights in the world and we have listed the 10 best for you."
 				}
-			},
-			{
-				"headline" : {
-					"short" : "Where to Poop In The Woods"
-				}
-			},
-			{
-				"headline" : {
-					"short" : "Where to Poop In The Woods"
-				}
-			},
-			{
-				"headline" : {
-					"short" : "Where to Poop In The Woods"
-				}
-			},
-			{
-				"headline" : {
-					"short" : "Where to Poop In The Woods"
-				}
+				
 			}
-		]
+		],
+		"textButton" : true,
+		"btnText" : "View All Posts"
 	},
-	"button" : true
+	"featuredPeople" : {
+		"sectionTitle" : "Featured Hikers",
+		"mediaList": [
+			{
+				"styleModifier" : "small",
+				"imgSquare" : {
+					"src": "../../../images/sample/avatar1.jpg",
+					"alt": "avatar"
+				},
+				"headline" : {
+					"short" : "Jimmy Stewart"
+				},
+				"excerpt" : {
+					"medium" : "Indiana, PA"
+				}
+				
+			},
+			{
+				"styleModifier" : "small",
+				"imgSquare" : {
+					"src": "../../../images/sample/avatar2.jpg",
+					"alt": "avatar"
+				},
+				"headline" : {
+					"short" : "Janice Kimble"
+				},
+				"excerpt" : {
+					"medium" : "Los Angeles, CA"
+				}
+				
+			},
+			{
+				"styleModifier" : "small",
+				"imgSquare" : {
+					"src": "../../../images/sample/avatar3.jpg",
+					"alt": "avatar"
+				},
+				"headline" : {
+					"short" : "Salvadore Dali XIV"
+				},
+				"excerpt" : {
+					"medium" : "Sheboygan, WI"
+				}
+				
+			}
+		],
+		"textButton" : true,
+		"btnText" : "View All Hikers"
+	}
 }

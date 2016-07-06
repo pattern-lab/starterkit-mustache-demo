@@ -86,19 +86,17 @@
  */
 .c-block-media__media {
 	width: 50%;
-	max-width: 20em;
-	margin-right: 0.5rem;
-	border-radius: $border-radius;
+	max-width: 11em;
+	margin-right: 1.5rem;
 
 	.c-block-media--small & {
 		max-width: 3.5em;
+		margin-right: 0.5rem;
 	}
 }
 
 .c-block-media__img {
-	.c-block-media--small & {
-		border-radius: $border-radius;
-	}
+	border-radius: $border-radius;
 }
 
 .c-block-media__headline {
@@ -112,6 +110,9 @@
 }
 
 .c-block-media__body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	flex: 1;
 }
 
