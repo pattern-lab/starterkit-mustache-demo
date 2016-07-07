@@ -1346,6 +1346,25 @@ abbr {
     padding: 1em; }
 
 /*------------------------------------*\
+    #PAGE HEADER
+\*------------------------------------*/
+/**
+ * 1) The page header contains the page's heading, as perhaps other page information
+ *    such as description or actions (edit, delete, etc).
+ */
+.c-page-header__title {
+  padding: 1rem 0 0.5rem;
+  position: relative; }
+  .c-page-header__title:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 3rem;
+    height: 0.5rem;
+    bottom: 0;
+    background: #d9d9d9; }
+
+/*------------------------------------*\
     #SECTIONS
 \*------------------------------------*/
 /**
@@ -1412,26 +1431,6 @@ abbr {
     #TEXT
 \*------------------------------------*/
 /**
- * Intro
- */
-.intro {
-  font-size: 1.0625rem;
-  font-weight: bold; }
-
-/**
- * Pullquote
- */
-.pullquote {
-  font-family: Georgia, Times, "Times New Roman", serif;
-  font-size: 1.4375rem; }
-
-/**
- * Caption
- */
-.caption {
-  font-style: italic; }
-
-/**
  * Passages of text
  */
 .text a {
@@ -1446,22 +1445,6 @@ abbr {
   margin: 0 0 1em 1.5em; }
   .text ol ol {
     margin-bottom: 0; }
-
-/**
- * Page title
- */
-.page-title {
-  padding: 1rem 1rem 0.5rem;
-  position: relative; }
-  .page-title:after {
-    content: "";
-    display: block;
-    position: absolute;
-    width: 3rem;
-    height: 0.5rem;
-    bottom: 0;
-    left: 16px;
-    background: #d9d9d9; }
 
 /*------------------------------------*\
     #TOOLTIP
