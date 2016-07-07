@@ -50,6 +50,7 @@
 		"sectionTitle": "Latest From the Blog",
 		"mediaList": [
 			{
+				"url" : "link.pages-blog-detail",
 				"imgSquare" : {
 					"src": "../../../images/sample/blog-mtns3.jpg",
 					"alt": "red mountains"
@@ -63,6 +64,7 @@
 				
 			},
 			{
+				"url" : "link.pages-blog-detail",
 				"imgSquare" : {
 					"src": "../../../images/sample/blog-trees.jpg",
 					"alt": "road with trees"
@@ -76,6 +78,7 @@
 				
 			},
 			{
+				"url" : "link.pages-blog-detail",
 				"imgSquare" : {
 					"src": "../../../images/sample/blog-mtns2.jpg",
 					"alt": "mountain and lake"
