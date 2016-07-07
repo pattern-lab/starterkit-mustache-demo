@@ -124,6 +124,19 @@
 			}
 		]
 	},
+	"featuredHikes" : {
+		"mediaList": [
+			{
+				"styleModifier" : "small"	
+			},
+			{
+				"styleModifier" : "small"	
+			},
+			{
+				"styleModifier" : "small"	
+			}
+		]
+	},
 
   "toutList": [
     { },

@@ -130,5 +130,54 @@
 		],
 		"textButton" : true,
 		"btnText" : "View All Hikers"
+	},
+	"featuredHikes" : {
+		"sectionTitle" : "Featured Mountains",
+		"mediaList": [
+			{
+				"styleModifier" : "small",
+				"imgSquare" : {
+					"src": "../../../images/sample/blog-mtns.jpg",
+					"alt": "avatar"
+				},
+				"headline" : {
+					"short" : "Great Smoky Mountains"
+				},
+				"excerpt" : {
+					"medium" : "North Carolina"
+				}
+				
+			},
+			{
+				"styleModifier" : "small",
+				"imgSquare" : {
+					"src": "../../../images/sample/blog-mtns2.jpg",
+					"alt": "mountains"
+				},
+				"headline" : {
+					"short" : "Mt. Rainier"
+				},
+				"excerpt" : {
+					"medium" : "Washington"
+				}
+				
+			},
+			{
+				"styleModifier" : "small",
+				"imgSquare" : {
+					"src": "../../../images/sample/blog-mtns3.jpg",
+					"alt": "mountains"
+				},
+				"headline" : {
+					"short" : "Mt. Washington"
+				},
+				"excerpt" : {
+					"medium" : "New Hampshire"
+				}
+				
+			}
+		],
+		"textButton" : true,
+		"btnText" : "View All Hikes"
 	}
 }
