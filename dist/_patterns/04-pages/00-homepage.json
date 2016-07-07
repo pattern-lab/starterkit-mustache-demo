@@ -99,6 +99,7 @@
 		"sectionTitle" : "Featured Hikers",
 		"mediaList": [
 			{
+				"url" : "",
 				"styleModifier" : "small",
 				"imgSquare" : {
 					"src": "../../../images/sample/avatar1.jpg",
@@ -113,6 +114,7 @@
 				
 			},
 			{
+				"url" : "",
 				"styleModifier" : "small",
 				"imgSquare" : {
 					"src": "../../../images/sample/avatar2.jpg",
@@ -127,6 +129,7 @@
 				
 			},
 			{
+				"url" : "",
 				"styleModifier" : "small",
 				"imgSquare" : {
 					"src": "../../../images/sample/avatar3.jpg",
