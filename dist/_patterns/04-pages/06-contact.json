@@ -8,6 +8,7 @@
 		"sectionTitle" : "Latest Posts",
 		"mediaList": [
 			{
+				"url" : "link.pages-blog-detail",
 				"styleModifier" : "small",
 				"imgSquare" : {
 					"src": "../../../images/sample/blog-mtns3.jpg",
@@ -22,6 +23,7 @@
 				
 			},
 			{
+				"url" : "link.pages-blog-detail",
 				"styleModifier" : "small",
 				"imgSquare" : {
 					"src": "../../../images/sample/blog-trees.jpg",
@@ -36,6 +38,7 @@
 				
 			},
 			{
+				"url" : "link.pages-blog-detail",
 				"styleModifier" : "small",
 				"imgSquare" : {
 					"src": "../../../images/sample/blog-mtns2.jpg",
@@ -57,6 +60,7 @@
 		"sectionTitle" : "Featured Hikers",
 		"mediaList": [
 			{
+				"url" : "",
 				"styleModifier" : "small",
 				"imgSquare" : {
 					"src": "../../../images/sample/avatar1.jpg",
@@ -71,6 +75,7 @@
 				
 			},
 			{
+				"url" : "",
 				"styleModifier" : "small",
 				"imgSquare" : {
 					"src": "../../../images/sample/avatar2.jpg",
@@ -85,6 +90,7 @@
 				
 			},
 			{
+				"url" : "",
 				"styleModifier" : "small",
 				"imgSquare" : {
 					"src": "../../../images/sample/avatar3.jpg",
