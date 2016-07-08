@@ -1388,7 +1388,7 @@ abbr {
     width: 3rem;
     height: 0.5rem;
     bottom: 0;
-    background: #d9d9d9; }
+    background: #825534; }
 
 /*------------------------------------*\
     #SECTIONS
@@ -1424,7 +1424,7 @@ abbr {
     height: 0.3rem;
     top: 30px;
     left: 1px;
-    background: #d9d9d9; }
+    background: #5C832F; }
 
 /**
  * Section block
@@ -1598,6 +1598,12 @@ abbr {
   height: 0.5rem;
   border-radius: 6px;
   margin-bottom: 1em; }
+
+.c-progress::-moz-progress-bar {
+  background: #5C832F; }
+
+.c-progress::-webkit-progress-value {
+  background: #5C832F; }
 
 progress[value]::-webkit-progress-bar {
   border-radius: 6px; }

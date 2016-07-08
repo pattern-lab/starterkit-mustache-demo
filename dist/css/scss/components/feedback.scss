@@ -21,10 +21,20 @@
     border-radius: $border-radius;
     margin-bottom: 1em;
  }
+
+.c-progress::-moz-progress-bar {
+	background: #5C832F;
+}
+
+.c-progress::-webkit-progress-value {
+	background: #5C832F;
+}
+
  
 progress[value]::-webkit-progress-bar {
   border-radius: $border-radius;
 }
+
 .anim::-moz-progress-bar {
 	-moz-transition: width 4s ease;
 }

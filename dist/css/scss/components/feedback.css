@@ -10,9 +10,9 @@ Error: Undefined variable: "$border-radius".
 21:     border-radius: $border-radius;
 22:     margin-bottom: 1em;
 23:  }
-24:  
-25: progress[value]::-webkit-progress-bar {
-26:   border-radius: $border-radius;
+24: 
+25: .c-progress::-moz-progress-bar {
+26: 	background: #5C832F;
 
 Backtrace:
 ./scss/components/feedback.scss:21
@@ -67,4 +67,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$border-radius\".\A         on line 21 of ./scss/components/feedback.scss\A \A 16:     border: 1px solid rgba(0, 0, 0, 0.5);\A 17:     background: #cdcaa2;\A 18:     background-size: auto;\A 19:     width: 100%;\A 20:     height: 0.5rem;\A 21:     border-radius: $border-radius;\A 22:     margin-bottom: 1em;\A 23:  }\A 24:  \A 25: progress[value]::-webkit-progress-bar {\A 26:   border-radius: $border-radius;"; }
+  content: "Error: Undefined variable: \"$border-radius\".\A         on line 21 of ./scss/components/feedback.scss\A \A 16:     border: 1px solid rgba(0, 0, 0, 0.5);\A 17:     background: #cdcaa2;\A 18:     background-size: auto;\A 19:     width: 100%;\A 20:     height: 0.5rem;\A 21:     border-radius: $border-radius;\A 22:     margin-bottom: 1em;\A 23:  }\A 24: \A 25: .c-progress::-moz-progress-bar {\A 26: 	background: #5C832F;"; }
