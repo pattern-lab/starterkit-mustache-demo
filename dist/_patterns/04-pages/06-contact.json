@@ -1,7 +1,20 @@
 {
 	"pageTitle" : "Contact Us",
 	"textarea" : true,
-	"form" : true,
+	"form" : {
+		"fields" : {
+			"field" : [
+				{
+					"label" : "Name",
+					"placeholder" : "i.e. John Smith"
+				},
+				{
+					"label" : "Email",
+					"placeholder" : "name@email.com"
+				}
+			]
+		}
+	},
 	"btnText" : "Send",
 	"latestPosts" : {
 		"sectionTitle" : "Latest Posts",

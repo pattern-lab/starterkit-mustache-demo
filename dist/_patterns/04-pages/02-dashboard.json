@@ -9,11 +9,11 @@
   		  "url": "#"
   	  },
   	  {
-  		  "label": "Contact",
-  		  "url": "link.pages-contact"
+  		  "label": "Hikes",
+  		  "url": "#"
   	  },
   	  {
-  		  "label": "Login",
+  		  "label": "Logout",
   		  "url": "link.pages-login"
   	  }
     ],
