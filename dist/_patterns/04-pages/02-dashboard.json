@@ -25,6 +25,11 @@
 	    "number" : "4,500",
 	    "headline" : {
 			"short": "Feet of Elevation Gain"
+		},
+		"progress" : {
+			"max" : "100",
+			"value" : "100",
+			"label" : "Progress: 100%"
 		}
 
     },
@@ -33,24 +38,44 @@
 			"number" : "16",
 			"headline" : {
 				"short": "National Parks"
+			},
+			"progress" : {
+				"max" : "100",
+				"value" : "20",
+				"label" : "Progress: 20%"
 			}
 		},
 		{
 			"number" : "500",
 			"headline" : {
 				"short": "Hikes"
+			},
+			"progress" : {
+				"max" : "100",
+				"value" : "40",
+				"label" : "Progress: 40%"
 			}
 		},
 		{
 			"number" : "62,500",
 			"headline" : {
 				"short": "Calories Burned"
+			},
+			"progress" : {
+				"max" : "100",
+				"value" : "60",
+				"label" : "Progress: 60%"
 			}
 		},
 		{
 			"number" : "94,300,843",
 			"headline" : {
 				"short": "Steps"
+			},
+			"progress" : {
+				"max" : "100",
+				"value" : "80",
+				"label" : "Progress: 80%"
 			}
 		}
     ],
