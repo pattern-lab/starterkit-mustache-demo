@@ -2,7 +2,6 @@
 	"pageTitle" : "Contact Us",
 	"textarea" : true,
 	"form" : true,
-	"textButton" : true,
 	"btnText" : "Send",
 	"latestPosts" : {
 		"sectionTitle" : "Latest Posts",
@@ -53,7 +52,6 @@
 				
 			}
 		],
-		"textButton" : true,
 		"btnText" : "View All Posts"
 	},
 	"featuredPeople" : {
@@ -105,7 +103,6 @@
 				
 			}
 		],
-		"textButton" : true,
 		"btnText" : "View All Hikers"
 	}
 }

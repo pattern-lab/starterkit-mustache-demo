@@ -6,7 +6,7 @@
  * Section
  */
 .c-section {
-	margin: 0 0 $space;
+	margin: 0 0 $space-double;
 	
 	.l-sidebar & {	
 		@media all and (min-width: $bp-small-3) {
@@ -49,7 +49,7 @@
 /**
  * Section block
  */
-.c-section-block {
+.c-tile-grid {
 	display: flex;
 	flex-direction: column;
 	background: $color-gray-87;
@@ -72,7 +72,7 @@
 	}
 }
 
-.c-section-block__primary {
+.c-tile-grid__primary {
 	display: flex;
 	width: 100%;
 	margin-bottom: 1rem;
@@ -88,7 +88,7 @@
 	}
 }
 
-.c-section-block__secondary {
+.c-tile-grid__secondary {
 	flex: 1;
 	
 	@media all and (min-width: $bp-med){

@@ -152,5 +152,6 @@
         { },
         { }
     ],
-    "sectionBlock" : true
+    "sectionBlock" : true,
+    "textButton" : true
 }

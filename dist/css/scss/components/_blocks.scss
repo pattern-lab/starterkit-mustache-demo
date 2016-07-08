@@ -174,7 +174,10 @@
  * 1) The tile block contains a span and headline overlayed on a background
  */
 .c-block-tile {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 100%;
 	background: $color-gray-15;
     border-radius: $border-radius;
@@ -188,12 +191,22 @@
 }
 
 /**
- * Tile block span
+ * Featured tile block
  */
-.c-block-tile__span {
+.c-block-tile--featured {
+	min-height: 200px;
+}
+
+/**
+ * Tile block value
+ */
+.c-block-tile__value {
 	font-size: 1.5rem;
 	
-	.c-section-block__primary & {
+	/**
+	 * Tile value when inside featured tile parent selector
+	 */
+	.c-block-tile--featured & {
 	    font-size: 2.5rem;
 	    
 	    @media all and (min-width: $bp-med) {

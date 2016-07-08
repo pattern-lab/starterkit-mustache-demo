@@ -728,7 +728,10 @@ abbr {
  * 1) The tile block contains a span and headline overlayed on a background
  */
 .c-block-tile {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   background: #d9d9d9;
   border-radius: 6px;
@@ -740,17 +743,26 @@ abbr {
       padding: 4em 1em; } }
 
 /**
- * Tile block span
+ * Featured tile block
  */
-.c-block-tile__span {
-  font-size: 1.5rem; }
-  .c-section-block__primary .c-block-tile__span {
+.c-block-tile--featured {
+  min-height: 200px; }
+
+/**
+ * Tile block value
+ */
+.c-block-tile__value {
+  font-size: 1.5rem;
+  /**
+   * Tile value when inside featured tile parent selector
+   */ }
+  .c-block-tile--featured .c-block-tile__value {
     font-size: 2.5rem; }
     @media all and (min-width: 46.8em) {
-      .c-section-block__primary .c-block-tile__span {
+      .c-block-tile--featured .c-block-tile__value {
         font-size: 5rem; } }
   @media all and (min-width: 55rem) {
-    .c-block-tile__span {
+    .c-block-tile__value {
       font-size: 3rem; } }
 
 /*------------------------------------*\
@@ -1381,7 +1393,7 @@ abbr {
  * Section
  */
 .c-section {
-  margin: 0 0 1em; }
+  margin: 0 0 2em; }
   @media all and (min-width: 39.8em) {
     .l-sidebar .c-section {
       margin-right: 2em;
@@ -1413,7 +1425,7 @@ abbr {
 /**
  * Section block
  */
-.c-section-block {
+.c-tile-grid {
   display: flex;
   flex-direction: column;
   background: #222222;
@@ -1424,32 +1436,32 @@ abbr {
   margin-right: -1rem;
   margin-top: -1rem; }
   @media all and (min-width: 46.8em) {
-    .c-section-block {
+    .c-tile-grid {
       flex-direction: row; } }
   @media all and (min-width: 80rem) {
-    .c-section-block {
+    .c-tile-grid {
       margin-left: calc((100vw - 78rem) / -2);
       margin-right: calc((100vw - 78rem) / -2);
       padding-left: calc((100vw - 78rem) / 2);
       padding-right: calc((100vw - 78rem) / 2); } }
 
-.c-section-block__primary {
+.c-tile-grid__primary {
   display: flex;
   width: 100%;
   margin-bottom: 1rem; }
   @media all and (min-width: 46.8em) {
-    .c-section-block__primary {
+    .c-tile-grid__primary {
       width: 50%;
       margin: 0;
       padding-bottom: 2rem; } }
   @media all and (min-width: 55rem) {
-    .c-section-block__primary {
+    .c-tile-grid__primary {
       width: 30%; } }
 
-.c-section-block__secondary {
+.c-tile-grid__secondary {
   flex: 1; }
   @media all and (min-width: 46.8em) {
-    .c-section-block__secondary {
+    .c-tile-grid__secondary {
       padding: 0 0 1em 1em; } }
 
 /*------------------------------------*\

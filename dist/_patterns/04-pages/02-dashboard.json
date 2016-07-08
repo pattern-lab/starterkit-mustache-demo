@@ -19,6 +19,7 @@
     ],
     
     "blockFeature" : {
+	    "styleModifier" : "featured",
 	    "number" : "4,500",
 	    "headline" : {
 			"short": "Feet of Elevation Gain"
@@ -125,7 +126,6 @@
 				
 			}
 		],
-		"textButton" : true,
 		"btnText" : "View All Challenges"
     },
     "featuredPeople" : {
@@ -177,7 +177,6 @@
 				
 			}
 		],
-		"textButton" : true,
 		"btnText" : "View All Friends"
 	}
 }

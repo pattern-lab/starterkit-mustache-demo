@@ -88,7 +88,6 @@
 			}
 		]
 	},		
-	"textButton" : true,
 	"btnText" : "View More Posts",
 	"featuredPeople" : {
 		"sectionTitle" : "Featured Hikers",
@@ -139,7 +138,6 @@
 				
 			}
 		],
-		"textButton" : true,
 		"btnText" : "View All Hikers"
 	},
 	"featuredHikes" : {
@@ -191,7 +189,6 @@
 				
 			}
 		],
-		"textButton" : true,
 		"btnText" : "View All Hikes"
 	}
 }
