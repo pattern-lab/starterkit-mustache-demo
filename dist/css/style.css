@@ -1521,7 +1521,7 @@ abbr {
  */
 .c-text-passage__img {
   border-radius: 6px;
-  margin: 1rem 0; }
+  margin-bottom: 1rem; }
 
 /*------------------------------------*\
     #TOOLTIP

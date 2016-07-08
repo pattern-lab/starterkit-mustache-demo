@@ -1,7 +1,7 @@
 {
 	"pageTitle" : "Contact Us",
 	"textarea" : true,
-	"htmlText" : "<p>Hike Tracker prides itself on being the best in the hiking business. Established in 2016, Hike Tracker has grown substantially into one of the top contenders in the business. Our applications provide some of the most in depth data that you can get your hands on.<p>We live and breathe hiking just like you. Our researchers find the latest and greatest in the hiking world and provide tricks, tips, and secrets to our customers.Poop</p><img src='../../../images/sample/hiking.jpg' class='c-text-passage__img' />",
+	"htmlText" : "<img src='../../../images/sample/waterfall.jpg' class='c-text-passage__img' /><p>Hike Tracker wants to hear from you. Whether it is positive or negative, we look forward to your feedback so we can improve our company and products. If you have any questions, comments, or concerns, feel free to fill out the form below and we will get back to you as soon as possible. Thank you.</p>",
 	"form" : {
 		"fields" : {
 			"field" : [
