@@ -2,7 +2,7 @@
 Error: Undefined variable: "$border-radius".
         on line 21 of ./scss/components/feedback.scss
 
-16:     border: none;
+16:     border: 1px solid rgba(0, 0, 0, 0.5);
 17:     background: #cdcaa2;
 18:     background-size: auto;
 19:     width: 100%;
@@ -67,4 +67,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$border-radius\".\A         on line 21 of ./scss/components/feedback.scss\A \A 16:     border: none;\A 17:     background: #cdcaa2;\A 18:     background-size: auto;\A 19:     width: 100%;\A 20:     height: 0.5rem;\A 21:     border-radius: $border-radius;\A 22:  }\A 23:  \A 24: progress[value]::-webkit-progress-bar {\A 25:   border-radius: $border-radius;\A 26: }"; }
+  content: "Error: Undefined variable: \"$border-radius\".\A         on line 21 of ./scss/components/feedback.scss\A \A 16:     border: 1px solid rgba(0, 0, 0, 0.5);\A 17:     background: #cdcaa2;\A 18:     background-size: auto;\A 19:     width: 100%;\A 20:     height: 0.5rem;\A 21:     border-radius: $border-radius;\A 22:  }\A 23:  \A 24: progress[value]::-webkit-progress-bar {\A 25:   border-radius: $border-radius;\A 26: }"; }

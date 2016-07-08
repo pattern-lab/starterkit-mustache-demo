@@ -1,7 +1,7 @@
 <a href="{{ url }}" class="c-block-tile c-block-tile--{{ styleModifier }}">
+	{{# progress }}
+		{{> atoms-progress }}
+	{{/ progress }}
 	<span class="c-block-tile__value">{{ number }}</span>	
 	<h2 class="c-block-tile__label">{{ headline.short }}</h2>
-	{{# progress }}
-	{{> atoms-progress }}
-	{{/ progress }}
 </a><!-- end c-block-tout -->

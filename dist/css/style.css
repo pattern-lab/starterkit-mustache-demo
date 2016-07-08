@@ -1591,7 +1591,7 @@ abbr {
 .c-progress {
   -webkit-appearance: none;
   appearance: none;
-  border: none;
+  border: 1px solid rgba(0, 0, 0, 0.5);
   background: #cdcaa2;
   background-size: auto;
   width: 100%;
