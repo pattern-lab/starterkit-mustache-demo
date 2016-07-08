@@ -1,0 +1,21 @@
+{
+	"primaryNav" : [
+        {
+  		  "label": "Dashboard",
+  		  "url": "link.pages-dashboard"
+  	  },
+  	  {
+  		  "label": "Friends",
+  		  "url": "#"
+  	  },
+  	  {
+  		  "label": "Contact",
+  		  "url": "link.pages-contact"
+  	  },
+  	  {
+  		  "label": "Login",
+  		  "url": "link.pages-login"
+  	  }
+    ],
+	"pageTitle" : "Welcome back, Evangelina!"
+}

@@ -4,15 +4,17 @@
 		{{> molecules-alert }}
 	{{/ alert }}
 
-	<h1>Dashboard</h1>
+	{{> organisms-page-header }}
 
-	<div class="l-two-col">
+	<div class="l l--two-col">
 		<div class="l-main">
 			{{> organisms-section-media-list }}
 		</div><!--end .l-main-->
 
 		<div class="l-sidebar">
-			Sidebar
+			{{# featuredPeople }}
+			{{> organisms-section-media-list }}
+			{{/ featuredPeople}}
 		</div><!--end .l-sidebar-->
 	</div><!--end .l-two-col-->
 </main>
