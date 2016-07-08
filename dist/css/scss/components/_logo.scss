@@ -4,6 +4,7 @@
 
 .c-logo {
 	display: block;
+	max-width: 200px;
 
 	.c-box__header & {
 		max-width: 12em;
@@ -13,6 +14,6 @@
 
 .c-logo-link {
 	display: inline-block;
-	padding: 1rem;
+	padding: 0.2rem 1rem;
 	width: 8rem;
 }
