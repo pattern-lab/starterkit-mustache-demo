@@ -44,6 +44,20 @@ $color-black: #000;
 $color-dim-50: rgba(0,0,0,0.5);
 $color-dim-70: rgba(0,0,0,0.7);
 
+/**
+ * Utility Colors
+ * 1) Utility colors are colors used to provide feedback, such as alert messages,
+ * form validation, etc.
+ */
+$color-utility-positive: #03804d;
+$color-utility-postitive-subtle: #d4f3e6;
+$color-utility-caution: #a59b15;
+$color-utility-caution-subtle: #fffecf;
+$color-utility-negative: #b12a0b;
+$color-utility-negative-subtle: #fdded8;
+$color-utility-neutral: #0192d0;
+$color-utility-neutral-subtle: #d3f2ff;
+
 
 
 /*

@@ -7,16 +7,56 @@
  */
 .alert {
 	text-align: center;
-	padding: 0.5rem;
-	border: 1px solid $color-gray-15;
+	padding: 0 1rem;
 	background: $color-gray-02;
+	overflow: hidden;
+	font-size: 1em;
+	animation: slideDown 2s forwards;
 }
 
 /**
  * Error alert
  */
 .alert--error {
-	color: $error;
-	border-color: $error;
-	background: #ffbebe;
+	color: $color-utility-negative;
+	background: $color-utility-negative-subtle;
+}
+
+/**
+ * Success alert
+ */
+.alert--success {
+	color: $color-utility-positive;
+	background: $color-utility-postitive-subtle;
+}
+
+/**
+ * Warning alert
+ */
+.alert--warning {
+	color: $color-utility-caution;
+	background: $color-utility-caution-subtle;
+}
+
+/**
+ * Info alert
+ */
+.alert--info {
+	color: $color-utility-neutral;
+	background: $color-utility-neutral-subtle;
+}
+
+/**
+ * Slidedown animation
+ */
+@keyframes slideDown {
+  0%   {
+	  max-height: 0;
+	  padding: 0;
+  }
+
+  100% {
+	  padding: 1rem;
+	  max-height: 12em;
+  }
 }

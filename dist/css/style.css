@@ -111,6 +111,11 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
  *    "$color-gray-10" means "10% gray", which is a gray closer to white than to black. For more info
  *    read https://medium.com/eightshapes-llc/color-in-design-systems-a1c80f65fa3#.brevrq67p
  */
+/**
+ * Utility Colors
+ * 1) Utility colors are colors used to provide feedback, such as alert messages,
+ * form validation, etc.
+ */
 /*
  * Application Colors
  * 1) Application colors are the second-tier variable set that put the brand/neutral/utility
@@ -1305,18 +1310,50 @@ abbr {
  */
 .alert {
   text-align: center;
-  padding: 0.5rem;
-  border: 1px solid #d9d9d9;
-  background: #f7f9f9; }
+  padding: 0 1rem;
+  background: #f7f9f9;
+  overflow: hidden;
+  font-size: 1em;
+  animation: slideDown 2s forwards; }
 
 /**
  * Error alert
  */
 .alert--error {
-  color: #f00;
-  border-color: #f00;
-  background: #ffbebe; }
+  color: #b12a0b;
+  background: #fdded8; }
 
+/**
+ * Success alert
+ */
+.alert--success {
+  color: #03804d;
+  background: #d4f3e6; }
+
+/**
+ * Warning alert
+ */
+.alert--warning {
+  color: #a59b15;
+  background: #fffecf; }
+
+/**
+ * Info alert
+ */
+.alert--info {
+  color: #0192d0;
+  background: #d3f2ff; }
+
+/**
+ * Slidedown animation
+ */
+@keyframes slideDown {
+  0% {
+    max-height: 0;
+    padding: 0; }
+  100% {
+    padding: 1rem;
+    max-height: 12em; } }
 /*------------------------------------*\
     #PRIMARY NAVIGATION
 \*------------------------------------*/
