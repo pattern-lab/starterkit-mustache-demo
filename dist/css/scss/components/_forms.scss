@@ -3,75 +3,11 @@
 \*------------------------------------*/
 
 /**
- * Field Container
- */
-.field-container {
-	margin-bottom: $space;
-}
-
-/**
- * Inline Form
- */
-.inline-form {
-	fieldset, .inline-container {
-		position: relative;
-	}
-	
-	input[type=submit], button, .btn {
-		font-size: $font-size-small-2;
-		padding: 0.65rem 1.3rem;
-		background: $gray-dark;
-		position: absolute;
-		top: 0;
-		right: 0;
-		z-index: 1;
-		width: auto;
-
-		&:hover, &:focus {
-			background: $gray;
-			color: $white;
-		}
-	}
-}
-
-/**
- * Form/Input has error
- */
-.has-error {
-	border-color: $error;
-}
-
-/**
- * Form/Input is valid
- */
-.is-valid {
-	border-color: $valid;
-}
-
-/**
- * Search Form
- */
-.search-field {
-	padding-right: 3em;
-}
-
-/**
- * Search submit within inline form
- */
-.inline-form .search-submit {
-	background: none;
-	padding: 0.78em 1em;
-	border: 0;
-	border-left: 1px solid $gray;
-	color: $gray;
-}
-
-/**
  * Search form
  */
 .c-search-form {
 	display: none;
-	
+
 	&--is-active {
 		display: block;
 	    position: absolute;
@@ -87,4 +23,11 @@
 	@media all and (min-width: $bp-small-2) {
 		display: block;
 	}
+}
+
+/**
+ * Search input
+ */
+.c-search-form__input {
+	padding: 0.5rem;
 }

@@ -239,7 +239,7 @@ input, textarea {
   width: 100%;
   border: 1px solid #a5a5a5;
   border-radius: 6px;
-  padding: 0.5rem; }
+  padding: 1rem; }
 
 /**
  * Input areas base styles
@@ -873,58 +873,6 @@ abbr {
     #FORMS
 \*------------------------------------*/
 /**
- * Field Container
- */
-.field-container {
-  margin-bottom: 1em; }
-
-/**
- * Inline Form
- */
-.inline-form fieldset, .inline-form .inline-container {
-  position: relative; }
-.inline-form input[type=submit], .inline-form button, .inline-form .btn {
-  font-size: 0.875rem;
-  padding: 0.65rem 1.3rem;
-  background: #333;
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 1;
-  width: auto; }
-  .inline-form input[type=submit]:hover, .inline-form input[type=submit]:focus, .inline-form button:hover, .inline-form button:focus, .inline-form .btn:hover, .inline-form .btn:focus {
-    background: #808080;
-    color: #fff; }
-
-/**
- * Form/Input has error
- */
-.has-error {
-  border-color: #f00; }
-
-/**
- * Form/Input is valid
- */
-.is-valid {
-  border-color: #089e00; }
-
-/**
- * Search Form
- */
-.search-field {
-  padding-right: 3em; }
-
-/**
- * Search submit within inline form
- */
-.inline-form .search-submit {
-  background: none;
-  padding: 0.78em 1em;
-  border: 0;
-  border-left: 1px solid #808080;
-  color: #808080; }
-
-/**
  * Search form
  */
 .c-search-form {
@@ -942,6 +890,12 @@ abbr {
   @media all and (min-width: 29.75em) {
     .c-search-form {
       display: block; } }
+
+/**
+ * Search input
+ */
+.c-search-form__input {
+  padding: 0.5rem; }
 
 /*------------------------------------*\
     #FIELDS
