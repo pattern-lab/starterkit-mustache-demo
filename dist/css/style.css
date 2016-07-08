@@ -1502,6 +1502,19 @@ abbr {
   .text ol ol {
     margin-bottom: 0; }
 
+/**
+ * Text passage
+ */
+.s-text-passage {
+  margin-bottom: 1rem; }
+
+/**
+ * Image within text passage
+ */
+.c-text-passage__img {
+  border-radius: 6px;
+  margin-bottom: 1rem; }
+
 /*------------------------------------*\
     #TOOLTIP
 \*------------------------------------*/
