@@ -1596,7 +1596,8 @@ abbr {
   background-size: auto;
   width: 100%;
   height: 0.5rem;
-  border-radius: 6px; }
+  border-radius: 6px;
+  margin-bottom: 1em; }
 
 progress[value]::-webkit-progress-bar {
   border-radius: 6px; }
