@@ -165,3 +165,43 @@
         padding-bottom: 2rem;
     }
 }
+
+/*------------------------------------*\
+	#TILE BLOCK
+\*------------------------------------*/
+
+/**
+ * 1) The tile block contains a span and headline overlayed on a background
+ */
+.c-block-tile {
+    display: block;
+    width: 100%;
+	background: $color-gray-15;
+    border-radius: $border-radius;
+    padding: 1em 1em;
+    text-align: center;
+    overflow: hidden;
+    
+    @media all and (min-width: 55rem) {
+	    padding: 4em 1em;
+    }
+}
+
+/**
+ * Tile block span
+ */
+.c-block-tile__span {
+	font-size: 1.5rem;
+	
+	.c-section-block__primary & {
+	    font-size: 2.5rem;
+	    
+	    @media all and (min-width: $bp-med) {
+	    	font-size: 5rem;
+		}	
+    }
+    
+    @media all and (min-width: 55rem) {
+		font-size: 3rem;
+    }
+}

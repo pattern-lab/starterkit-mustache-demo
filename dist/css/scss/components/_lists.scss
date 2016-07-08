@@ -86,3 +86,35 @@
 .c-media-list__item {
 	margin-bottom: 1.5em;
 }
+
+/**
+ * Tile list
+ */
+.c-tile-list{
+	display: flex;
+	flex-direction: column;
+	
+	@media all and (min-width: 55rem) {
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+}
+
+/**
+ * Tile list item
+ */
+ 
+.c-tile-list__item {
+	width: 100%;
+	margin-bottom: 1em;
+	
+	&:nth-child(2n) {
+		padding-right: 0;
+	}
+	
+	@media all and (min-width: 55rem) {
+		width: 50%;
+		margin: 0;
+		padding: 0 1em 1em 0;
+	}
+}

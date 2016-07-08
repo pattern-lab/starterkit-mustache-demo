@@ -17,5 +17,38 @@
   		  "url": "link.pages-login"
   	  }
     ],
-	"pageTitle" : "Welcome back, Evangelina!"
+    
+    "blockFeature" : {
+	    "number" : "4,500",
+	    "headline" : {
+			"short": "Feet of Elevation Gain"
+		}
+	    
+    },
+    "tileList" : [
+		{
+			"number" : "16",
+			"headline" : {
+				"short": "National Parks"
+			}
+		},
+		{
+			"number" : "500",
+			"headline" : {
+				"short": "Hikes"
+			}
+		},   
+		{
+			"number" : "62,500",
+			"headline" : {
+				"short": "Calories Burned"
+			}
+		},
+		{
+			"number" : "94,300,843",
+			"headline" : {
+				"short": "Steps"
+			}
+		}
+    ]
 }

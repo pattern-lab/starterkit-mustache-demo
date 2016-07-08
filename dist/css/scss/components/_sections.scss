@@ -44,3 +44,36 @@
 	    background: $color-gray-15;
 	}
 }
+
+.c-section-block {
+	display: flex;
+	flex-direction: column;
+	
+	@media all and (min-width: $bp-med) {
+		flex-direction: row;
+	}
+}
+
+.c-section-block__primary {
+	display: flex;
+	width: 100%;
+	margin-bottom: 1rem;
+	
+	@media all and (min-width: $bp-med) {
+		width: 50%;
+		margin: 0;
+		padding-bottom: 2rem;
+	}
+	
+	@media all and (min-width: 55rem) {
+		width: 30%;
+	}
+}
+
+.c-section-block__secondary {
+	flex: 1;
+	
+	@media all and (min-width: $bp-med){
+		padding: 0 0 1em 1em;
+	}
+}
