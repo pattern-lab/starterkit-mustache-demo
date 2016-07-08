@@ -1579,6 +1579,40 @@ abbr {
   margin-bottom: 2rem; }
 
 /*------------------------------------*\
+    #FEEDBACK
+\*------------------------------------*/
+/**
+ * 1) Feedback consists of components that give information back to the user. Examples include progress bars, progress wheels, etc.
+ */
+/**
+* Progress bar
+*/
+.c-progress {
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  background: #cdcaa2;
+  background-size: auto;
+  width: 100%;
+  height: 0.5rem; }
+
+.anim::-moz-progress-bar {
+  -moz-transition: width 4s ease; }
+
+.anim::-webkit-progress-value {
+  -webkit-transition: width 4s ease;
+  -o-transition: width 4s ease;
+  transition: width 4s ease; }
+
+.c-progress.start::-moz-progress-bar {
+  width: 0% !important;
+  background: #cdcaa2 !important; }
+
+.c-progress.start::-webkit-progress-value {
+  width: 0% !important;
+  background: #cdcaa2 !important; }
+
+/*------------------------------------*\
     $LAYOUT
 \*------------------------------------*/
 /*------------------------------------*\
