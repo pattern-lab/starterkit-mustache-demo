@@ -7,17 +7,17 @@
  */
 .c-section {
 	margin: 0 0 $space-double;
-	
-	.l-sidebar & {	
+
+	.l-sidebar & {
 		@media all and (min-width: $bp-small-3) {
 			margin-right: 2em;
 			width: 50%;
-			
+
 			&:last-child {
 				margin-right: 0;
 			}
 		}
-		
+
 		@media all and (min-width: $bp-large) {
 			width: 100%;
 			margin-right: 0;
@@ -50,25 +50,16 @@
  * Section block
  */
 .c-tile-grid {
+	background: url(../../images/sample/hero-mountains.jpg) no-repeat 50% 50% $color-gray-73;
+	background-size: cover;
+}
+
+.c-tile-grid__inner {
 	display: flex;
 	flex-direction: column;
-	background: $color-gray-87;
-	padding-top: 2em;
-	padding-left: 2rem;
-    padding-right: 2rem;
-    margin-left: -1rem;
-    margin-right: -1rem;
-    margin-top: -1rem;
-	
+
 	@media all and (min-width: $bp-med) {
 		flex-direction: row;
-	}
-	
-	@media all and (min-width: 80rem) {
-		margin-left: calc((100vw - 78rem) / -2);
-	    margin-right: calc((100vw - 78rem) / -2);
-	    padding-left: calc((100vw - 78rem) / 2);
-	    padding-right: calc((100vw - 78rem) / 2);
 	}
 }
 
@@ -76,13 +67,11 @@
 	display: flex;
 	width: 100%;
 	margin-bottom: 1rem;
-	
+
 	@media all and (min-width: $bp-med) {
 		width: 50%;
-		margin: 0;
-		padding-bottom: 2rem;
 	}
-	
+
 	@media all and (min-width: 55rem) {
 		width: 30%;
 	}
@@ -90,8 +79,8 @@
 
 .c-tile-grid__secondary {
 	flex: 1;
-	
+
 	@media all and (min-width: $bp-med){
-		padding: 0 0 1em 1em;
+		padding: 0 0 0 1em;
 	}
 }

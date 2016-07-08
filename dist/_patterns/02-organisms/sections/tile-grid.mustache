@@ -1,10 +1,15 @@
 <div class="c-tile-grid">
-	{{# blockFeature}}
-	<div class="c-tile-grid__primary">
-		{{> molecules-block-tile }}
-	</div>
-	{{/ blockFeature}}
-	<div class="c-tile-grid__secondary">
-		{{> organisms-tile-list }}
-	</div>
-</div>
+	<div class="c-tile-grid__inner l">
+
+		{{# blockFeature}}
+		<div class="c-tile-grid__primary">
+			{{> molecules-block-tile }}
+		</div><!--end c-tile-grid__primary-->
+		{{/ blockFeature}}
+
+		<div class="c-tile-grid__secondary">
+			{{> organisms-tile-list }}
+		</div><!--end c-tile-grid__secondary-->
+
+	</div><!--end l-->
+</div><!--end c-tile-grid-->

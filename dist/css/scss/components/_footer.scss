@@ -17,22 +17,9 @@
 /**
  * Footer nav
  */
-.nav-footer {
-	margin: (-$pad) (-$pad) $space;
-
-	li {
-		border-bottom: 1px solid $gray-dark;
-
-		@media all and (min-width: $bp-med) {
-			border: 0;
-			float: left;
-		}
-	}
-
-	a {
-		display: block;
-		padding: $pad;
-	}
+.c-footer__info {
+	max-width: 40em;
+	color: $color-gray-50;
 }
 
 /**

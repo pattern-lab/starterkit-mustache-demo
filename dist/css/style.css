@@ -733,11 +733,16 @@ abbr {
   align-items: center;
   justify-content: center;
   width: 100%;
-  background: #d9d9d9;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
   border-radius: 6px;
   padding: 1em 1em;
   text-align: center;
-  overflow: hidden; }
+  overflow: hidden;
+  transition: all 0.2s ease; }
+  .c-block-tile:hover, .c-block-tile:focus {
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff; }
   @media all and (min-width: 55rem) {
     .c-block-tile {
       padding: 4em 1em; } }
@@ -753,6 +758,7 @@ abbr {
  */
 .c-block-tile__value {
   font-size: 1.5rem;
+  line-height: 1.2;
   /**
    * Tile value when inside featured tile parent selector
    */ }
@@ -764,6 +770,11 @@ abbr {
   @media all and (min-width: 55rem) {
     .c-block-tile__value {
       font-size: 3rem; } }
+
+.c-block-tile__label {
+  color: #d9d9d9;
+  font-weight: normal;
+  font-size: 1rem; }
 
 /*------------------------------------*\
     #BUTTONS
@@ -898,17 +909,9 @@ abbr {
 /**
  * Footer nav
  */
-.nav-footer {
-  margin: -1em -1em 1em; }
-  .nav-footer li {
-    border-bottom: 1px solid #333; }
-    @media all and (min-width: 46.8em) {
-      .nav-footer li {
-        border: 0;
-        float: left; } }
-  .nav-footer a {
-    display: block;
-    padding: 1em; }
+.c-footer__info {
+  max-width: 40em;
+  color: #808080; }
 
 /**
  * Copyright text
@@ -1426,24 +1429,15 @@ abbr {
  * Section block
  */
 .c-tile-grid {
+  background: url(../../images/sample/hero-mountains.jpg) no-repeat 50% 50% #444444;
+  background-size: cover; }
+
+.c-tile-grid__inner {
   display: flex;
-  flex-direction: column;
-  background: #222222;
-  padding-top: 2em;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  margin-left: -1rem;
-  margin-right: -1rem;
-  margin-top: -1rem; }
+  flex-direction: column; }
   @media all and (min-width: 46.8em) {
-    .c-tile-grid {
+    .c-tile-grid__inner {
       flex-direction: row; } }
-  @media all and (min-width: 80rem) {
-    .c-tile-grid {
-      margin-left: calc((100vw - 78rem) / -2);
-      margin-right: calc((100vw - 78rem) / -2);
-      padding-left: calc((100vw - 78rem) / 2);
-      padding-right: calc((100vw - 78rem) / 2); } }
 
 .c-tile-grid__primary {
   display: flex;
@@ -1451,9 +1445,7 @@ abbr {
   margin-bottom: 1rem; }
   @media all and (min-width: 46.8em) {
     .c-tile-grid__primary {
-      width: 50%;
-      margin: 0;
-      padding-bottom: 2rem; } }
+      width: 50%; } }
   @media all and (min-width: 55rem) {
     .c-tile-grid__primary {
       width: 30%; } }
@@ -1462,7 +1454,7 @@ abbr {
   flex: 1; }
   @media all and (min-width: 46.8em) {
     .c-tile-grid__secondary {
-      padding: 0 0 1em 1em; } }
+      padding: 0 0 0 1em; } }
 
 /*------------------------------------*\
     #TABS

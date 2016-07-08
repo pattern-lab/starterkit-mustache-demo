@@ -33,7 +33,7 @@
  * 1) This sits overtop of the hero image when space permits
  */
 .c-block-hero__headline {
-    background: $dim;
+    background: $color-dim-50;
     color: $color-white;
     padding: 1rem;
     font-size: 2.6rem;
@@ -93,7 +93,7 @@
 		max-width: 3.5em;
 		margin-right: 0.5rem;
 	}
-	
+
 	@media all and (min-width: $bp-med) {
 		width: 50%;
 		margin-right: 1.5rem;
@@ -155,8 +155,8 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    background: $dim;
-    color: $white;
+    background: $color-dim-50;
+    color: $color-white;
     padding: $pad-half;
     font-size: 1.4rem;
     transition: all $anim-speed-quick $anim-ease;
@@ -179,12 +179,19 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-	background: $color-gray-15;
+    background: $color-dim-50;
+    color: $color-white;
     border-radius: $border-radius;
     padding: 1em 1em;
     text-align: center;
     overflow: hidden;
-    
+    transition: all $anim-speed-quick $anim-ease;
+
+    &:hover, &:focus {
+        background: $color-dim-70;
+        color: $color-white;
+    }
+
     @media all and (min-width: 55rem) {
 	    padding: 4em 1em;
     }
@@ -202,19 +209,26 @@
  */
 .c-block-tile__value {
 	font-size: 1.5rem;
-	
+    line-height: 1.2;
+
 	/**
 	 * Tile value when inside featured tile parent selector
 	 */
 	.c-block-tile--featured & {
 	    font-size: 2.5rem;
-	    
+
 	    @media all and (min-width: $bp-med) {
 	    	font-size: 5rem;
-		}	
+		}
     }
-    
+
     @media all and (min-width: 55rem) {
 		font-size: 3rem;
     }
+}
+
+.c-block-tile__label {
+    color: $color-gray-15;
+    font-weight: normal;
+    font-size: $font-size-med;
 }
