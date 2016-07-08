@@ -8,6 +8,7 @@
     "htmlClass": "pl",
     "bodyClass": "body",
     "btnText" : "Button",
+	"alertText" : "An alert is messaging that tells the user some information. Alerts can be error, warning, success, or info messages",
     "quoteText" : "A block quotation (also known as a long quotation or extract) is a quotation in a written document, that is set off from the main text as a paragraph, or block of text, and typically distinguished visually using indentation and a different typeface or smaller size quotation.",
     "quoteSource" : "<a href='https://en.wikipedia.org/wiki/Block_quotation'>Wikiepedia</a>",
     "img": {
@@ -78,26 +79,8 @@
     },
     "year" : "2016",
     "fields" : [
-        {
-            "field" : {
-                "id": "username",
-                "label": "Username",
-                "type": "text",
-                "placeholder": "Username or email address",
-                "value": "",
-                "fieldNote": "Enter your username or email address"
-            }
-        },
-        {
-            "field": {
-                "id": "password",
-                "label": "Password",
-                "type": "password",
-                "placeholder": "Password",
-                "value": "",
-                "fieldNote": "Minimum of 6 characters. <a href='#'>Forgot password?</a>"
-            }
-        }
+        { },
+        { }
     ],
     "hero": true,
     "alert": true,
