@@ -45,12 +45,30 @@
 	}
 }
 
+
+/**
+ * Section block
+ */
 .c-section-block {
 	display: flex;
 	flex-direction: column;
+	background: $color-gray-87;
+	padding-top: 2em;
+	padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    margin-top: -1rem;
 	
 	@media all and (min-width: $bp-med) {
 		flex-direction: row;
+	}
+	
+	@media all and (min-width: 80rem) {
+		margin-left: calc((100vw - 78rem) / -2);
+	    margin-right: calc((100vw - 78rem) / -2);
+	    padding-left: calc((100vw - 78rem) / 2);
+	    padding-right: calc((100vw - 78rem) / 2);
 	}
 }
 
