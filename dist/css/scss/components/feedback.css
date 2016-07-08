@@ -1,35 +1,70 @@
-/*------------------------------------*\
-    #FEEDBACK
-\*------------------------------------*/
-/**
- * 1) Feedback consists of components that give information back to the user. Examples include progress bars, progress wheels, etc.
- */
-/**
-* Progress bar
+/*
+Error: Undefined variable: "$border-radius".
+        on line 21 of ./scss/components/feedback.scss
+
+16:     border: none;
+17:     background: #cdcaa2;
+18:     background-size: auto;
+19:     width: 100%;
+20:     height: 0.5rem;
+21:     border-radius: $border-radius;
+22:  }
+23:  
+24: progress[value]::-webkit-progress-bar {
+25:   border-radius: $border-radius;
+26: }
+
+Backtrace:
+./scss/components/feedback.scss:21
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `map'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:159:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:331:in `block in watch'
+/Library/Ruby/Gems/2.0.0/gems/listen-2.10.1/lib/listen/listener.rb:305:in `call'
+/Library/Ruby/Gems/2.0.0/gems/listen-2.10.1/lib/listen/listener.rb:305:in `_process_changes'
+/Library/Ruby/Gems/2.0.0/gems/listen-2.10.1/lib/listen/listener.rb:269:in `block in _wait_for_changes'
+/Library/Ruby/Gems/2.0.0/gems/listen-2.10.1/lib/listen/listener.rb:252:in `loop'
+/Library/Ruby/Gems/2.0.0/gems/listen-2.10.1/lib/listen/listener.rb:252:in `_wait_for_changes'
+/Library/Ruby/Gems/2.0.0/gems/listen-2.10.1/lib/listen/listener.rb:341:in `block in _start_wait_thread'
 */
-.c-progress {
-  -webkit-appearance: none;
-  appearance: none;
-  border: none;
-  background: #cdcaa2;
-  background-size: auto;
-  width: 100%;
-  height: 0.5rem; }
-
-.anim::-moz-progress-bar {
-  -moz-transition: width 4s ease; }
-
-.anim::-webkit-progress-value {
-  -webkit-transition: width 4s ease;
-  -o-transition: width 4s ease;
-  transition: width 4s ease; }
-
-.c-progress.start::-moz-progress-bar {
-  width: 0% !important;
-  background: #cdcaa2 !important; }
-
-.c-progress.start::-webkit-progress-value {
-  width: 0% !important;
-  background: #cdcaa2 !important; }
-
-/*# sourceMappingURL=feedback.css.map */
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$border-radius\".\A         on line 21 of ./scss/components/feedback.scss\A \A 16:     border: none;\A 17:     background: #cdcaa2;\A 18:     background-size: auto;\A 19:     width: 100%;\A 20:     height: 0.5rem;\A 21:     border-radius: $border-radius;\A 22:  }\A 23:  \A 24: progress[value]::-webkit-progress-bar {\A 25:   border-radius: $border-radius;\A 26: }"; }

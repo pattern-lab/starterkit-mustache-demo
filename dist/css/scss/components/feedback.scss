@@ -18,9 +18,12 @@
     background-size: auto;
     width: 100%;
     height: 0.5rem;
+    border-radius: $border-radius;
  }
  
-
+progress[value]::-webkit-progress-bar {
+  border-radius: $border-radius;
+}
 .anim::-moz-progress-bar {
 	-moz-transition: width 4s ease;
 }

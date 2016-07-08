@@ -1595,7 +1595,11 @@ abbr {
   background: #cdcaa2;
   background-size: auto;
   width: 100%;
-  height: 0.5rem; }
+  height: 0.5rem;
+  border-radius: 6px; }
+
+progress[value]::-webkit-progress-bar {
+  border-radius: 6px; }
 
 .anim::-moz-progress-bar {
   -moz-transition: width 4s ease; }
