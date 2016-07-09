@@ -1,5 +1,5 @@
 /*
-Error: Undefined variable: "$color-brown".
+Error: Undefined variable: "$color-brand-brown".
         on line 20 of ./scss/components/page-header.scss
 
 15: 		display: block;
@@ -7,7 +7,7 @@ Error: Undefined variable: "$color-brown".
 17: 	    width: 3rem;
 18: 	    height: 0.5rem;
 19: 	    bottom: 0;
-20: 	    background: $color-brown;
+20: 	    background: $color-brand-brown;
 21:     }
 22: }
 
@@ -75,4 +75,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$color-brown\".\A         on line 20 of ./scss/components/page-header.scss\A \A 15: 		display: block;\A 16: 	    position: absolute;\A 17: 	    width: 3rem;\A 18: 	    height: 0.5rem;\A 19: 	    bottom: 0;\A 20: 	    background: $color-brown;\A 21:     }\A 22: }"; }
+  content: "Error: Undefined variable: \"$color-brand-brown\".\A         on line 20 of ./scss/components/page-header.scss\A \A 15: 		display: block;\A 16: 	    position: absolute;\A 17: 	    width: 3rem;\A 18: 	    height: 0.5rem;\A 19: 	    bottom: 0;\A 20: 	    background: $color-brand-brown;\A 21:     }\A 22: }"; }
