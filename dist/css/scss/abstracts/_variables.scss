@@ -61,14 +61,6 @@ $color-utility-negative-subtle: #fdded8;
 $color-utility-neutral: #0192d0;
 $color-utility-neutral-subtle: #d3f2ff;
 
-
-
-/*
- * Application Colors
- * 1) Application colors are the second-tier variable set that put the brand/neutral/utility
- *    palettes into action.
- */
-
  /*
   * Text Colors
   * 1) These are non-linked text colors, such as body copy.
@@ -103,24 +95,6 @@ $color-text-link-light-visited: $color-white;
  *    for navigation items, block borders, etc.
  */
 $color-border: $color-gray-50;
-
-
-/**
- * Colors
- */
-$gray: #808080;
-$gray-light: #f9f9f9;
-$gray-light-2: #eee;
-$gray-light-3: #ddd;
-$gray-dark: #333;
-$gray-dark-2: #131313;
-$white: #fff;
-$black: #000;
-$error: #f00;
-$valid: #089e00;
-$warning: #fff664;
-$information: #000db5;
-
 
 
 

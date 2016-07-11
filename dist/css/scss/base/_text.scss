@@ -14,8 +14,8 @@ p {
  */
 blockquote {
     font-style:italic;
-    border-left: 1px solid $gray;
-    color: $gray;
+    border-left: 1px solid $color-gray-50;
+    color: $color-gray-50;
 	padding-left: $pad;
 	margin-bottom: $space;
 }
@@ -26,7 +26,7 @@ blockquote {
 hr {
 	border: 0;
     height: 2px;
-    background: $gray-light-2;
+    background: $color-gray-15;
     margin: $space-double 0;
 }
 
@@ -34,6 +34,6 @@ hr {
  * Abbreviation base styles
  */
 abbr {
-    border-bottom: 1px dotted $gray;
+    border-bottom: 1px dotted $color-gray-50;
     cursor: help;
 }

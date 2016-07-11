@@ -117,11 +117,6 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
  * form validation, etc.
  */
 /*
- * Application Colors
- * 1) Application colors are the second-tier variable set that put the brand/neutral/utility
- *    palettes into action.
- */
-/*
  * Text Colors
  * 1) These are non-linked text colors, such as body copy.
  */
@@ -138,9 +133,6 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
  * Border Colors
  * 1) Border colors are used as decoration or dividers, such as as a seperator
  *    for navigation items, block borders, etc.
- */
-/**
- * Colors
  */
 /*------------------------------------*\
     #TYPOGRAPHY
@@ -258,7 +250,7 @@ input[type=text], input[type=search], input[type=url], input[type=number], texta
  */
 button, input[type="submit"] {
   padding: 0.5em;
-  background: #333;
+  background: #444444;
   border: 1px solid #808080;
   cursor: pointer; }
 
@@ -360,25 +352,25 @@ input[type="search"]::-webkit-search-decoration {
  * Show valid text color
  */
 .valid {
-  color: #089e00; }
+  color: #03804d; }
 
 /**
  * Show error text color
  */
 .error {
-  color: #f00; }
+  color: #b12a0b; }
 
 /**
  * Show warning text color
  */
 .warning {
-  color: #fff664; }
+  color: #a59b15; }
 
 /**
  * Show informational text color
  */
 .information {
-  color: #000db5; }
+  color: #0192d0; }
 
 /**
  * Display secondary font family
@@ -586,7 +578,7 @@ blockquote {
 hr {
   border: 0;
   height: 2px;
-  background: #eee;
+  background: #d9d9d9;
   margin: 2em 0; }
 
 /**
@@ -789,7 +781,7 @@ abbr {
  */
 .c-btn {
   display: inline-block;
-  background: #333;
+  background: #444444;
   color: #fff;
   line-height: 1;
   font-weight: bold;
@@ -805,7 +797,7 @@ abbr {
     background: #808080;
     color: #fff; }
   .c-btn.disabled {
-    background: #eee;
+    background: #d9d9d9;
     color: #808080; }
 
 /**
@@ -1256,7 +1248,7 @@ abbr {
     font-weight: normal; }
   .headline-list li {
     padding: 0.25em 0;
-    border-top: 1px solid #ddd; }
+    border-top: 1px solid #a5a5a5; }
 
 /**
  * Post list
@@ -1448,7 +1440,7 @@ abbr {
   overflow: hidden; }
   .pagination li {
     float: left;
-    border-right: 1px solid #eee; }
+    border-right: 1px solid #d9d9d9; }
     .pagination li:last-child {
       border: 0; }
   .pagination a {
@@ -1543,33 +1535,6 @@ abbr {
       padding: 0 0 0 1em; } }
 
 /*------------------------------------*\
-    #TABS
-\*------------------------------------*/
-/**
- * Tabs
- */
-.tabs {
-  overflow: hidden; }
-  .tabs ul {
-    display: table;
-    width: 100%; }
-  .tabs li {
-    display: table-cell;
-    text-align: center;
-    border-right: 1px solid #ddd; }
-    .tabs li:last-child {
-      border-right: 0; }
-  .tabs a {
-    display: block;
-    padding: 0.5em;
-    background: #808080; }
-    .tabs a:hover, .tabs a:focus {
-      background: #ddd; }
-    .tabs a.active {
-      background: #333;
-      color: #fff; }
-
-/*------------------------------------*\
     #TEXT
 \*------------------------------------*/
 /**
@@ -1600,49 +1565,6 @@ abbr {
 .c-text-passage__img {
   border-radius: 6px;
   margin-bottom: 1rem; }
-
-/*------------------------------------*\
-    #TOOLTIP
-\*------------------------------------*/
-/**
- * Tooltip container
- */
-.tooltip-container {
-  display: inline-block;
-  position: relative; }
-  .tooltip-container:hover .tooltip {
-    display: block; }
-
-/**
- * Tooltip link
- */
-.tooltip-link {
-  background: #f9f9f9; }
-
-/**
- * Tooltip
- */
-.tooltip {
-  display: none;
-  position: absolute;
-  top: 1.5em;
-  left: 0;
-  width: 18em;
-  padding: 1em;
-  background: #fff;
-  border: 1px solid #808080;
-  box-shadow: 0.3em 0.3em 1em 0 rgba(0, 0, 0, 0.2); }
-  .tooltip h2 {
-    margin-top: 0; }
-  @media all and (min-width: 24em) {
-    .tooltip {
-      width: 22em; } }
-  @media all and (min-width: 29.75em) {
-    .tooltip {
-      width: 27em; } }
-  @media all and (min-width: 39.8em) {
-    .tooltip {
-      width: 30em; } }
 
 /*------------------------------------*\
     #BOX

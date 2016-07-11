@@ -7,8 +7,8 @@
  */
 .c-btn {
 	display: inline-block;
-	background: $gray-dark;
-	color: $white;
+	background: $color-gray-73;
+	color: $color-white;
 	line-height: 1;
 	font-weight: bold;
 	padding: 1rem 2rem;
@@ -18,16 +18,16 @@
 	transition: background 0.2s ease;
 
 	&:hover, &:focus {
-		background: $gray;
-		color: $white;
+		background: $color-gray-50;
+		color: $color-white;
 	}
 
 	/**
 	 * Disabled button
 	 */
 	&.disabled {
-		background: $gray-light-2;
-		color: $gray;
+		background: $color-gray-15;
+		color: $color-gray-50;
 	}
 }
 
@@ -44,7 +44,7 @@
 .c-btn-large {
 	padding: $pad-half;
 	text-transform: uppercase;
-	background: $gray;
+	background: $color-gray-50;
 	font-size: 1.4rem;
 	font-weight: normal;
 }
