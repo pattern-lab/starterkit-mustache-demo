@@ -16,6 +16,9 @@
 			]
 		}
 	},
+	"textarea" : {
+		"label" : "Message"
+	},
 	"btnText" : "Send",
 	"latestPosts" : {
 		"sectionTitle" : "Latest Posts",

@@ -82,6 +82,9 @@
         { },
         { }
     ],
+    "textarea" : {
+	    "label" : "label"
+    },
     "hero": true,
     "alert": true,
     "latestPosts" : {
