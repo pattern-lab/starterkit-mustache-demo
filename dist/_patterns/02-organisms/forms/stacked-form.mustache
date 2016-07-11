@@ -1,4 +1,7 @@
 <form class="c-form c-form--stacked" method="post" action="{{ link.pages-dashboard }}">
+	{{# formTitle }}
+	<h2 class="c-form__title c-section__title">{{ formTitle }}</h2>
+	{{/ formTitle }}
 	{{# fields }}
 	{{> molecules-field }}
 	{{/ fields }}
