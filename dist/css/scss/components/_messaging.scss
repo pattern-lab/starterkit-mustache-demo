@@ -12,6 +12,11 @@
 	overflow: hidden;
 	font-size: 1em;
 	animation: slideDown 2s forwards;
+	
+	a {
+		color: inherit;
+		text-decoration: underline;
+	}
 }
 
 /**
@@ -68,15 +73,14 @@
  .c-overlay {
 	display: block;
 	padding: 1em;
-	background: rgba(0, 0, 0, 0.8);
+	background: rgba(0, 0, 0, 0.7);
 	border-radius: $border-radius;
 	position: absolute;
 	height: 100%;
 	width: 100%;
 	top: 0;
 	left: 0;
-	border-radius: 10px;
-	font-family: Helvetica, serif;
+	border-radius: $border-radius;
 	text-align: center;
 	padding: 1em;
 	display: flex;
@@ -93,7 +97,7 @@
  * Overlay Intro
  */
  .c-overlay__intro {
-	 font-size: 2rem;
+	 font-size: 1.5rem;
 	 color: $color-white;
  }
  

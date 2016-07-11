@@ -1328,6 +1328,9 @@ abbr {
   overflow: hidden;
   font-size: 1em;
   animation: slideDown 2s forwards; }
+  .alert a {
+    color: inherit;
+    text-decoration: underline; }
 
 /**
  * Error alert
@@ -1373,15 +1376,14 @@ abbr {
 .c-overlay {
   display: block;
   padding: 1em;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.7);
   border-radius: 6px;
   position: absolute;
   height: 100%;
   width: 100%;
   top: 0;
   left: 0;
-  border-radius: 10px;
-  font-family: Helvetica, serif;
+  border-radius: 6px;
   text-align: center;
   padding: 1em;
   display: flex;
@@ -1395,7 +1397,7 @@ abbr {
 * Overlay Intro
 */
 .c-overlay__intro {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #fff; }
 
 /*------------------------------------*\
@@ -1678,15 +1680,22 @@ abbr {
   background: #cdcaa2;
   background-size: auto;
   width: 100%;
+  max-width: 300px;
   height: 0.5rem;
   border-radius: 6px;
   margin-bottom: 1em; }
 
 .c-progress::-moz-progress-bar {
-  background: #5C832F; }
+  background-color: red;
+  background-image: linear-gradient(to right, red, #f06d06, yellow, green);
+  background-size: 300px 50px;
+  border-radius: 6px; }
 
 .c-progress::-webkit-progress-value {
-  background: #5C832F; }
+  background-color: red;
+  background-image: linear-gradient(to right, red, #f06d06, yellow, green);
+  background-size: 300px 50px;
+  border-radius: 6px; }
 
 progress[value]::-webkit-progress-bar {
   border-radius: 6px; }

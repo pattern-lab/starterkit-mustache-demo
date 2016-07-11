@@ -15,7 +15,7 @@
 			"label" : "Progress: 0%"
 		},
 		"overlay" : {
-				"overlayMessage" : "Time to get up and increase your elevation gain",
+				"overlayMessage" : "Let's go on a hike and climb in elevation",
 				"overlayAction" : "Find a Hike"
 		}
     },	
@@ -46,8 +46,8 @@
 				"label" : "Progress: 0%"
 			},
 			"overlay" : {
-				"overlayMessage" : "How many hikes have you been on?",
-				"overlayAction" : "Insert Number of Hikes"
+				"overlayMessage" : "Been on a hike recently?",
+				"overlayAction" : "Log Your First Hike"
 			}
 		},
 		{
@@ -61,8 +61,8 @@
 				"label" : "Progress: 0%"
 			},
 			"overlay" : {
-				"overlayMessage" : "How many Calories have you burnt?",
-				"overlayAction" : "Insert Calorie Count"
+				"overlayMessage" : "Trying to stay healthy?",
+				"overlayAction" : "Track Calorie Count"
 			}
 		},
 		{
@@ -76,15 +76,64 @@
 				"label" : "Progress: 0%"
 			},
 			"overlay" : {
-				"overlayMessage" : "How many steps have you taken?",
-				"overlayAction" : "Insert Number of Steps"
+				"overlayMessage" : "Counting steps?",
+				"overlayAction" : "Connect Your Fitbit"
 			}
 		}
     ],
 	"featuredPeople" : {
 		"overlay" : {
-			"overlayMessage" : "Find some old or new friends here",
-			"overlayAction" : "Find a Friend"
-		}	
+			"overlayMessage" : "Challenge new and old friends to a hike!",
+			"overlayAction" : "Connect to your Friends"
+		},
+		"sectionTitle" : "Friends",
+		"mediaList": [
+			{
+				"url" : "",
+				"styleModifier" : "small",
+				"imgSquare" : {
+					"src": "../../../images/sample/avatar-blank.jpg",
+					"alt": "avatar"
+				},
+				"headline" : {
+					"short" : "Your Best Friend"
+				},
+				"excerpt" : {
+					"medium" : "City, State"
+				}
+
+			},
+			{
+				"url" : "",
+				"styleModifier" : "small",
+				"imgSquare" : {
+					"src": "../../../images/sample/avatar-blank.jpg",
+					"alt": "avatar"
+				},
+				"headline" : {
+					"short" : "Your Neighbor"
+				},
+				"excerpt" : {
+					"medium" : "City, State"
+				}
+
+			},
+			{
+				"url" : "",
+				"styleModifier" : "small",
+				"imgSquare" : {
+					"src": "../../../images/sample/avatar-blank.jpg",
+					"alt": "avatar"
+				},
+				"headline" : {
+					"short" : "Your Brother"
+				},
+				"excerpt" : {
+					"medium" : "City, State"
+				}
+
+			}
+		],
+		"btnText" : "Find a Friend"
 	}
 }

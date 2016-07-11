@@ -2,5 +2,5 @@
 	"alert" : {
 		"styleModifier" : "error"
 	},
-	"alertText" : "We're sorry, your account has been hacked. Please change your password immediately!"
+	"alertText" : "On May 22nd, hackers from a hidden underground tunnel somewhere in Siberia hacked our servers and compromised all of our sensitive data. <a href='#'> Please reset your password immediately!</a>"
 }

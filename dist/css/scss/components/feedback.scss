@@ -17,17 +17,38 @@
     background: #cdcaa2;
     background-size: auto;
     width: 100%;
+    max-width: 300px;
     height: 0.5rem;
     border-radius: $border-radius;
     margin-bottom: 1em;
  }
 
 .c-progress::-moz-progress-bar {
-	background: $color-brand-green;
+	background-color: red;
+	background-image:
+	linear-gradient(
+	  to right, 
+	  red, 
+	  #f06d06, 
+	  rgb(255, 255, 0), 
+	  green
+	);
+	background-size: 300px 50px;
+	border-radius: $border-radius;
 }
 
 .c-progress::-webkit-progress-value {
-	background: $color-brand-green;
+	background-color: red;
+	background-image:
+	linear-gradient(
+	  to right, 
+	  red, 
+	  #f06d06, 
+	  rgb(255, 255, 0), 
+	  green
+	);
+	background-size: 300px 50px;
+	border-radius: $border-radius;
 }
 
  
