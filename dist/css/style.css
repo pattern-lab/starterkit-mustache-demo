@@ -1452,7 +1452,7 @@ abbr {
 .c-section__title {
   position: relative;
   color: #222222;
-  margin-bottom: 1rem; }
+  margin-bottom: 1.5rem; }
   .c-section__title:after {
     content: "";
     display: block;
