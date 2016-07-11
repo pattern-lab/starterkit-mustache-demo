@@ -1,0 +1,6 @@
+{
+	"alert" : {
+		"styleModifier" : "error"
+	},
+	"alertText" : "We're sorry, your account has been hacked. Please change your password immediately!"
+}

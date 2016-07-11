@@ -5,7 +5,7 @@
 /**
  * Button
  */
-.btn {
+.c-btn {
 	display: inline-block;
 	background: $gray-dark;
 	color: $white;
@@ -34,14 +34,14 @@
 /**
  * Small button
  */
-.btn-small {
+.c-btn-small {
 	padding: $pad-half;
 }
 
 /**
  * Large button
  */
-.btn-large {
+.c-btn-large {
 	padding: $pad-half;
 	text-transform: uppercase;
 	background: $gray;
@@ -52,7 +52,7 @@
 /**
  * Text button
  */
-.text-btn {
+.c-text-btn {
 	position: relative;
 	background: none;
     border: none;
@@ -83,3 +83,11 @@
 	    font-size: 1rem;
 	}
 }
+
+/**
+ * Button on overlay
+ */
+ 
+ .c-btn--overlay {
+	 background: $color-gray-35;
+ }

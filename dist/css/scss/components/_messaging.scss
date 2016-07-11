@@ -60,3 +60,40 @@
 	  max-height: 12em;
   }
 }
+
+
+/**
+ * Overlay
+ */
+ .c-overlay {
+	display: block;
+	padding: 1em;
+	background: rgba(0, 0, 0, 0.8);
+	border-radius: $border-radius;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	border-radius: 10px;
+	font-family: Helvetica, serif;
+	text-align: center;
+	padding: 1em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	
+	&--is-hidden {
+		display: none;
+	}
+ }
+ 
+ /**
+ * Overlay Intro
+ */
+ .c-overlay__intro {
+	 font-size: 2rem;
+	 color: $color-white;
+ }
+ 

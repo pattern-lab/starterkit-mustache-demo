@@ -787,7 +787,7 @@ abbr {
 /**
  * Button
  */
-.btn {
+.c-btn {
   display: inline-block;
   background: #333;
   color: #fff;
@@ -801,23 +801,23 @@ abbr {
   /**
    * Disabled button
    */ }
-  .btn:hover, .btn:focus {
+  .c-btn:hover, .c-btn:focus {
     background: #808080;
     color: #fff; }
-  .btn.disabled {
+  .c-btn.disabled {
     background: #eee;
     color: #808080; }
 
 /**
  * Small button
  */
-.btn-small {
+.c-btn-small {
   padding: 0.5em; }
 
 /**
  * Large button
  */
-.btn-large {
+.c-btn-large {
   padding: 0.5em;
   text-transform: uppercase;
   background: #808080;
@@ -827,14 +827,14 @@ abbr {
 /**
  * Text button
  */
-.text-btn {
+.c-text-btn {
   position: relative;
   background: none;
   border: none;
   font-style: normal;
   font-weight: bold;
   font-size: 1.2rem; }
-  .text-btn:after {
+  .c-text-btn:after {
     position: absolute;
     content: "";
     height: 20px;
@@ -843,12 +843,18 @@ abbr {
     top: 7px;
     right: -26px;
     transition: all 0.2s ease; }
-  .text-btn:hover, .text-btn:focus {
+  .c-text-btn:hover, .c-text-btn:focus {
     color: #444444; }
-    .text-btn:hover:after, .text-btn:focus:after {
+    .c-text-btn:hover:after, .c-text-btn:focus:after {
       right: -28px; }
-  .c-block-media--small .text-btn {
+  .c-block-media--small .c-text-btn {
     font-size: 1rem; }
+
+/**
+ * Button on overlay
+ */
+.c-btn--overlay {
+  background: #a5a5a5; }
 
 /*------------------------------------*\
     #CAROUSEL
@@ -1299,7 +1305,8 @@ abbr {
  */
 .c-tile-list__item {
   width: 100%;
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+  position: relative; }
   .c-tile-list__item:nth-child(2n) {
     padding-right: 0; }
   @media all and (min-width: 55rem) {
@@ -1360,6 +1367,37 @@ abbr {
   100% {
     padding: 1rem;
     max-height: 12em; } }
+/**
+ * Overlay
+ */
+.c-overlay {
+  display: block;
+  padding: 1em;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 6px;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  font-family: Helvetica, serif;
+  text-align: center;
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .c-overlay--is-hidden {
+    display: none; }
+
+/**
+* Overlay Intro
+*/
+.c-overlay__intro {
+  font-size: 2rem;
+  color: #fff; }
+
 /*------------------------------------*\
     #PRIMARY NAVIGATION
 \*------------------------------------*/
@@ -1440,6 +1478,7 @@ abbr {
  * Section
  */
 .c-section {
+  position: relative;
   margin: 0 0 2em; }
   @media all and (min-width: 39.8em) {
     .l-sidebar .c-section {
@@ -1485,6 +1524,7 @@ abbr {
 
 .c-tile-grid__primary {
   display: flex;
+  position: relative;
   width: 100%;
   margin-bottom: 1rem; }
   @media all and (min-width: 46.8em) {

@@ -1,0 +1,90 @@
+{
+	"alert" : {
+		"styleModifier" : "info"
+	},
+	"alertText" : "Welcome to the HikeTracker dashboard! This will keep you updated with all of your accomplishments and relevant hiking blog posts. Happy hiking!",
+	"blockFeature" : {
+	    "styleModifier" : "featured",
+	    "number" : "0",
+	    "headline" : {
+			"short": "Feet of Elevation Gain"
+		},
+		"progress" : {
+			"max" : "100",
+			"value" : "0",
+			"label" : "Progress: 0%"
+		},
+		"overlay" : {
+				"overlayMessage" : "Time to get up and increase your elevation gain",
+				"overlayAction" : "Find a Hike"
+		}
+    },	
+	"tileList" : [
+		{
+			"number" : "0",
+			"headline" : {
+				"short": "National Parks"
+			},
+			"progress" : {
+				"max" : "100",
+				"value" : "0",
+				"label" : "Progress: 0%"
+			},
+			"overlay" : {
+				"overlayMessage" : "What National Parks have you visited?",
+				"overlayAction" : "Find a National Park"
+			}
+		},
+		{
+			"number" : "0",
+			"headline" : {
+				"short": "Hikes"
+			},
+			"progress" : {
+				"max" : "100",
+				"value" : "0",
+				"label" : "Progress: 0%"
+			},
+			"overlay" : {
+				"overlayMessage" : "How many hikes have you been on?",
+				"overlayAction" : "Insert Number of Hikes"
+			}
+		},
+		{
+			"number" : "0",
+			"headline" : {
+				"short": "Calories Burned"
+			},
+			"progress" : {
+				"max" : "100",
+				"value" : "0",
+				"label" : "Progress: 0%"
+			},
+			"overlay" : {
+				"overlayMessage" : "How many Calories have you burnt?",
+				"overlayAction" : "Insert Calorie Count"
+			}
+		},
+		{
+			"number" : "0",
+			"headline" : {
+				"short": "Steps"
+			},
+			"progress" : {
+				"max" : "100",
+				"value" : "0",
+				"label" : "Progress: 0%"
+			},
+			"overlay" : {
+				"overlayMessage" : "How many steps have you taken?",
+				"overlayAction" : "Insert Number of Steps"
+			}
+		}
+    ],
+	"featuredPeople" : {
+		"overlay" : {
+			"overlayMessage" : "Find some old or new friends here",
+			"overlayAction" : "Find a Friend"
+		}	
+	}
+}

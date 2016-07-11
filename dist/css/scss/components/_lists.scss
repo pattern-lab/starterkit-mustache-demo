@@ -107,6 +107,7 @@
 .c-tile-list__item {
 	width: 100%;
 	margin-bottom: 1em;
+	position: relative;
 	
 	&:nth-child(2n) {
 		padding-right: 0;
