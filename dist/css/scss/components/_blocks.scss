@@ -70,8 +70,8 @@
 	transition: all $anim-speed-quick $anim-ease;
 
 	&:hover, &:focus {
-		.c-block-media__headline, .c-block-media__excerpt {
-			color: $color-black;
+		.c-block-media__headline {
+			color: $color-brand-green;
 		}
 	}
 

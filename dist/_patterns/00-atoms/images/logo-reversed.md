@@ -1,5 +1,5 @@
 ---
-title: Footer Logo Image
+title: Logo Reversed
 ---
 
 [Insert description here]
