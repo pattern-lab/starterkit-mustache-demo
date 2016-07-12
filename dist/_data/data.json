@@ -116,7 +116,7 @@
             },
             {
             }
-        ]
+        ]  
     },
     "featuredPosts" : {
         "mediaList": [
@@ -183,6 +183,55 @@
         { },
         { }
     ],
+	"pagination" : [
+		{
+			"url" : "#",
+			"number" : "1"
+		},
+		{
+			"url" : "#",
+			"number" : "2"
+		},
+		{
+			"url" : "#",
+			"number" : "3"
+		},
+		{
+			"url" : "#",
+			"number" : "4"
+		},
+		{
+			"url" : "#",
+			"number" : "5"
+		},
+		{
+			"url" : "#",
+			"number" : "6"
+		},
+		{
+			"url" : "#",
+			"number" : "7"
+		},
+		{
+			"url" : "#",
+			"number" : "8"
+		},	{
+			"url" : "#",
+			"number" : "9"
+		},
+		{
+			"url" : "#",
+			"number" : "10"
+		},
+		{
+			"url" : "#",
+			"number" : "11"
+		},
+		{
+			"url" : "#",
+			"number" : "12"
+		}				
+	],			
     "sectionBlock" : true,
     "textButton" : true,
 	"overlayMessage" : "Let's go on a hike and climb in elevation",

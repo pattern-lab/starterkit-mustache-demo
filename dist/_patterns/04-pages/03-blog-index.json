@@ -86,9 +86,60 @@
 					"medium" : "Ever go on a hike with someone who doesn't want to be there? We have compiled a list of the top 10 worst people to go on a hike with."
 				}
 			}
-		]
+		],
+		"textButton" : false,
+		"pagination" : {
+			"pagination" : [
+				{
+					"url" : "#",
+					"number" : "1"
+				},
+				{
+					"url" : "#",
+					"number" : "2"
+				},
+				{
+					"url" : "#",
+					"number" : "3"
+				},
+				{
+					"url" : "#",
+					"number" : "4"
+				},
+				{
+					"url" : "#",
+					"number" : "5"
+				},
+				{
+					"url" : "#",
+					"number" : "6"
+				},
+				{
+					"url" : "#",
+					"number" : "7"
+				},
+				{
+					"url" : "#",
+					"number" : "8"
+				},	{
+					"url" : "#",
+					"number" : "9"
+				},
+				{
+					"url" : "#",
+					"number" : "10"
+				},
+				{
+					"url" : "#",
+					"number" : "11"
+				},
+				{
+					"url" : "#",
+					"number" : "12"
+				}				
+			]			
+		}
 	},		
-	"btnText" : "View More Posts",
 	"featuredPeople" : {
 		"sectionTitle" : "Featured Hikers",
 		"mediaList": [

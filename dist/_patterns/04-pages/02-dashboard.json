@@ -153,7 +153,43 @@
 
 			}
 		],
-		"btnText" : "View All Challenges"
+		"textButton" : false,
+		"pagination" : {
+			"pagination" : [
+				{
+					"url" : "#",
+					"number" : "1"
+				},
+				{
+					"url" : "#",
+					"number" : "2"
+				},
+				{
+					"url" : "#",
+					"number" : "3"
+				},
+				{
+					"url" : "#",
+					"number" : "4"
+				},
+				{
+					"url" : "#",
+					"number" : "5"
+				},
+				{
+					"url" : "#",
+					"number" : "6"
+				},
+				{
+					"url" : "#",
+					"number" : "7"
+				},
+				{
+					"url" : "#",
+					"number" : "8"
+				}
+			]			
+		}
     },
     "featuredPeople" : {
 		"sectionTitle" : "Friends",
