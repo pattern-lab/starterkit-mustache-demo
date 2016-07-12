@@ -1,0 +1,48 @@
+/*------------------------------------*\
+    #FOOTER NAVIGATION
+\*------------------------------------*/
+
+/**
+ * Footer Nav
+ */
+.c-footer-nav {
+		display: block;
+		margin-right: 1rem;
+}
+
+/**
+ * Footer Nav List
+ */
+.c-footer-nav__list {
+	display: flex;
+	flex-direction: column;
+	
+	@media all and (min-width: $bp-small) {
+		flex-direction: row;
+	}	
+}
+
+/**
+ * Footer Nav List Item
+ */
+.c-footer-nav__item {
+	width: 50%;
+	
+	@media all and (min-width: $bp-small) {
+		width: inherit;
+	}
+}
+
+/**
+ * Footer Nav Links
+ */
+.c-footer-nav__link {
+	font-weight: bold;
+	display: block;
+	padding: 1rem 2rem 1rem 0;
+	color: $color-white;
+	
+	&:hover, &:focus {
+		color: $color-gray-35;
+	}
+}

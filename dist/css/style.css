@@ -912,8 +912,7 @@ abbr {
   overflow: hidden;
   background: #222222;
   color: #fff;
-  line-height: 1.2;
-  padding: 1rem; }
+  line-height: 1.2; }
 
 /**
  * Footer nav
@@ -925,6 +924,46 @@ abbr {
 /**
  * Copyright text
  */
+/*------------------------------------*\
+    #FOOTER NAVIGATION
+\*------------------------------------*/
+/**
+ * Footer Nav
+ */
+.c-footer-nav {
+  display: block;
+  margin-right: 1rem; }
+
+/**
+ * Footer Nav List
+ */
+.c-footer-nav__list {
+  display: flex;
+  flex-direction: column; }
+  @media all and (min-width: 24em) {
+    .c-footer-nav__list {
+      flex-direction: row; } }
+
+/**
+ * Footer Nav List Item
+ */
+.c-footer-nav__item {
+  width: 50%; }
+  @media all and (min-width: 24em) {
+    .c-footer-nav__item {
+      width: inherit; } }
+
+/**
+ * Footer Nav Links
+ */
+.c-footer-nav__link {
+  font-weight: bold;
+  display: block;
+  padding: 1rem 2rem 1rem 0;
+  color: #fff; }
+  .c-footer-nav__link:hover, .c-footer-nav__link:focus {
+    color: #a5a5a5; }
+
 /*------------------------------------*\
     #FORMS
 \*------------------------------------*/
@@ -1025,8 +1064,7 @@ abbr {
 
 .c-logo-link {
   display: inline-block;
-  padding: 0.2rem 1rem;
-  width: 8rem; }
+  padding: 0.2rem 1rem; }
 
 /*------------------------------------*\
     #ICONS

@@ -1,6 +1,11 @@
-<ul class="nav-footer">
-	<li><a href="{{ url }}">Home</a></li>
-	<li><a href="{{ url }}">About</a></li>
-	<li><a href="{{ url }}">Blog</a></li>
-	<li><a href="{{ url }}">Contact</a></li>
-</ul>
+<nav class="c-footer-nav">
+
+	<ul class="c-footer-nav__list">
+
+		{{# footerNav }}
+		<li class="c-footer-nav__item"><a href="{{ url }}" class="c-footer-nav__link">{{ label }}</a></li>
+		{{/ footerNav }}
+
+	</ul><!--end c-footer-nav__list-->
+
+</nav><!--end c-footer-nav-->
