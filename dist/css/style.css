@@ -1376,7 +1376,7 @@ abbr {
   padding: 1em;
   background: rgba(0, 0, 0, 0.7);
   border-radius: 6px;
-  position: absolute;
+  position: relative;
   height: 100%;
   width: 100%;
   top: 0;
@@ -1390,6 +1390,12 @@ abbr {
   flex-direction: column; }
   .c-overlay--is-hidden {
     display: none; }
+  .c-tile-grid__primary .c-overlay {
+    position: absolute; }
+  .c-tile-list__item .c-overlay {
+    position: absolute; }
+  .c-section .c-overlay {
+    position: absolute; }
 
 /**
 * Overlay Intro

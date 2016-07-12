@@ -144,5 +144,7 @@
         { }
     ],
     "sectionBlock" : true,
-    "textButton" : true
+    "textButton" : true,
+	"overlayMessage" : "Let's go on a hike and climb in elevation",
+	"overlayAction" : "Find a Hike"
 }

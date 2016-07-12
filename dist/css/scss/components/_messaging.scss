@@ -75,7 +75,7 @@
 	padding: 1em;
 	background: rgba(0, 0, 0, 0.7);
 	border-radius: $border-radius;
-	position: absolute;
+	position: relative;
 	height: 100%;
 	width: 100%;
 	top: 0;
@@ -90,6 +90,18 @@
 	
 	&--is-hidden {
 		display: none;
+	}
+	
+	.c-tile-grid__primary & {
+		position: absolute;
+	}
+	
+	.c-tile-list__item & {
+		position: absolute;
+	}
+	
+	.c-section & {
+		position: absolute;
 	}
  }
  
