@@ -911,15 +911,15 @@ abbr {
   clear: both;
   overflow: hidden;
   background: #222222;
-  color: #fff;
-  line-height: 1.2; }
+  color: #808080;
+  line-height: 1.2;
+  padding: 1em 0; }
 
 /**
  * Footer nav
  */
 .c-footer__info {
-  max-width: 40em;
-  color: #808080; }
+  max-width: 40em; }
 
 /**
  * Copyright text

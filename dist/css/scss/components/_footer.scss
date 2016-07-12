@@ -9,8 +9,9 @@
 	clear: both;
 	overflow: hidden;
 	background: $color-gray-87;
-	color: $color-white;
+	color: $color-gray-50;
 	line-height: 1.2;
+	padding: 1em 0;
 }
 
 /**
@@ -18,7 +19,6 @@
  */
 .c-footer__info {
 	max-width: 40em;
-	color: $color-gray-50;
 }
 
 /**
