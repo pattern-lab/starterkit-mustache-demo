@@ -11,7 +11,7 @@
 		},
 		"progress" : {
 			"max" : "100",
-			"value" : "0",
+			"progressValue" : "0",
 			"label" : "Progress: 0%"
 		},
 		"overlay" : {
@@ -27,7 +27,7 @@
 			},
 			"progress" : {
 				"max" : "100",
-				"value" : "0",
+				"progressValue" : "0",
 				"label" : "Progress: 0%"
 			},
 			"overlay" : {
@@ -42,7 +42,7 @@
 			},
 			"progress" : {
 				"max" : "100",
-				"value" : "0",
+				"progressValue" : "0",
 				"label" : "Progress: 0%"
 			},
 			"overlay" : {
@@ -57,7 +57,7 @@
 			},
 			"progress" : {
 				"max" : "100",
-				"value" : "0",
+				"progressValue" : "0",
 				"label" : "Progress: 0%"
 			},
 			"overlay" : {
@@ -72,7 +72,7 @@
 			},
 			"progress" : {
 				"max" : "100",
-				"value" : "0",
+				"progressValue" : "0",
 				"label" : "Progress: 0%"
 			},
 			"overlay" : {

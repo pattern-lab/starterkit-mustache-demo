@@ -28,7 +28,7 @@
 		},
 		"progress" : {
 			"max" : "100",
-			"value" : "100",
+			"progressValue" : "100",
 			"label" : "Progress: 100%"
 		}
 
@@ -41,7 +41,7 @@
 			},
 			"progress" : {
 				"max" : "100",
-				"value" : "20",
+				"progressValue" : "20",
 				"label" : "Progress: 20%"
 			}
 		},
@@ -52,7 +52,7 @@
 			},
 			"progress" : {
 				"max" : "100",
-				"value" : "40",
+				"progressValue" : "40",
 				"label" : "Progress: 40%"
 			}
 		},
@@ -63,7 +63,7 @@
 			},
 			"progress" : {
 				"max" : "100",
-				"value" : "60",
+				"progressValue" : "60",
 				"label" : "Progress: 60%"
 			}
 		},
@@ -74,7 +74,7 @@
 			},
 			"progress" : {
 				"max" : "100",
-				"value" : "80",
+				"progressValue" : "80",
 				"label" : "Progress: 80%"
 			}
 		}

@@ -3,12 +3,11 @@
 	"htmlText" : "<p>Hike Tracker prides itself on being the best in the hiking business. Established in 2016, Hike Tracker has grown substantially into one of the top contenders in the business. Our applications provide some of the most in depth data that you can get your hands on.<p>We live and breathe hiking just like you. Our researchers find the latest and greatest in the hiking world and provide tricks, tips, and secrets to our customers.</p><img src='../../../images/sample/hiking.jpg' class='c-text-passage__img' />",
 	"form" : false,
 	"sectionTitle": "Latest posts",
-	"latestPosts" : {
-		"sectionTitle" : "Latest Posts",
+	"featuredPosts" : {
+		"sectionTitle" : "Featured Posts",
 		"mediaList": [
 			{
 				"url" : "link.pages-blog-detail",
-				"styleModifier" : "small",
 				"imgSquare" : {
 					"src": "../../../images/sample/blog-mtns.jpg",
 					"alt": "mountain range"
@@ -23,7 +22,6 @@
 			},
 			{
 				"url" : "link.pages-blog-detail",
-				"styleModifier" : "small",
 				"imgSquare" : {
 					"src": "../../../images/sample/blog-trees2.jpg",
 					"alt": "forest of trees"
@@ -38,7 +36,6 @@
 			},
 			{
 				"url" : "link.pages-blog-detail",
-				"styleModifier" : "small",
 				"imgSquare" : {
 					"src": "../../../images/sample/blog-hiker.jpg",
 					"alt": "hiker with backpack"

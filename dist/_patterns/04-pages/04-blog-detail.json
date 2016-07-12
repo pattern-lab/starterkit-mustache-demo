@@ -20,12 +20,11 @@
 		"label" : "Comment"
 	},
 	"btnText" : "Add Comment",
-	"latestPosts" : {
-		"sectionTitle" : "Latest Posts",
+	"featuredPosts" : {
+		"sectionTitle" : "Featured Posts",
 		"mediaList": [
 			{
 				"url" : "link.pages-blog-detail",
-				"styleModifier" : "small",
 				"imgSquare" : {
 					"src": "../../../images/sample/blog-hiker.jpg",
 					"alt": "hiker with backpack"
@@ -40,7 +39,6 @@
 			},
 			{
 				"url" : "link.pages-blog-detail",
-				"styleModifier" : "small",
 				"imgSquare" : {
 					"src": "../../../images/sample/blog-mtns.jpg",
 					"alt": "mountain range"
@@ -55,7 +53,6 @@
 			},
 			{
 				"url" : "link.pages-blog-detail",
-				"styleModifier" : "small",
 				"imgSquare" : {
 					"src": "../../../images/sample/blog-trees2.jpg",
 					"alt": "forest of trees"

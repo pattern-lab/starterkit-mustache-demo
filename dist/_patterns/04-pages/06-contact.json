@@ -20,12 +20,11 @@
 		"label" : "Message"
 	},
 	"btnText" : "Send",
-	"latestPosts" : {
-		"sectionTitle" : "Latest Posts",
+	"featuredPosts" : {
+		"sectionTitle" : "Featured Posts",
 		"mediaList": [
 			{
 				"url" : "link.pages-blog-detail",
-				"styleModifier" : "small",
 				"imgSquare" : {
 					"src": "../../../images/sample/blog-mtns3.jpg",
 					"alt": "red mountains"
@@ -40,7 +39,6 @@
 			},
 			{
 				"url" : "link.pages-blog-detail",
-				"styleModifier" : "small",
 				"imgSquare" : {
 					"src": "../../../images/sample/blog-trees.jpg",
 					"alt": "road with trees"
@@ -55,7 +53,6 @@
 			},
 			{
 				"url" : "link.pages-blog-detail",
-				"styleModifier" : "small",
 				"imgSquare" : {
 					"src": "../../../images/sample/blog-mtns2.jpg",
 					"alt": "mountain and lake"
