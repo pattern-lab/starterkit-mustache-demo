@@ -155,7 +155,7 @@
 		],
 		"textButton" : false,
 		"pagination" : {
-			"pagination" : [
+			"paginationList" : [
 				{
 					"url" : "#",
 					"number" : "1"

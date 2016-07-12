@@ -116,7 +116,9 @@
             },
             {
             }
-        ]  
+        ],
+        "textButton" : false,
+        "pagination" : true
     },
     "featuredPosts" : {
         "mediaList": [
@@ -129,7 +131,8 @@
             {
 	            "styleModifier" : "small"
             }
-        ]
+        ],
+        "pagination" : false
     },
     "featuredChallenges" : {
 	    "mediaList": [
@@ -137,7 +140,9 @@
 		    {},
 		    {},
 		    {}
-		]
+		],
+		"textButton" : false,
+		"pagination" : true
 	},
     "featuredPeople" : {
         "mediaList": [
@@ -150,7 +155,8 @@
             {
                 "styleModifier" : "small"
             }
-        ]
+        ],
+        "pagination" : false
     },
     "featuredHikes" : {
         "mediaList": [
@@ -163,7 +169,8 @@
             {
                 "styleModifier" : "small"
             }
-        ]
+        ],
+        "pagination" : false
     },
 
     "toutList": [
@@ -183,7 +190,7 @@
         { },
         { }
     ],
-	"pagination" : [
+	"paginationList" : [
 		{
 			"url" : "#",
 			"number" : "1"
