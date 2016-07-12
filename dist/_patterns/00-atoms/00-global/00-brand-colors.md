@@ -2,4 +2,4 @@
 title: Brand Colors
 ---
 
-These colors represent the brand.
+This color palette contains HikeTracker-specific colors to be used throughout the interface.
