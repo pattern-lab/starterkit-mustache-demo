@@ -696,11 +696,17 @@ abbr {
  * 1) The tout block contains an image and headline overlayed over the image.
  */
 .c-block-tout {
-  display: block;
+  display: inline-block;
   margin-bottom: 0.5em;
   position: relative;
   overflow: hidden;
   border-radius: 6px; }
+
+/**
+ *  Tout image
+ */
+.c-block-tout__img {
+  display: block; }
 
 /**
  *  Tout headline

@@ -140,12 +140,20 @@
  * 1) The tout block contains an image and headline overlayed over the image.
  */
 .c-block-tout {
-    display: block;
+    display: inline-block;
 	margin-bottom: $space-half;
 	position: relative;
     overflow: hidden;
     border-radius: $border-radius;
 }
+ 
+/**
+ *  Tout image
+ */
+ 
+ .c-block-tout__img {
+	 display: block;
+ }
 
 /**
  *  Tout headline
@@ -165,6 +173,8 @@
         padding-bottom: 2rem;
     }
 }
+
+
 
 /*------------------------------------*\
 	#TILE BLOCK
