@@ -222,14 +222,6 @@
 		{
 			"url" : "#",
 			"number" : "10"
-		},
-		{
-			"url" : "#",
-			"number" : "11"
-		},
-		{
-			"url" : "#",
-			"number" : "12"
 		}				
 	],			
     "sectionBlock" : true,
