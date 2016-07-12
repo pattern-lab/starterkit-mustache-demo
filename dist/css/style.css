@@ -1036,6 +1036,7 @@ abbr {
 
 /**
  * Nav toggle button
+ * 1) Styles for the general nav toggle button
  */
 .nav-toggle {
   display: block;
@@ -1050,6 +1051,10 @@ abbr {
       padding-left: 0.2rem;
       padding-right: 0.2rem; } }
 
+/**
+ * Search nav toggle button
+ * 1) Specific nav toggle button for the search form
+ */
 .nav-toggle-search {
   display: block; }
   @media all and (min-width: 29.75em) {

@@ -29,6 +29,7 @@
 
 /**
  * Nav toggle button
+ * 1) Styles for the general nav toggle button
  */
 .nav-toggle {
 	display: block;
@@ -46,6 +47,10 @@
 	}
 }
 
+/**
+ * Search nav toggle button
+ * 1) Specific nav toggle button for the search form
+ */
 .nav-toggle-search {
 	display: block;
 	
