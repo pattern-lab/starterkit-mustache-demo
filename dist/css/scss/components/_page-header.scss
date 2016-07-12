@@ -9,6 +9,7 @@
 .c-page-header__title {
 	padding: 1rem 0 0.5rem;
 	position: relative;
+	color: $color-gray-73;
 
 	&:after {
 		content: "";
@@ -17,6 +18,6 @@
 	    width: 3rem;
 	    height: 0.5rem;
 	    bottom: 0;
-	    background: $color-brand-brown;
+	    background: $color-gray-35;
     }
 }

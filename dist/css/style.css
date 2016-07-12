@@ -645,8 +645,8 @@ abbr {
 .c-block-media {
   display: flex;
   transition: all 0.2s ease; }
-  .c-block-media:hover .c-block-media__headline, .c-block-media:hover .c-block-media__excerpt, .c-block-media:focus .c-block-media__headline, .c-block-media:focus .c-block-media__excerpt {
-    color: #000; }
+  .c-block-media:hover .c-block-media__headline, .c-block-media:focus .c-block-media__headline {
+    color: #5C832F; }
   .c-block-media--small {
     font-size: 0.875rem; }
 
@@ -787,7 +787,7 @@ abbr {
  */
 .c-btn {
   display: inline-block;
-  background: #444444;
+  background: #3b4a20;
   color: #fff;
   line-height: 1;
   font-weight: bold;
@@ -800,7 +800,7 @@ abbr {
    * Disabled button
    */ }
   .c-btn:hover, .c-btn:focus {
-    background: #808080;
+    background: #5C832F;
     color: #fff; }
   .c-btn.disabled {
     background: #d9d9d9;
@@ -910,8 +910,8 @@ abbr {
 .c-footer {
   clear: both;
   overflow: hidden;
-  background: #222222;
-  color: #808080;
+  background: #3b4a20;
+  color: #fff;
   line-height: 1.2;
   padding: 1em 0; }
 
@@ -920,10 +920,12 @@ abbr {
  */
 .c-footer__info {
   max-width: 40em; }
+  .c-footer__info a {
+    color: #d9d9d9;
+    text-decoration: underline; }
+    .c-footer__info a:hover, .c-footer__info a:focus {
+      text-decoration: none; }
 
-/**
- * Copyright text
- */
 /*------------------------------------*\
     #FOOTER NAVIGATION
 \*------------------------------------*/
@@ -1514,7 +1516,8 @@ abbr {
  */
 .c-page-header__title {
   padding: 1rem 0 0.5rem;
-  position: relative; }
+  position: relative;
+  color: #444444; }
   .c-page-header__title:after {
     content: "";
     display: block;
@@ -1522,7 +1525,7 @@ abbr {
     width: 3rem;
     height: 0.5rem;
     bottom: 0;
-    background: #825534; }
+    background: #a5a5a5; }
 
 /*------------------------------------*\
     #SECTIONS
@@ -1549,7 +1552,7 @@ abbr {
  */
 .c-section__title {
   position: relative;
-  color: #222222;
+  color: #444444;
   margin-bottom: 1.5rem; }
   .c-section__title:after {
     content: "";
@@ -1559,7 +1562,7 @@ abbr {
     height: 0.3rem;
     top: 30px;
     left: 1px;
-    background: #5C832F; }
+    background: #a5a5a5; }
 
 /**
  * Section block

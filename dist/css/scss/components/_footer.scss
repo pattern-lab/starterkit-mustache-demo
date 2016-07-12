@@ -8,8 +8,8 @@
 .c-footer {
 	clear: both;
 	overflow: hidden;
-	background: $color-gray-87;
-	color: $color-gray-50;
+	background: $color-brand-green-dark;
+	color: $color-white;
 	line-height: 1.2;
 	padding: 1em 0;
 }
@@ -19,11 +19,13 @@
  */
 .c-footer__info {
 	max-width: 40em;
-}
-
-/**
- * Copyright text
- */
-.copyright {
-
+	
+	a {
+		color: $color-gray-15;
+		text-decoration: underline;
+		
+		&:hover, &:focus {
+			text-decoration: none;
+		}
+	}
 }
