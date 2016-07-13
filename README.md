@@ -1,5 +1,5 @@
-![license](https://img.shields.io/github/license/pattern-lab/starterkit-mustache-demo.svg?maxAge=2592000)
-[![Packagist](https://img.shields.io/packagist/v/pattern-lab/starterkit-mustache-demo.svg?maxAge=2592000)](https://packagist.org/packages/pattern-lab/starterkit-mustache-demo) [![Gitter](https://img.shields.io/gitter/room/pattern-lab/php.svg?maxAge=2592000)](https://gitter.im/pattern-lab/php)
+![license](https://img.shields.io/github/license/pattern-lab/starterkit-mustache-demo.svg)
+[![Packagist](https://img.shields.io/packagist/v/pattern-lab/starterkit-mustache-demo.svg)](https://packagist.org/packages/pattern-lab/starterkit-mustache-demo) [![Gitter](https://img.shields.io/gitter/room/pattern-lab/php.svg)](https://gitter.im/pattern-lab/php)
 
 # Demo StarterKit for Mustache
 
