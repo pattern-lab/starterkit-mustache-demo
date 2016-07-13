@@ -15,7 +15,6 @@ The Demo StarterKit for Mustache requires the following PatternEngine:
 
 This StarterKit can be installed via one of the following commands:
 
-    php core/console --starterkit --init
     php core/console --starterkit --install pattern-lab/starterkit-mustache-demo
 
 It is recommended that you **do not** install this StarterKit as a dependency for your Pattern Lab project via Composer.
