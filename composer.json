@@ -22,8 +22,8 @@
     "source":         "https://github.com/pattern-lab/starterkit-mustache-demo/releases"
   },
   "require": {
-    "pattern-lab/core": "dev-dev",
-    "pattern-lab/patternengine-mustache": "dev-dev"
+    "pattern-lab/core": "^2.0.0",
+    "pattern-lab/patternengine-mustache": "^2.0.0"
   },
   "extra": {
     "patternlab": {
