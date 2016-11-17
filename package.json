@@ -1,7 +1,8 @@
 {
   "name": "starterkit-mustache-demo",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "description": "The Mustache-based demo StarterKit for Pattern Lab.",
+  "main": "README.md",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pattern-lab/starterkit-mustache-demo.git"
