@@ -1,6 +1,5 @@
 {
 	"pageTitle" : "Contact Us",
-	"textarea" : true,
 	"htmlText" : "<img src='../../../images/sample/waterfall.jpg' class='c-text-passage__img' /><p>Hike Tracker wants to hear from you. Whether it is positive or negative, we look forward to your feedback so we can improve our company and products. If you have any questions, comments, or concerns, feel free to fill out the form below and we will get back to you as soon as possible. Thank you.</p>",
 	"form" : {
 		"fields" : {
