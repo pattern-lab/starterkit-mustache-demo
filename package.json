@@ -1,6 +1,6 @@
 {
   "name": "@pattern-lab/starterkit-mustache-demo",
-  "version": "4.0.4",
+  "version": "5.0.0",
   "description": "The Mustache-based demo StarterKit for Pattern Lab.",
   "main": "README.md",
   "repository": {
